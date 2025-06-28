@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#city-map" class="md-skip">
+        <a href="#map-of-kolnmark" class="md-skip">
           Skip to content
         </a>
       
@@ -433,7 +433,8 @@
 
 
 
-<h1 id="city-map">City Map</h1>
+<h1 id="map-of-kolnmark">Map of Kolnmark</h1>
+<p><img alt="" src="../images/kolnmark_panorama.jpg" /></p>
 <div id="map" style="height: 600px;"></div>
 
 <p><link
@@ -447,11 +448,17 @@
 <script>
   var map = L.map('map', {
     crs: L.CRS.Simple,
-    minZoom: -2
+    minZoom: -5,
+    maxZoom: 2,
+    zoomSnap: 0.5
   });
 
-  var bounds = [[0,0], [1000,1000]];
-  var image = L.imageOverlay("/images/kolnmark.jpg", bounds).addTo(map);
+  var bounds = [[0, 0], [6525, 9960 ]];
+
+  // Add the image
+  L.imageOverlay("/Coinmarch/images/kolnmark.jpg", bounds).addTo(map);
+
+  // Fit view to image bounds (zoomed out)
   map.fitBounds(bounds);
 </script>
 

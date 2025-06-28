@@ -1,0 +1,16 @@
+site_name: Coinmarch Campaign
+site_url: https://arcticblizzard.github.io/Coinmarch/
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Welcome: player-introduction/welcome.md
+  - Overview: player-introduction/system-overview.md
+  - Character Creation:
+    - Guide: player-introduction/character-creation/character-creation.md
+    - Basic Careers: player-introduction/character-creation/basic-careers.md
+    - Knacks: player-introduction/character-creation/knacks.md

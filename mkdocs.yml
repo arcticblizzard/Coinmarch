@@ -1,7 +1,8 @@
 site_name: Coinmarch
 site_url: https://arcticblizzard.github.io/Coinmarch/
 theme:
-  name: material
+  name: windmill-dark
+
 markdown_extensions:
   - admonition
   - pymdownx.details

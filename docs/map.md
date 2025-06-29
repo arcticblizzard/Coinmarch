@@ -20,10 +20,10 @@
     zoomSnap: 0.5
   });
 
-  var bounds = [[0, 0], [6525, 9960 ]];
+  var bounds = [[0, 0], [6525, 8976 ]];
 
   // Add the image
-  L.imageOverlay("/Coinmarch/images/kolnmark.jpg", bounds).addTo(map);
+  L.imageOverlay("/Coinmarch/images/kolnmark_noLabels.jpg", bounds).addTo(map);
 
   // Fit view to image bounds (zoomed out)
   map.fitBounds(bounds);

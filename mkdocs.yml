@@ -2,6 +2,8 @@ site_name: Coinmarch
 site_url: https://arcticblizzard.github.io/Coinmarch/
 theme:
   name: windmill-dark
+extra_css:
+  - styles/overrides.css
 
 markdown_extensions:
   - admonition

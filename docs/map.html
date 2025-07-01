@@ -15,6 +15,19 @@
       padding: 0;
       height: 100%;
       background: #1a1a1a;
+      color: #eee;
+      font-family: sans-serif;
+    }
+
+    #filter-controls {
+      position: absolute;
+      top: 25px;
+      left: 50px;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      font-size: 0.9em;
     }
 
     #map {
@@ -31,9 +44,29 @@
     h3 {
       margin: 0 0 0.25em;
     }
+
+    .leaflet-tooltip.district-hover-label {
+      background-color: rgba(0,0,0,0.75);
+      color: #fff;
+      padding: 2px 6px;
+      font-size: 0.85em;
+      border-radius: 3px;
+      pointer-events: none;
+    }
   </style>
 </head>
 <body>
+
+  <div id="filter-controls">
+    <strong>Filter by District Type:</strong><br>
+    <label><input type="checkbox" value="civic" checked> Civic</label><br>
+    <label><input type="checkbox" value="martial" checked> Martial</label><br>
+    <label><input type="checkbox" value="residential" checked> Residential</label><br>
+    <label><input type="checkbox" value="craft" checked> Craft</label><br>
+    <label><input type="checkbox" value="industrial" checked> Industrial</label><br>
+    <label><input type="checkbox" value="leisure" checked> Leisure</label>
+  </div>
+  <button id="reset-view" title="Reset View">🌐 Reset View</button>
   <div id="map"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -63,60 +96,135 @@
       shadowSize: [41, 41]
     });
 
+    const districtTypeColors = {
+      civic: "#888888",
+      martial: "#800000",
+      residential: "#228B22",
+      craft: "#1E90FF",
+      industrial: "#000000",
+      leisure: "#A020F0"
+    };
+
+    const districtLayers = [];
+    const markerLayers = [];
+
+    function renderMarkers(locations, activeTypes) {
+      markerLayers.forEach(m => map.removeLayer(m));
+      markerLayers.length = 0;
+
+      locations.forEach(loc => {
+        if (!activeTypes.includes(loc.type?.toLowerCase())) return;
+
+        const [x, y] = loc.coordinates.split(',').map(Number);
+        const adjustedCoords = [imageHeight - y, x];
+
+        const popupContent = `
+          <h3>${loc.title}</h3>
+          <p><strong>Type:</strong> ${loc.type}<br>
+          <strong>Region:</strong> ${loc.region}</p>
+          <p>${loc.description}</p>
+          ${loc.image ? `<img src="${loc.image}" alt="${loc.title}"/>` : ""}
+          <p><a href="${loc.permalink}" target="_blank">More Info</a></p>
+        `;
+
+        const marker = L.marker(adjustedCoords, { icon: defaultIcon })
+                       .bindPopup(popupContent)
+                       .addTo(map);
+
+        markerLayers.push(marker);
+      });
+    }
+
+    function renderDistricts(districts, activeTypes) {
+      districtLayers.forEach(layer => map.removeLayer(layer));
+      districtLayers.length = 0;
+
+      const activeSet = new Set(activeTypes.map(t => t.toLowerCase()));
+
+      districts.forEach(d => {
+        if (!activeSet.has(d.type?.toLowerCase())) return;
+
+        const flippedCoords = d.coordinates.map(([x, y]) => [imageHeight - y, x]);
+
+        const popupContent = `
+          <h3>${d.name}</h3>
+          <p><strong>Type:</strong> ${d.type}</p>
+          <p>${d.description}</p>
+        `;
+
+        const colorKey = d.type?.toLowerCase();
+        const borderColor = districtTypeColors[colorKey] || "#999";
+
+        const poly = L.polygon(flippedCoords, {
+          color: borderColor,
+          weight: 3,
+          fillColor: borderColor,
+          fillOpacity: 0.08
+        });
+
+        poly.bindPopup(popupContent);
+
+        poly.on('mouseover', function (e) {
+          const label = L.tooltip({
+            permanent: false,
+            direction: 'top',
+            className: 'district-hover-label',
+            opacity: 0.9
+          })
+          .setLatLng(e.latlng)
+          .setContent(d.name)
+          .addTo(map);
+          poly._hoverTooltip = label;
+        });
+
+        poly.on('mouseout', function () {
+          if (poly._hoverTooltip) {
+            map.removeLayer(poly._hoverTooltip);
+            poly._hoverTooltip = null;
+          }
+        });
+
+        poly.on('click', function () {
+          map.fitBounds(poly.getBounds(), { maxZoom: 0 });
+          poly.openPopup();
+        });
+
+        poly.addTo(map);
+        districtLayers.push(poly);
+      });
+    }
+
+    let allDistricts = [];
+    let allLocations = [];
+
+    function updateMap() {
+      const activeTypes = Array.from(document.querySelectorAll('#filter-controls input:checked'))
+                               .map(cb => cb.value);
+      renderDistricts(allDistricts, activeTypes);
+      renderMarkers(allLocations, activeTypes);
+    }
+
+    fetch('locations/districts.json')
+      .then(res => res.json())
+      .then(data => {
+        allDistricts = data;
+        updateMap();
+      });
+
     fetch('locations/locations.json')
       .then(res => res.json())
-      .then(locations => {
-        locations.forEach(loc => {
-          const [x, y] = loc.coordinates.split(',').map(Number);
-          const adjustedCoords = [imageHeight - y, x];
+      .then(data => {
+        allLocations = data;
+        updateMap();
+      });
 
-          const popupContent = `
-            <h3>${loc.title}</h3>
-            <p><strong>Type:</strong> ${loc.type}<br>
-            <strong>Region:</strong> ${loc.region}</p>
-            <p>${loc.description}</p>
-            ${loc.image ? `<img src="${loc.image}" alt="${loc.title}"/>` : ""}
-            <p><a href="${loc.permalink}" target="_blank">More Info</a></p>
-          `;
-
-          L.marker(adjustedCoords, { icon: defaultIcon })
-            .addTo(map)
-            .bindPopup(popupContent);
-        });
-      })
-      .catch(err => console.error("Failed to load locations.json:", err));
-  const districtTypeColors = {
-    Civic: "#888888",
-    Martial: "#800000",
-    Residential: "#228B22",
-    Craft: "#1E90FF",
-    Industrial: "#000000",
-    Leisure: "#A020F0"
-  };
-  fetch('locations/districts.json')
-  .then(res => res.json())
-  .then(districts => {
-    districts.forEach(d => {
-      const flippedCoords = d.coordinates.map(([x, y]) => [imageHeight - y, x]);
-
-const popupContent = `
-  <h3>${d.name}</h3>
-  <p><strong>Type:</strong> ${d.type}</p>
-  <p>${d.description}</p>
-`;
-
-const borderColor = districtTypeColors[d.type] || "#999";
-
-L.polygon(flippedCoords, {
-  color: borderColor,
-  weight: 3,
-  fillColor: borderColor,
-  fillOpacity: 0.08
-}).addTo(map).bindPopup(popupContent);
+    document.querySelectorAll('#filter-controls input').forEach(cb => {
+      cb.addEventListener('change', updateMap);
     });
-  })
-  .catch(err => console.error("Error loading districts:", err));
 
+  document.getElementById('reset-view').addEventListener('click', () => {
+    map.fitBounds(bounds);
+  });
   </script>
 </body>
 </html>

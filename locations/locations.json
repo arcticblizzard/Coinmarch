@@ -1,10 +1,154 @@
 [
   {
-    "title": "test",
-    "region": "lower city",
-    "type": "building",
-    "coordinates": "4000,4000",
-    "description": "hello world",
+    "title": "Rook's Rest",
+	"district": "Bargebreaker Island",
+    "type": "Civic",
+    "coordinates": "1895,4243",
+    "description": "A squat, fortified jail atop a rocky island in the river — blackened by years of soot deposits.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Spire",
+	"district": "Highmarch",
+    "type": "Religious",
+    "coordinates": "5503,5281",
+    "description": "A looming, austere tower visible across the city — home to the city’s dominant faith.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Eastchain Docks",
+	"district": "Eastchain Docks",
+    "type": "Industrial",
+    "coordinates": "2463,3131",
+    "description": "",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Breakbay Docks",
+	"district": "Breakbay Docks",
+    "type": "Industrial",
+    "coordinates": "4875,3127",
+    "description": "Main docks of the city.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Caskside Docks",
+	"district": "Caskside",
+    "type": "Industrial",
+    "coordinates": "1337,3413",
+    "description": "Westernmost docks, services much of the small nearby craftsmen.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cove Docks",
+	"district": "Cliff Cove",
+    "type": "Industrial",
+    "coordinates": "6212,1457",
+    "description": "Docks found near the underside of the causeway. Large haulropes move cargo between the docks and the upper city.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Drummond's Mill",
+	"district": "Bargebreaker Island",
+    "type": "Industrial",
+    "coordinates": "2042,4363",
+    "description": "Lumber mill. Receives logs from upriver and processes them into building materials.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Salt Vaults",
+	"district": "Ironhook",
+    "type": "Industrial",
+    "coordinates": "5789,3337",
+    "description": "Cool underground chambers storing dried goods, salted fish, and grain.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Sootsmiths",
+	"district": "Bargebreaker Island",
+    "type": "Industrial",
+    "coordinates": "1870,4339",
+    "description": "Charcoal kilns, takes waste lumber from the mill to create the charcoal that heats the city.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Giant's Causeway",
+	"district": "Swordcrest",
+    "type": "Industrial",
+    "coordinates": "6046,2086",
+    "description": "A raised ruined causeway used as a military parade and training ground.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Oath House",
+	"district": "The Stumble",
+    "type": "Martial",
+    "coordinates": "5618,3259",
+    "description": "Official contract hall where mercenary companies register and are paid. Found near Garrison Row.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Blackspans",
+	"district": "The Stumble",
+    "type": "Structural",
+    "coordinates": "2166,4205",
+    "description": "Connects the city across the river, they are named for their black, sooty appearance due to proximity to the Sootsmiths.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Westgate",
+	"district": "Newbrick Ward",
+    "type": "Structural",
+    "coordinates": "1086,4641",
+    "description": "",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Market Gate",
+	"district": "Gatefold",
+    "type": "Structural",
+    "coordinates": "4136,5671",
+    "description": "Main entrance to the lower city. Commonly congested with temporary stalls from rural vendors.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Twin Gates",
+	"district": "Highmarch",
+    "type": "Structural",
+    "coordinates": "6373,5719",
+    "description": "Main entrance to the upper city. Gilded twin gates.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "East Gate",
+	"district": "Eastmere",
+    "type": "Structural",
+    "coordinates": "7988,5001",
+    "description": "",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Spine",
+	"district": "Swordcrest",
+    "type": "Structural",
+    "coordinates": "5891,2643",
+    "description": "Ramped causeway that connects the Lower and Upper cities.",
     "image": "",
     "permalink": ""
   }

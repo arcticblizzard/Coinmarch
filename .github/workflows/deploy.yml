@@ -2,11 +2,11 @@ name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
-    branches: [main]  # change if your default branch is 'master'
-  workflow_dispatch:   # enables manual "Run workflow" button
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
-  contents: write  # required to push to gh-pages branch
+  contents: write
 
 jobs:
   deploy:
@@ -24,10 +24,12 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs
-          pip install mkdocs-bootswatch  # required for Bootswatch themes
-          # pip install mkdocs-material  # uncomment if you switch to Material
+          pip install mkdocs-bootswatch
 
-      - name: Build and deploy
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

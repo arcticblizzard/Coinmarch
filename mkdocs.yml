@@ -1,7 +1,8 @@
 site_name: Coinmarch
 site_url: https://arcticblizzard.github.io/Coinmarch/
 theme:
-  name: windmill-dark
+  name: slate
+
 extra_css:
   - styles/overrides.css
 
@@ -17,4 +18,4 @@ nav:
     - Guide: player-introduction/character-creation/character-creation.md
     - Basic Careers: player-introduction/character-creation/basic-careers.md
     - Knacks: player-introduction/character-creation/knacks.md
-  - Map : map.html
+  - Map : map.md

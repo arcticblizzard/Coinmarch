@@ -63,7 +63,7 @@
       shadowSize: [41, 41]
     });
 
-    fetch('locations.json')
+    fetch('locations/locations.json')
       .then(res => res.json())
       .then(locations => {
         locations.forEach(loc => {
@@ -85,6 +85,38 @@
         });
       })
       .catch(err => console.error("Failed to load locations.json:", err));
+  const districtTypeColors = {
+    Civic: "#888888",
+    Martial: "#800000",
+    Residential: "#228B22",
+    Craft: "#1E90FF",
+    Industrial: "#000000",
+    Leisure: "#A020F0"
+  };
+  fetch('locations/districts.json')
+  .then(res => res.json())
+  .then(districts => {
+    districts.forEach(d => {
+      const flippedCoords = d.coordinates.map(([x, y]) => [imageHeight - y, x]);
+
+const popupContent = `
+  <h3>${d.name}</h3>
+  <p><strong>Type:</strong> ${d.type}</p>
+  <p>${d.description}</p>
+`;
+
+const borderColor = districtTypeColors[d.type] || "#999";
+
+L.polygon(flippedCoords, {
+  color: borderColor,
+  weight: 3,
+  fillColor: borderColor,
+  fillOpacity: 0.08
+}).addTo(map).bindPopup(popupContent);
+    });
+  })
+  .catch(err => console.error("Error loading districts:", err));
+
   </script>
 </body>
 </html>

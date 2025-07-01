@@ -113,7 +113,7 @@
       markerLayers.length = 0;
 
       locations.forEach(loc => {
-        if (!activeTypes.includes(loc.type?.toLowerCase())) return;
+        //if (!activeTypes.includes(loc.type?.toLowerCase())) return;
 
         const [x, y] = loc.coordinates.split(',').map(Number);
         const adjustedCoords = [imageHeight - y, x];

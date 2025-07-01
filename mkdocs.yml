@@ -19,3 +19,7 @@ nav:
     - Basic Careers: player-introduction/character-creation/basic-careers.md
     - Knacks: player-introduction/character-creation/knacks.md
   - Map : map.md
+
+include:
+  - locations/districts.json
+  - locations/locations.json

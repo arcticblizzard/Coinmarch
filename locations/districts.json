@@ -354,7 +354,7 @@
       },
       {
         "name": "Dawnwatch",
-        "type": "Residential",
+        "type": "Leisure",
         "description": "",
         "coordinates": [
         [7553,2954],[7475,2538],[7531,2510],[7559,2460],[7553,2410],
@@ -381,7 +381,7 @@
       },
       {
         "name": "Cliffside2",
-        "type": "Leisure",
+        "type": "Craft",
         "description": "",
         "coordinates": [
         [7418,996],[7374,990],[7276,916],[7172,1028],[7144,1054],

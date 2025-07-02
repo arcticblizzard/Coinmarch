@@ -19,15 +19,17 @@
       font-family: sans-serif;
     }
 
-    #filter-controls {
+    #legend-box {
       position: absolute;
-      top: 25px;
-      left: 50px;
+      top: 10px;
+      left: 10px;
       z-index: 1000;
       background: rgba(0, 0, 0, 0.7);
-      padding: 0.5em 1em;
-      border-radius: 5px;
+      padding: 0.75em 1em;
+      border-radius: 6px;
       font-size: 0.9em;
+      color: #eee;
+      line-height: 1.5;
     }
 
     #map {
@@ -57,15 +59,18 @@
 </head>
 <body>
 
-  <div id="filter-controls">
-    <strong>Filter by District Type:</strong><br>
-    <label><input type="checkbox" value="civic" checked> Civic</label><br>
-    <label><input type="checkbox" value="martial" checked> Martial</label><br>
-    <label><input type="checkbox" value="residential" checked> Residential</label><br>
-    <label><input type="checkbox" value="craft" checked> Craft</label><br>
-    <label><input type="checkbox" value="industrial" checked> Industrial</label><br>
-    <label><input type="checkbox" value="leisure" checked> Leisure</label>
+  <div id="legend-box">
+    <strong>Legend (Toggle Markers):</strong><br>
+    <label><input type="checkbox" value="Civic" checked> <span style="color: #E0B973;">■</span> Civic</label><br>
+    <label><input type="checkbox" value="Martial" checked> <span style="color: #800000;">■</span> Martial</label><br>
+    <label><input type="checkbox" value="Residential" checked> <span style="color: #228B22;">■</span> Residential</label><br>
+    <label><input type="checkbox" value="Craft" checked> <span style="color: #1E90FF;">■</span> Craft</label><br>
+    <label><input type="checkbox" value="Industrial" checked> <span style="color: #000000;">■</span> Industrial</label><br>
+    <label><input type="checkbox" value="Leisure" checked> <span style="color: #A020F0;">■</span> Leisure</label><br>
+    <label><input type="checkbox" value="Religious" checked> <span style="color: ##27d7cc;">■</span> Religious</label><br>
+    <label><input type="checkbox" value="Structural" checked> <span style="color: #888888;">■</span> Structural</label><br>
   </div>
+
   <div id="map"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -85,16 +90,7 @@
     const bounds = [[0, 0], [imageHeight, imageWidth]];
     L.imageOverlay("images/kolnmark_noLabels.jpg", bounds).addTo(map);
     map.fitBounds(bounds);
-  
-    //const defaultIcon = L.icon({
-      //iconUrl: 'images/marker-icon.png',
-      //shadowUrl: 'images/marker-shadow.png',
-      //iconSize: [25, 41],
-      //iconAnchor: [12, 41],
-      //popupAnchor: [1, -34],
-      //shadowSize: [41, 41]
-    //});
-  
+
     const allMarkers = [];
     let allLocations = [];
 
@@ -113,10 +109,11 @@
     .then(res => res.json())
     .then(locations => {
       allLocations = locations;
+  
       locations.forEach(loc => {
         const [x, y] = loc.coordinates.split(',').map(Number);
         const adjustedCoords = [imageHeight - y, x];
-
+  
         const popupContent = `
           <h3>${loc.title}</h3>
           <p><strong>Type:</strong> ${loc.type}<br>
@@ -125,31 +122,49 @@
           ${loc.image ? `<img src="${loc.image}" alt="${loc.title}"/>` : ""}
           <p><a href="${loc.permalink}" target="_blank">More Info</a></p>
         `;
-
+  
         const color = locationTypeColors[loc.type] || "#aaa";
-
+  
         const icon = L.divIcon({
-        className: "styled-pin-icon",
-        html: `
-          <svg width="30" height="42" viewBox="0 0 30 42" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 0C7 0 0 7 0 15.5C0 24.5 15 42 15 42C15 42 30 24.5 30 15.5C30 7 23 0 15 0Z"
-                  fill="${color}" stroke="white" stroke-width="2"/>
-            <circle cx="15" cy="15" r="5" fill="white"/>
-          </svg>
-        `,
-        iconSize: [30, 42],
-        iconAnchor: [15, 42], // bottom-center of the pin
-        popupAnchor: [0, -42] // popup appears just above the tip
-      });
-      
+          className: "styled-pin-icon",
+          html: `
+            <svg width="30" height="42" viewBox="0 0 30 42" xmlns="http://www.w3.org/2000/svg">
+              <path d="M15 0C7 0 0 7 0 15.5C0 24.5 15 42 15 42C15 42 30 24.5 30 15.5C30 7 23 0 15 0Z"
+                    fill="${color}" stroke="white" stroke-width="2"/>
+              <circle cx="15" cy="15" r="5" fill="white"/>
+            </svg>
+          `,
+          iconSize: [30, 42],
+          iconAnchor: [15, 42],
+          popupAnchor: [0, -42]
+        });
+  
         const marker = L.marker(adjustedCoords, { icon })
           .bindPopup(popupContent)
           .addTo(map);
-
+  
         marker.locationData = loc;
         allMarkers.push(marker);
       });
-    });
+  
+      // Enable legend filtering
+      document.querySelectorAll('#legend-box input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', () => {
+          const checkedTypes = Array.from(document.querySelectorAll('#legend-box input:checked')).map(cb => cb.value);
+  
+          allMarkers.forEach(marker => {
+            const markerType = marker.locationData?.type;
+            if (checkedTypes.includes(markerType)) {
+              marker.addTo(map);
+            } else {
+              map.removeLayer(marker);
+            }
+          });
+        });
+      });
+    })
+    .catch(err => console.error("Failed to load locations.json:", err));
+
   
     const districtTypeColors = {
       civic: "#E0B973",
@@ -240,6 +255,19 @@
       return btn;
     };
     resetViewButton.addTo(map);
+
+    function updateMarkerVisibility() {
+      const checkedTypes = Array.from(document.querySelectorAll('#legend-box input:checked')).map(cb => cb.value);
+    
+      allMarkers.forEach(marker => {
+        const markerType = marker.locationData?.type;
+        if (checkedTypes.includes(markerType)) {
+          marker.addTo(map);
+        } else {
+          map.removeLayer(marker);
+        }
+      });
+    }
   </script>
   
 </body>

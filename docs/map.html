@@ -20,17 +20,25 @@
     }
 
     #legend-box {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      z-index: 1000;
-      background: rgba(0, 0, 0, 0.7);
-      padding: 0.75em 1em;
-      border-radius: 6px;
-      font-size: 0.9em;
-      color: #eee;
-      line-height: 1.5;
-    }
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    font-size: 0.85em;
+    color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+  }
+
+#legend-box label {
+  white-space: nowrap;
+}
 
     #map {
       width: 100%;
@@ -181,8 +189,7 @@
       districtLayers.forEach(layer => map.removeLayer(layer));
       districtLayers.length = 0;
   
-      const activeTypes = Array.from(document.querySelectorAll('#filter-controls input:checked'))
-                               .map(cb => cb.value);
+      const activeTypes = Object.keys(districtTypeColors);  // Show all district types
   
       districts.forEach(d => {
         if (!activeTypes.includes(d.type?.toLowerCase())) return;

@@ -206,32 +206,38 @@
         const borderColor = districtTypeColors[colorKey] || "#999";
   
         const poly = L.polygon(flippedCoords, {
-          color: borderColor,
-          weight: 3,
-          fillColor: borderColor,
-          fillOpacity: 0.08
-        })
-          .addTo(map)
-          .bindPopup(popupContent)
-          .on('click', () => {
-            map.fitBounds(poly.getBounds());
-            poly.openPopup();
-  
-            const clickedDistrict = d.name;
-  
-            allMarkers.forEach(marker => {
-              const markerDistrict = marker.locationData?.district;
-              if (markerDistrict === clickedDistrict) {
-                marker.addTo(map);
-              } else {
-                map.removeLayer(marker);
-              }
-            });
+        color: borderColor,
+        weight: 3,
+        fillColor: borderColor,
+        fillOpacity: 0.08
+      })
+        .addTo(map)
+        .bindPopup(popupContent)
+        .on('click', () => {
+          map.fitBounds(poly.getBounds());
+          poly.openPopup();
+      
+          const clickedDistrict = d.name;
+      
+          allMarkers.forEach(marker => {
+            const markerDistrict = marker.locationData?.district;
+            if (markerDistrict === clickedDistrict) {
+              marker.addTo(map);
+            } else {
+              map.removeLayer(marker);
+            }
           });
-  
-        districtLayers.push(poly);
-      });
-    }
+        })
+        .bindTooltip(d.name, {
+          permanent: false,
+          direction: 'top',
+          className: 'district-hover-label',
+          opacity: 0.9,
+          sticky: true
+        });
+      
+      districtLayers.push(poly);
+
   
     fetch('locations/districts.json')
       .then(res => res.json())

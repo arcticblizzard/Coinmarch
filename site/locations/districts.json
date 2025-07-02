@@ -1,6 +1,6 @@
 [
     {
-        "name": "West Bank Craft",
+        "name": "Caskside",
         "type": "Craft",
         "description": "The newest part of Kolnmark, overflow residences and shops sprang up on the West side of the river.",
         "coordinates": [
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "name": "West Bank",
+      "name": "Newbrick Ward",
       "type": "Residential",
       "description": "The newest part of Kolnmark, overflow residences and shops sprang up on the West side of the river.",
       "coordinates": [
@@ -23,7 +23,7 @@
     ]
     },
     {
-      "name": "Island",
+      "name": "Bargebreaker Island",
       "type": "Industrial",
       "description": "A small, craggy island located at the mouth of the river, it houses some of the less desirable industry.",
       "coordinates": [
@@ -37,7 +37,7 @@
     ]
     },
     {
-      "name": "Eastbank Docks",
+      "name": "Eastchain Docks",
       "type": "Industrial",
       "description": "",
       "coordinates": [
@@ -79,7 +79,7 @@
     ]
     },
     {
-      "name": "Main Way Craft",
+      "name": "Callus Run",
       "type": "Craft",
       "description": "",
       "coordinates": [
@@ -92,7 +92,7 @@
     ]
     },
     {
-      "name": "Main Way TBD",
+      "name": "Hearthrow",
       "type": "Residential",
       "description": "",
       "coordinates": [
@@ -104,7 +104,7 @@
     ]
     },
     {
-      "name": "Market Gate Residential",
+      "name": "Gatefold",
       "type": "Residential",
       "description": "",
       "coordinates": [
@@ -115,7 +115,7 @@
     ]
     },
     {
-      "name": "Market Gate Retail",
+      "name": "Wallwrights",
       "type": "Craft",
       "description": "",
       "coordinates": [
@@ -124,7 +124,7 @@
     ]
     },
     {
-      "name": "Market Gate TBD",
+      "name": "Coinrest",
       "type": "Residential",
       "description": "",
       "coordinates": [
@@ -133,7 +133,7 @@
     ]
     },
     {
-      "name": "Lower City Civic",
+      "name": "Clerk's Ward",
       "type": "Civic",
       "description": "",
       "coordinates": [
@@ -144,7 +144,7 @@
     ]
     },
     {
-      "name": "Lower City Leisure",
+      "name": "Dockshade",
       "type": "Leisure",
       "description": "",
       "coordinates": [
@@ -157,7 +157,7 @@
     ]
     },
     {
-      "name": "The Spire TBD",
+      "name": "Pilgrim's Way",
       "type": "Leisure",
       "description": "",
       "coordinates": [
@@ -167,7 +167,7 @@
     ]
     },
     {
-      "name": "The Spire Residential",
+      "name": "Eastcliff Row",
       "type": "Residential",
       "description": "",
       "coordinates": [
@@ -181,7 +181,7 @@
     ]
     },
     {
-      "name": "Mercenary Row Craft",
+      "name": "Ironhook",
       "type": "Craft",
       "description": "",
       "coordinates": [
@@ -192,9 +192,9 @@
     ]
     },
     {
-      "name": "Main Docks",
+      "name": "Breakbay Docks",
       "type": "Industrial",
-      "description": "",
+      "description": "Main docks of the city.",
       "coordinates": [
       [3575,2732],[3993,3194],[4141,3394],[4153,3524],[4149,3874],
       [4631,3852],[4655,3836],[4721,3870],[4753,3846],[4813,3876],
@@ -209,16 +209,16 @@
     {
       "name": "The Stumble",
       "type": "Leisure",
-      "description": "",
+      "description": "A collection of establishments that service the needs of enlisted mercenaries near the Garrison Row (walled bunk houses).",
       "coordinates": [
       [5538,3286],[5618,3364],[5686,3286],[5682,2550],[5642,2538],
       [5452,2808],[5584,2930],[5568,3130],[5530,3194],[5560,3234]
     ]
     },
     {
-      "name": "Barracks Row",
+      "name": "Garrison Row",
       "type": "Martial",
-      "description": "",
+      "description": "A walled district that houses fortified bunk houses and living quarters for the general populace of the various mercenary companies.",
       "coordinates": [
       [5701,2542],[5705,3246],[5801,3298],[5891,3238],[5939,3022],
       [5969,2994],[5957,2944],[5911,2926],[5889,2894],[5889,2846],
@@ -227,7 +227,7 @@
     ]
     },
     {
-      "name": "Underbridge",
+      "name": "Tumbledown",
       "type": "Residential",
       "description": "",
       "coordinates": [
@@ -253,7 +253,7 @@
     ]
     },
     {
-        "name": "The Twins Residential",
+        "name": "Highmarch",
         "type": "Residential",
         "description": "",
         "coordinates": [
@@ -270,7 +270,7 @@
       ]
       },
       {
-        "name": "The Twins TBD",
+        "name": "Goldedge",
         "type": "Residential",
         "description": "",
         "coordinates": [
@@ -280,7 +280,7 @@
       ]
       },
       {
-        "name": "The Twins TBD2",
+        "name": "Twinreach",
         "type": "Craft",
         "description": "",
         "coordinates": [
@@ -291,7 +291,7 @@
       ]
       },
       {
-        "name": "Upper City Craft",
+        "name": "Crafthallow",
         "type": "Craft",
         "description": "",
         "coordinates": [
@@ -305,7 +305,7 @@
       ]
       },
       {
-        "name": "East Road Leisure",
+        "name": "Velvet Court",
         "type": "Leisure",
         "description": "",
         "coordinates": [
@@ -316,7 +316,7 @@
       ]
       },
       {
-        "name": "East Road TBD",
+        "name": "Eastmere",
         "type": "Residential",
         "description": "",
         "coordinates": [
@@ -330,7 +330,7 @@
       ]
       },
       {
-        "name": "Upper City Foreign Quarter",
+        "name": "Envoy's Rest",
         "type": "Civic",
         "description": "",
         "coordinates": [
@@ -340,7 +340,7 @@
       ]
       },
       {
-        "name": "Causeway Admin",
+        "name": "Swordcrest",
         "type": "Martial",
         "description": "",
         "coordinates": [
@@ -366,7 +366,7 @@
       ]
       },
       {
-        "name": "Cliffside",
+        "name": "Windrest",
         "type": "Residential",
         "description": "",
         "coordinates": [
@@ -380,7 +380,7 @@
       ]
       },
       {
-        "name": "Cliffside2",
+        "name": "Highforge",
         "type": "Craft",
         "description": "",
         "coordinates": [
@@ -391,7 +391,7 @@
       ]
       },
       {
-        "name": "Upper City Civic",
+        "name": "Bannercrest",
         "type": "Civic",
         "description": "",
         "coordinates": [

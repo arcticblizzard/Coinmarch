@@ -104,7 +104,7 @@
     "link": "docs/locations/districts/Caskside.md"
   },
   {
-    "name": "Clerk's Ward",
+    "name": "Clerk’s Ward",
     "type": "Civic",
     "summary": "A compact enclave anchoring Kolnmark’s lower city core, Clerk’s Ward faces the broad boulevards and the leafy expanse of the Greenwold. At its heart stands the walled Hall of Records—a stately courtyarded complex where public ledgers, charters, and petitions are filed and reviewed. Here the pulse of daily civic life beats in the shuffle of parchment and the measured steps of robed clerks.",
     "tags": [
@@ -310,10 +310,13 @@
   {
     "name": "Gatefold",
     "type": "Residential",
-    "summary": "",
+    "summary": "A medium-sized, tightly packed residential quarter tucked against the Lower City wall and Market Gate. Gatefold’s narrow lanes funnel traffic from the Greenwold to the great market beyond the city gate, while its artisans and merchants live in the same rowhouses that once housed the gate’s original sentries.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "crafts",
+      "marketplace",
+      "city-wall",
+      "gate"
     ],
     "coordinates": [
       [4106,4688], [3938,4694], [3894,4666], [3864,4686], [3816,4688],
@@ -341,10 +344,15 @@
   {
     "name": "Hearthrow",
     "type": "Residential",
-    "summary": "",
+    "summary": "A broad swath of lower-city living bounded by the eastern banks of the Koln River, the main east–west thoroughfare to the north, the Greenwold to the east, and the old city wall to the south. Hearthrow’s tree-lined streets accommodate elegant riverside villas, sturdy middle-class homes, and clustered tenements—one of the lower city’s largest residential quarters.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "middle-class",
+      "tenements",
+      "riverside",
+      "market",
+      "boutiques",
+      "estates"
     ],
     "coordinates": [
       [2333,4242], [2307,4268], [2239,4484], [2227,4576], [2149,4708],

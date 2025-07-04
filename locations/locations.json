@@ -632,4 +632,114 @@
     "image": "",
     "permalink": ""
   }
+  ,
+  {
+    "title": "Riverside Promenade",
+	  "district": "Hearthrow",
+    "type": "Leisure",
+    "coordinates": "2224,4571",
+    "description": "A shaded stone walkway along the Koln’s eastern bank, where river breeze cools grand homes and ferry landings alike.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hearthrow Market",
+	  "district": "Hearthrow",
+    "type": "Craft",
+    "coordinates": "3248,5194",
+    "description": "Tucked against the old city wall, this compact square hosts stalls of fresh produce, yard goods, and everyday wares—open dawn to dusk.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "Tenement Court",
+	  "district": "Hearthrow",
+    "type": "Residential",
+    "coordinates": "3631,4634",
+    "description": "A tight courtyard of brick-faced lodging for Hearthrow’s working families. Laundry sways overhead and children play around its central well.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Boutique Row",
+	  "district": "Hearthrow",
+    "type": "Craft",
+    "coordinates": "2478,4434",
+    "description": "A narrow lane of shuttered shopfronts selling fine leatherwork, hand-blown glass, and bespoke millinery—serving the district’s middle classes.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Riverview Hall",
+	  "district": "Hearthrow",
+    "type": "Residential",
+    "coordinates": "2251,4718",
+    "description": "A pillared red-brick manor crowned with slate turrets and overlooking the ferry landing. Its long colonnaded veranda serves afternoon teas, while crystal lanterns glow across the river at dusk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Willowbank Manor",
+	  "district": "Hearthrow",
+    "type": "Residential",
+    "coordinates": "2327,4501",
+    "description": "A graceful stone-and-ivy estate set on terraced lawns that slope down to the Koln’s eastern bank. Built by the venerable Elwood family, its arched windows and wrought-iron balustrades catch every sunset over the river.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Greenwold Pavilion",
+	  "district": "Hearthrow",
+    "type": "Leisure",
+    "coordinates": "3814,4431",
+    "description": "A light-filled, glass-fronted lounge nestled where Hearthrow meets the Greenwold. Ornate trellises of climbing roses frame arched doors onto the park, and weekends find musicians and dancers entertaining beneath its vaulted roof.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Market Gate Arch",
+	  "district": "Gatefold",
+    "type": "Structural",
+    "coordinates": "4141,5591",
+    "description": "The ornate stone archway through which all northern trade must pass. Its carved reliefs depict the city’s founding and still bear scorch marks from past sieges.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Tenement Square",
+	  "district": "Gatefold",
+    "type": "Residential",
+    "coordinates": "3657,4988",
+    "description": "A quiet courtyard ringed by four-story rowhouses, where neighbors gather to share meals and gossip in the evenings.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Rusty Bolt",
+	  "district": "Gatefold",
+    "type": "Leisure",
+    "coordinates": "4084,4938",
+    "description": "A cozy, low-rent tavern tucked down a back alley, famous for its strong ale and nightly group game of dice.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Rivercity Clayworks",
+	  "district": "Gatefold",
+    "type": "Craft",
+    "coordinates": "3777,4874",
+    "description": "A squat brick building with tall chimneys on a bend of the Koln. Local potters utilized dredged river-clay here to craft tiles, bricks and sturdy vessels used throughout the district.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Chapel of the Heartstone",
+	  "district": "Gatefold",
+    "type": "Religious",
+    "coordinates": "3991,4718",
+    "description": "A modest white-stone shrine set amid stables and smithies. Artisans pause here each morning to leave a chip of iron or clay in thanks for steady hands.",
+    "image": "",
+    "permalink": ""
+  }
 ]

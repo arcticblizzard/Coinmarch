@@ -53,6 +53,16 @@
     #legend-box label {
       white-space: nowrap;
     }
+    .tag {
+      display: inline-block;
+      padding: 2px 6px;
+      margin: 2px 4px 2px 0;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-family: sans-serif;
+      color: white;
+      white-space: nowrap;
+    }
   </style>
 </head>
 <body>
@@ -94,6 +104,32 @@
     Craft: "#1E90FF", Industrial: "#000000", Leisure: "#A020F0",
     Religious: "#27d7cc", Structural: "#888888"
   };
+
+  // For unknown tags
+  const fallbackColors = [
+    "#f44336", "#e91e63", "#9c27b0", "#673ab7", "#3f51b5",
+    "#03a9f4", "#00bcd4", "#009688", "#4caf50", "#8bc34a",
+    "#cddc39", "#ff9800", "#795548", "#607d8b"
+  ];
+
+  function getTagColor(tag) {
+    const normalizedTag = tag.trim().toLowerCase();
+
+    // 1) Look for an exact key match (case‐insensitive)
+    for (const [key, color] of Object.entries(locationTypeColors)) {
+      if (key.toLowerCase() === normalizedTag) {
+        return color;
+      }
+    }
+
+    // 2) Fallback: stable hash → palette index
+    let hash = 0;
+    for (let i = 0; i < tag.length; i++) {
+      hash = tag.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const idx = Math.abs(hash) % fallbackColors.length;
+    return fallbackColors[idx];
+  }
 
   fetch('locations/locations.json')
     .then(res => res.json())
@@ -149,8 +185,13 @@
     districts.forEach(d => {
       const flippedCoords = d.coordinates.map(([x, y]) => [imageHeight - y, x]);
 
-      const tagLine = d.tags && d.tags.length > 0
-        ? `<p><em>🏷️</em> ${d.tags.join(", ")}</p>`
+      const tagLine = (d.tags && d.tags.length > 0)
+        ? `<div><em>🏷️</em> ${
+            d.tags.map(tag => {
+              const color = getTagColor(tag);
+              return `<span class="tag" style="background-color:${color};">${tag}</span>`;
+            }).join(" ")
+          }</div>`
         : "";
 
       const linkLine = d.link

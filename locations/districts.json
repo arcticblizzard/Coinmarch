@@ -41,10 +41,13 @@
   {
     "name": "Breakbay Docks",
     "type": "Industrial",
-    "summary": "",
+    "summary": "An expansive waterfront district hugging the deep, sheltered waters of Breakbay. As Kolnmark’s principal deep-water port, it bustles with the largest ocean-going vessels, surrounded by cranes, warehouses, and the shipping offices that keep regional trade moving.",
     "tags": [
-      "district",
-      "industrial"
+      "industrial",
+      "maritime",
+      "deep-water",
+      "quarantine",
+      "shipping"
     ],
     "coordinates": [
       [3575,2732], [3993,3194], [4141,3394], [4153,3524], [4149,3874],
@@ -61,10 +64,13 @@
   {
     "name": "Callus Run",
     "type": "Craft",
-    "summary": "",
+    "summary": "A bustling arc of workshops and storefronts along the north edge of Kolnmark’s lower-city thoroughfare, Callus Run stretches from the foot of the Blackspans to the fringe of Greenwold. Its shop windows gleam with hand-made wares, and the steady flow of craftsmen, apprentices and shoppers keeps the street alive from dawn until dusk.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "shops",
+      "thoroughfare",
+      "mixed-income",
+      "dock-adjacent"
     ],
     "coordinates": [
       [2334,4128], [2366,4196], [3668,4192], [3680,3982], [3554,3984],
@@ -100,10 +106,13 @@
   {
     "name": "Clerk's Ward",
     "type": "Civic",
-    "summary": "",
+    "summary": "A compact enclave anchoring Kolnmark’s lower city core, Clerk’s Ward faces the broad boulevards and the leafy expanse of the Greenwold. At its heart stands the walled Hall of Records—a stately courtyarded complex where public ledgers, charters, and petitions are filed and reviewed. Here the pulse of daily civic life beats in the shuffle of parchment and the measured steps of robed clerks.",
     "tags": [
-      "district",
-      "civic"
+      "civic",
+      "administrative",
+      "archives",
+      "bureaucratic",
+      "public"
     ],
     "coordinates": [
       [4150,3888], [4158,4234], [4258,4240], [4420,4332], [4428,4404],
@@ -185,10 +194,14 @@
   {
     "name": "Dockshade",
     "type": "Leisure",
-    "summary": "",
+    "summary": "A vibrant quarter serving both Eastchain and Breakbay docks, Dockshade is lower Kolnmark’s entertainment hub—where dockhands and captains alike unwind amid playhouses, taverns, and lounges. At its southern edge it even fronts the Greenwold, blending bayside revelry with leafy respite.",
     "tags": [
-      "district",
-      "leisure"
+      "leisure",
+      "entertainment",
+      "playhouse",
+      "concert hall",
+      "riverside",
+      "mixed-income"
     ],
     "coordinates": [
       [3672,4204], [3742,4268], [3866,4302], [3898,4266], [4102,4238],
@@ -203,10 +216,14 @@
   {
     "name": "Eastchain Docks",
     "type": "Industrial",
-    "summary": "",
+    "summary": "A sprawling web of quays, piers and slipways on the east bank of the River Koln, Eastchain Docks stretches from the Blackspans up to the Point. Two shanty-strewn isles lie offshore—home to ramshackle fishing boats and squatters beyond city law—while a bustling southern market spills onto the waterfront, alive with exotic wares from distant seas.",
     "tags": [
-      "district",
-      "industrial"
+      "industrial",
+      "docks",
+      "market",
+      "shanty-town",
+      "shipwrights",
+      "lawless"
     ],
     "coordinates": [
       [2933,2308], [2539,2734], [2365,3128], [2227,3164], [2191,3350],
@@ -448,10 +465,14 @@
   {
     "name": "The Point",
     "type": "Civic",
-    "summary": "",
+    "summary": "A broad stone promontory dividing Eastchain from Breakbay Docks, The Point is Kolnmark’s maritime nerve center—where harbor masters, customs agents and dock officials oversee the endless flow of ships. Its southern marshaling grounds roar with inspections, cargo staging and heavy machinery, while a towering lighthouse crowns the tip, guiding vessels through swirling currents.",
     "tags": [
-      "district",
-      "civic"
+      "civic",
+      "maritime",
+      "customs",
+      "inspections",
+      "lighthouse",
+      "administrative"
     ],
     "coordinates": [
       [3457,2162], [3425,2232], [3429,2316], [3363,2374], [3299,2402],
@@ -479,10 +500,14 @@
   {
     "name": "The Tangle",
     "type": "Residential",
-    "summary": "",
+    "summary": "A claustrophobic warren of narrow, winding lanes wedged between the River Docks and Breakbay Quay, The Tangle is one of Kolnmark’s poorest quarters. Crumbling tenements lean over cobblestones worn smooth by decades of cart traffic, while a raucous 24-hour market rages at its crooked heart and a weekly puppet spectacle draws crowds despite the squalor.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "low-income",
+      "market",
+      "docks-adjacent",
+      "winding-streets",
+      "puppet-theatre"
     ],
     "coordinates": [
       [2966,3488], [3234,3264], [3270,3300], [3320,3260], [3296,3226],

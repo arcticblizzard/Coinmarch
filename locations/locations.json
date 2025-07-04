@@ -22,7 +22,7 @@
 	"district": "Eastchain Docks",
     "type": "Industrial",
     "coordinates": "2463,3131",
-    "description": "",
+    "description": "Eastchain Docks is a sprawling network of quays, piers, and slipways lining the east bank of the Koln River—where merchant vessels, fishing boats, and makeshift shanties intermingle beneath the watchful cranes and market lanterns.",
     "image": "",
     "permalink": ""
   },
@@ -31,7 +31,7 @@
 	"district": "Breakbay Docks",
     "type": "Industrial",
     "coordinates": "4875,3127",
-    "description": "Main docks of the city.",
+    "description": "The Breakbay Docks themselves are a vast, sheltered quayside carved into the stone shore of the bay, featuring heavy-duty piers and towering gantry cranes. Deep-water berths accommodate the city’s largest ocean-going vessels, while gangways and mooring lines spider across the water. Built of reinforced concrete and steel, the docks are bathed in the constant hiss of winches and the low throb of diesel engines, a sprawling gateway between Kolnmark and the wider world.",
     "image": "",
     "permalink": ""
   },
@@ -302,6 +302,333 @@
     "type": "Residential",
     "coordinates": "732,4346",
     "description": "A compact tenement block near the Westgate, offering modest rooms to craft apprentices and seasonal laborers.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Artisans’ Arcade",
+	  "district": "Callus Run",
+    "type": "Craft",
+    "coordinates": "2694,3988",
+    "description": "A covered colonnade of forty small workshops, famous for its annual “Night of Sparks” forging festival.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Craftside Market",
+	  "district": "Callus Run",
+    "type": "Craft",
+    "coordinates": "3494,4064",
+    "description": "A stretch of pop-up stalls and carts that line the main road each morning, vanishing by dusk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Blackspan Overlook",
+	  "district": "Callus Run",
+    "type": "Leisure",
+    "coordinates": "2390,4151",
+    "description": "A little plaza set atop a flight of stone steps, offering a framed view of both bridges and the river below.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Journeymen’s Guild Hall",
+	  "district": "Callus Run",
+    "type": "Civic",
+    "coordinates": "2517,4011",
+    "description": "A stout, half-timbered building at the district’s western end, its notice board covered with job postings and apprenticeships.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "The Painted Mask Playhouse",
+	  "district": "Callus Run",
+    "type": "Leisure",
+    "coordinates": "2897,3708",
+    "description": "A modest timber-framed theatre tucked between storefronts, where groundlings squeeze into bench seating for raucous comedies and traveling troupes debut new folk dramas beneath flickering lanterns.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Greenwold",
+	  "district": "Clerk's Ward",
+    "type": "Structural",
+    "coordinates": "4117,4474",
+    "description": "A sprawling urban park at the heart of Lower Kolnmark, where the city’s main east–west and north–south avenues meet. Winding gravel paths thread through copses of chestnut and elm, manicured flowerbeds and open lawns, all centered on a grand marble fountain.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Bright Tent Square",
+	  "district": "The Tangle",
+    "type": "Craft",
+    "coordinates": "3479,3538",
+    "description": "The twisted center of the district where stalls crowd every inch of open space, lit by swinging lanterns and the roar of haggling voices.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Marionette Court",
+	  "district": "The Tangle",
+    "type": "Leisure",
+    "coordinates": "3552,3101",
+    "description": "A makeshift wooden stage at the north end of the square, where the weekly puppet show dazzles audiences with masterful craftsmanship.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Shady Lane",
+	  "district": "The Tangle",
+    "type": "Craft",
+    "coordinates": "3219,3641",
+    "description": "A back-alley thoroughfare of shuttered warehouses and hidden courtyards, favored by unlicensed merchants and smuggler contacts.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "Brickfall Tenements",
+	  "district": "The Tangle",
+    "type": "Residential",
+    "coordinates": "3619,3794",
+    "description": "A row of crumbling brick buildings at the district’s southern edge, their sagging balconies home to dozens of families.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Ragged Tankard & Scarlet Parlour",
+	  "district": "The Tangle",
+    "type": "Leisure",
+    "coordinates": "3702,3248",
+    "description": "A low-ceilinged tavern of warped floorboards and foul ale served in chipped mugs; a tattered velvet drape behind the bar leads to the Scarlet Parlour, a cramped, candlelit brothel where the district’s poorest trade coin for comfort.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Pockmarks",
+	  "district": "Eastchain Docks",
+    "type": "Residential",
+    "coordinates": "2324,3391",
+    "description": "Two overcrowded isles offshore, ringed by mudflats, where improvised huts and beached longboats cluster, inhabited by fishermen, squatters and those seeking refuge from the city’s reach.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gilded Crane Market",
+	  "district": "Eastchain Docks",
+    "type": "Craft",
+    "coordinates": "2691,3611",
+    "description": "A string of open-air stalls under lantern canopies, purveying foreign wares and attracting buyers from across the city.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Shipwright Row",
+	  "district": "Eastchain Docks",
+    "type": "Craft",
+    "coordinates": "2387,3884",
+    "description": "A rutted lane of tide-slicked workshops and lumber yards, alive with the ring of hammers on iron and the saw of blade on oak as master shipwrights and apprentices hew and plank vessels of every size.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cargo Staging Grounds",
+	  "district": "Eastchain Docks",
+    "type": "Industrial",
+    "coordinates": "3281,2758",
+    "description": "A broad, open yard crisscrossed by rails and block-and-tackle, piled high with crates of coal, barrels of oil, exotic imports and raw timber—each bay watched by clerks, cranes and the idle eyes of hired muscle.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Anchor’s Rest",
+	  "district": "Eastchain Docks",
+    "type": "Leisure",
+    "coordinates": "2881,3091",
+    "description": " A low-ceilinged sailors’ lounge tucked between two busy docks, its lantern-lit common room thick with tar smoke and salt air, where mariners swap sea-shanties, tall tales and the day’s best bets over brimming mugs of grog.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "Temple of the Silver Tides",
+	  "district": "Eastchain Docks",
+    "type": "Religious",
+    "coordinates": "2681,3334",
+    "description": "A stilted wooden pavilion rising above the mudflats, its rough-hewn beams and bleached driftwood walls hung with carved figureheads and weathered fishing floats. Inside, a slatted floor lets river breezes carry the scent of salt and incense, where seafarers slip offerings of shell, oar-shaft and coin into creaking prayer chests for tide-fair winds and safe returns.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Marshaling Grounds",
+	  "district": "The Point",
+    "type": "Industrial",
+    "coordinates": "3471,2648",
+    "description": "Wide open stone expanse ringed by loading cranes, rails and inspection booths—where every crate and barrel is weighed, stamped and warranteed.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Customs Hall",
+	  "district": "The Point",
+    "type": "Civic",
+    "coordinates": "3304,2494",
+    "description": "A fortified stone pavilion of high arched windows, where imported treasures and staples alike pass under the scrutiny of the city’s revenue collectors.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Dockmaster’s Office",
+	  "district": "The Point",
+    "type": "Civic",
+    "coordinates": "3641,2644",
+    "description": "The operational hub of harbor traffic, its weathered plaques and signal yard alive with semaphore flags, whistles and ringing bells.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Pinnacle Lighthouse",
+	  "district": "The Point",
+    "type": "Civic",
+    "coordinates": "3527,2254",
+    "description": "Perched on the very tip of The Point, its ever-burning beacon and spiraling stair are both a landmark for sailors and a symbol of Kolnmark’s mastery over the river.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Golden Keel",
+	  "district": "The Point",
+    "type": "Leisure",
+    "coordinates": "3534,2441",
+    "description": "A polished stone and mahogany tavern catering to city functionaries, ship captains, and trade barons, where crystal goblets clink and discreet ledgers exchange hands over single-malt spirits and imported vintages.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Banded Warehouse",
+	  "district": "The Point",
+    "type": "Civic",
+    "coordinates": "3481,2368",
+    "description": "A fortress-like stone depot ringed by iron bars and watchtowers, where seized cargos and high-value imports are locked behind heavy doors and guarded around the clock by customs officers.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gilded Spectacle Playhouse",
+	  "district": "Dockshade",
+    "type": "Leisure",
+    "coordinates": "3941,3294",
+    "description": "A landmark stage where the city’s best actors and actresses perform under crystal chandeliers.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Luna’s Lantern",
+	  "district": "Dockshade",
+    "type": "Leisure",
+    "coordinates": "3754,2998",
+    "description": "A house of mirth, charted on every captain’s map. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Harmonium Hall",
+	  "district": "Dockshade",
+    "type": "Leisure",
+    "coordinates": "3801,4204",
+    "description": "The district’s architectural jewel, hosting orchestras and civic ceremonies on its river-facing terrace.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Pilots’ Guildhall",
+	  "district": "Dockshade",
+    "type": "Civic",
+    "coordinates": "4101,3488",
+    "description": "A sturdy, half-timbered brick building on the north quay where licensed river pilots train, lodge and coordinate the comings and goings of vessels. Inside, walls hung with navigational charts and racks of sextants overlook a vaulted meeting hall where pilots plan dawn departures, sound signal horns and settle disputes over tricky currents.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Quarantine Depot",
+	  "district": "Breakbay Docks",
+    "type": "Civic",
+    "coordinates": "4260,3058",
+    "description": "A squat stone building on the southern spit, where arriving crews are briefly detained and their cargoes fumigated to guard against pests and plague. Whitewashed walls and iron-barred windows give it a forbidding air.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Iron Sheds",
+	  "district": "Breakbay Docks",
+    "type": "Industrial",
+    "coordinates": "5442,3444",
+    "description": "Endless rows of corrugated-steel warehouses rising from the water’s edge, each door stamped with a number. Within lie coils of anchor chain, crates of machinery, and pallets of exotic goods awaiting transit.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Spit Tarworks",
+	  "district": "Breakbay Docks",
+    "type": "Industrial",
+    "coordinates": "5122,2704",
+    "description": "A cluster of low, smoky sheds on the eastern shore where pitch and tar are boiled in huge cauldrons to seal and preserve wooden hulls. Acrid vapors drift over the quay, and black-stained barrels wait in neat rows.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Grand Maritime Exchange",
+	  "district": "Breakbay Docks",
+    "type": "Industrial",
+    "coordinates": "3715,2821",
+    "description": "A row of dignified granite-fronted halls lining the quay, their arched porticos draped in signal flags and rigging. Inside, tall windows flood broker’s chambers where timber-smoke drifts through ledgers and charts, and captains, merchants, and freight-brokers haggle over cargo space with the clink of silver and the creak of ship timbers ever in the background.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Saltwood Figurehead Atelier",
+	  "district": "Breakbay Docks",
+    "type": "Craft",
+    "coordinates": "4695,3731",
+    "description": "A petite workshop where master carvers coax elegant figureheads and ornamental trim from gnarled driftwood. Inside, the scent of tallow, fresh sawdust, and brine mingle as captains and shipowners commission bespoke prows and rail-carvings to lend their vessels character on every voyage.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hall of Records",
+	  "district": "Clerk's Ward",
+    "type": "Civic",
+    "coordinates": "4557,4304",
+    "description": "A gated, walled complex with columned porticos opening onto a central courtyard. Here contested deeds, civic petitions, and lower-city permits are filed, indexed, and archived in endless vellum volumes.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Quill & Ink Emporium",
+	  "district": "Clerk's Ward",
+    "type": "Craft",
+    "coordinates": "4235,4181",
+    "description": "A narrow, gorgeously appointed shop at the Greenwold corner, where fine goose-quills and imported inks are weighed and sold by the dram to every weary clerk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Parchment Rest",
+	  "district": "Clerk's Ward",
+    "type": "Leisure",
+    "coordinates": "4938,4001",
+    "description": "A shaded tea pavilion in the Hall’s courtyard, where petitioners sip spiced herbal blends while they wait for their names to be called.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Ledger Lane",
+	  "district": "Clerk's Ward",
+    "type": "Craft",
+    "coordinates": "4609,3981",
+    "description": "A short cobbled alley lined with small stamp dealers, seal-carvers, and petition-drafters—essential support trades for anyone navigating the Ward’s bureaucracy.",
     "image": "",
     "permalink": ""
   }

@@ -40,7 +40,7 @@
 	"district": "Caskside",
     "type": "Industrial",
     "coordinates": "1337,3413",
-    "description": "Westernmost docks, services much of the small nearby craftsmen.",
+    "description": "A tangle of piers and warehouses where loaded barges wait at all hours.",
     "image": "",
     "permalink": ""
   },
@@ -121,7 +121,7 @@
 	"district": "Newbrick Ward",
     "type": "Structural",
     "coordinates": "1086,4641",
-    "description": "",
+    "description": "A massive stone arch set into Kolnmark’s western wall, flanked by stout guard towers. Here, travelers and merchants present papers and tolls before stepping onto the Timber Road, as sentries scan the horizon for riverfolk and caravans alike.  ",
     "image": "",
     "permalink": ""
   },
@@ -194,6 +194,114 @@
     "type": "Civic",
     "coordinates": "1826,3854",
     "description": "A short, soot-stained lighthouse at the North end of the island. Has long served as a navigation tool for mariners and barge captains.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Barrelmaster's Plaza",
+	  "district": "Caskside",
+    "type": "Craft",
+    "coordinates": "1132,3696",
+    "description": "Open-air market where coopers auction off the finest casks at dawn.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Master Cooper's Hall",
+	  "district": "Caskside",
+    "type": "Craft",
+    "coordinates": "1006,3730",
+    "description": "The guild’s stone-hewn lodge, ringed with staves drying on outdoor racks.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Iron Stave Distillery",
+	  "district": "Caskside",
+    "type": "Craft",
+    "coordinates": "614,3472",
+    "description": "Kolnmark's premier distiller. Brass pipes hiss and copper stills glow beneath a cloud of sweet steam.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Rare Sip",
+	  "district": "Caskside",
+    "type": "Leisure",
+    "coordinates": "898,3508",
+    "description": "A newly-opened taphouse that debuts experimental local spirits, barrel-aged ales, and boutique wines straight from the cooper’s trade.  Its smoky-oak interior and nightly tastings draw connoisseurs citywide.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Bridgehead Tavern",
+	  "district": "Caskside",
+    "type": "Leisure",
+    "coordinates": "1478,4254",
+    "description": "Nestled at the foot of the western Blackspan bridge, this lively inn is famed for its riverside view and nightly “Bridge Barrel” tastings—experimental casks brought straight from Caskside’s cooperies. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Stave & Straw",
+	  "district": "Caskside",
+    "type": "Residential",
+    "coordinates": "534,3736",
+    "description": "A no-frills flophouse tucked nestled next to the outwer wall. For a handful of coppers, local coopers, log-drivers and mash-house hands secure a plank bed and a straw sack—but the lingering tang of fermenting grain promises little in the way of peaceful slumber.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Westgate Terrace",
+	  "district": "Newbrick Ward",
+    "type": "Structural",
+    "coordinates": "1188,4550",
+    "description": "The long brick thoroughfare leading from the city’s western gate into Newbrick, lined with elm trees and early morning bakeries.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Teamsters Unionhall",
+	  "district": "Newbrick Ward",
+    "type": "Civic",
+    "coordinates": "1386,4488",
+    "description": "A stout, circular brick lodge by the riverbank where log-drivers, cart-masters and haulers gather for wage negotiations, equipment exchanges and nightly camaraderie. Its broad colonnade echoes with the clank of harnesses and the thud of empty barrels.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Settlers’ Market",
+	  "district": "Newbrick Ward",
+    "type": "Craft",
+    "coordinates": "1524,4520",
+    "description": "Held daily in Market Plaza, farmers and artisans haggle over fresh fruit, crafted wares and other goods shipped in via the Timber Road or the River Koln.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Riverstone Shrine",
+	  "district": "Newbrick Ward",
+    "type": "Religious",
+    "coordinates": "1638,4698",
+    "description": "A gleaming marble temple by the riverside, where bargemen and millers leave votive stones for good fortune.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Riverstone Park",
+	  "district": "Newbrick Ward",
+    "type": "Civic",
+    "coordinates": "1712,4838",
+    "description": "A landscaped greenbelt stretching between the shrine and the river wall, dotted with benches hewn from Koln’s own white marble.  Flowerbeds of blue irises sway in the breeze, and a trickling fountain of river-worn stone offers a quiet retreat for families and passers-by.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Brickwall Flats",
+	  "district": "Newbrick Ward",
+    "type": "Residential",
+    "coordinates": "732,4346",
+    "description": "A compact tenement block near the Westgate, offering modest rooms to craft apprentices and seasonal laborers.",
     "image": "",
     "permalink": ""
   }

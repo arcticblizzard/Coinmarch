@@ -79,10 +79,14 @@
   {
     "name": "Caskside",
     "type": "Craft",
-    "summary": "",
+    "summary": "A bustling artisan quarter on the western bank of the Koln River, Caskside rose up when Kolnmark spilled beyond its old walls.  Its heartbeat is cooperage—barrel-making for beer, wine and spirits—and the breweries, distilleries, and cellars that crowd its narrow lanes.  The Caskside Docks handle the inflow of specialty goods and the outflow of premier potables, making this district the city’s craft and liquid-export hub.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "cooperage",
+      "brewing",
+      "docks",
+      "artisan",
+      "riverine"
     ],
     "coordinates": [
       [1544,4250], [1412,4312], [1232,3922], [1110,3778], [626,4222],
@@ -391,10 +395,14 @@
   {
     "name": "Newbrick Ward",
     "type": "Residential",
-    "summary": "",
+    "summary": "A garden-lined neighborhood on the western bank of the Koln River, Newbrick Ward grew up when Kolnmark’s city walls pushed westward.  It links the Westgate to the Blackspans via the busy Timber Road—where log-drivers, merchants and craftsmen stream upriver.  Though a few workshops and a large riverside shrine dot its lanes, Newbrick remains chiefly a place to live: tidy brick terraces, modest townhouses and winding lanes leading home.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "suburban",
+      "market",
+      "shrine",
+      "timber‐road",
+      "craftsmen"
     ],
     "coordinates": [
       [1560,4320], [1412,4350], [1224,3932], [1096,3786], [624,4226],

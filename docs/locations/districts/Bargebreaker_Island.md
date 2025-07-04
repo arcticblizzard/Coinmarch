@@ -2,11 +2,35 @@
 
 **District Type**: Industrial
 
-**Short Description**: A small, craggy island located at the mouth of the river, it houses some of the less desirable industry.
+## Summary
 
-**Long Description**: A small, craggy island located at the mouth of the river, it houses some of the less desirable industry. This district plays an important role in the city's industrial activities, characterized by its unique atmosphere and specialized functions.
+A soot-blackened, craggy island nestled in the mouth of the Koln River, Bargebreaker Island connects the East and West banks of Kolnmark via the Blackspans—two ancient stone bridges, darkened by generations of coal smoke. A place of industry and consequence, the island has a reputation as black as its buildings.
 
-**Tags**: district, industrial
+## History & Role
+
+Once little more than a wind-blasted rock at the river’s mouth, Bargebreaker gained importance when the twin Blackspan bridges were built to span the city’s widening trade corridor. Since then, it’s served as Kolnmark’s industrial heart and bottleneck—a place where laborers crush coal and hew timber by the ton. It also houses Rook’s Rest, the city’s only prison, an ominous square-built keep known for its layered guard houses and efficient silence.
+
+## Economy & Activity
+
+Bargebreaker thrives on two brutal trades: coal-making and timber milling. The clangor of saws, the crash of logs, and the churn of smoke define daily life. On the southern shore, logjams regularly form and break apart with terrifying force—managed only by fearless log drivers dancing atop the chaos.
+
+## Inhabitants
+
+The island's residents are few and hard-bitten—mostly laborers, wardens, and those with nowhere else to go. Even the guards of Rook’s Rest rarely live elsewhere. The air is always grimy, and every surface seems to carry the city's ash. Visitors arrive with business, not curiosity.
+
+## Notable Locations
+
+- **Rook’s Rest** – A square, compact stone prison at the island’s core, guarded within and without. Only one gate in—and none out, for most.
+- **The Blackspans** – Twin stone bridges, ancient and scarred, linking the island to both city banks. Caravans and patrols cross at all hours.
+- **Sootsmiths** – The various businesses located on the South side of the island that concern themselves with the generation and sale of charcoal to city residents.
+- **Southern Logflume** – A churning stretch of river choked by jammed timber, cleared only by daring drivers and sharp poles.
+- **Drummond's Mill** - A large and sprawling lumbermill found at the Southern edge of the Island. Drummond's has ruthlessly consumed all of the nearby independent mills in a bid to control the industry.
+- **Logjumpers** - A local tavern bearing the nickname of one of the major careers of the island. Usually full of off-shift workers from the mill or other businesses.
+- **Drivers Union Hall** - Recently renovated after a destructive fire, it contains the various offices of union administrators and a meeting hall for local log drivers.
+- **Breaker Beacon** - A short, soot-stained lighthouse at the North end of the island. Has long served as a navigation tool for mariners and barge captains.
+
+## Tags
+industrial, soot-covered, prison, dangerous, riverine
 
 <details>
 <summary>Coordinates</summary>

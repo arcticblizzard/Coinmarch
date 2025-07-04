@@ -4,7 +4,7 @@
 	"district": "Bargebreaker Island",
     "type": "Civic",
     "coordinates": "1895,4243",
-    "description": "A squat, fortified jail atop a rocky island in the river — blackened by years of soot deposits.",
+    "description": "A square, compact stone prison at the island’s core, guarded within and without. Only one gate in—and none out, for most.",
     "image": "",
     "permalink": ""
   },
@@ -58,7 +58,7 @@
 	"district": "Bargebreaker Island",
     "type": "Industrial",
     "coordinates": "2042,4363",
-    "description": "Lumber mill. Receives logs from upriver and processes them into building materials.",
+    "description": "A large and sprawling lumbermill found at the Southern edge of the Island. Drummond's has ruthlessly consumed all of the nearby independent mills in a bid to control the industry.",
     "image": "",
     "permalink": ""
   },
@@ -76,7 +76,7 @@
 	"district": "Bargebreaker Island",
     "type": "Industrial",
     "coordinates": "1870,4339",
-    "description": "Charcoal kilns, takes waste lumber from the mill to create the charcoal that heats the city.",
+    "description": "The various businesses located on the South side of the island that concern themselves with the generation and sale of charcoal to city residents.",
     "image": "",
     "permalink": ""
   },
@@ -103,7 +103,16 @@
 	"district": "Bargebreaker Island",
     "type": "Structural",
     "coordinates": "2166,4205",
-    "description": "Connects the city across the river, they are named for their black, sooty appearance due to proximity to the Sootsmiths.",
+    "description": "Twin stone bridges, ancient and scarred, linking the island to both city banks. Caravans and patrols cross at all hours.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Blackspans",
+	"district": "Bargebreaker Island",
+    "type": "Structural",
+    "coordinates": "1632,4270",
+    "description": "Twin stone bridges, ancient and scarred, linking the island to both city banks. Caravans and patrols cross at all hours.",
     "image": "",
     "permalink": ""
   },
@@ -149,6 +158,42 @@
     "type": "Structural",
     "coordinates": "5891,2643",
     "description": "Ramped causeway that connects the Lower and Upper cities.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Southern Logflume",
+	  "district": "Bargebreaker Island",
+    "type": "Industrial",
+    "coordinates": "1942,4674",
+    "description": "Also called the Widowmaker, it is the shifting mass of logs queued for processing that oftentimes chokes the River Koln. Site of some of the most daring and/or stupid of Coinmarches residents.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Logjumpers",
+	  "district": "Bargebreaker Island",
+    "type": "Leisure",
+    "coordinates": "1912,4110",
+    "description": "A local tavern bearing the nickname of one of the major careers of the island. Usually full of off-shift workers from the mill or other businesses.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Drivers Union Hall",
+	  "district": "Bargebreaker Island",
+    "type": "Civic",
+    "coordinates": "1810,4012",
+    "description": "Recently renovated after a destructive fire, it contains the various offices of union administrators and a meeting hall for local log drivers.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Breaker Beacon",
+	  "district": "Bargebreaker Island",
+    "type": "Civic",
+    "coordinates": "1826,3854",
+    "description": "A short, soot-stained lighthouse at the North end of the island. Has long served as a navigation tool for mariners and barge captains.",
     "image": "",
     "permalink": ""
   }

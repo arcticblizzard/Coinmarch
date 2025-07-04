@@ -2,7 +2,7 @@
   {
     "name": "Bannercrest",
     "type": "Civic",
-    "description": "Central governmental district with administrative offices.",
+    "summary": "",
     "tags": [
       "district",
       "civic"
@@ -19,10 +19,13 @@
   {
     "name": "Bargebreaker Island",
     "type": "Industrial",
-    "description": "A small, craggy island located at the mouth of the river, it houses some of the less desirable industry.",
+    "summary": "A soot-blackened, craggy island nestled in the mouth of the Koln River, Bargebreaker Island connects the East and West banks of Kolnmark via the Blackspans—two ancient stone bridges, darkened by generations of coal smoke. A place of industry and consequence, the island has a reputation as black as its buildings.",
     "tags": [
-      "district",
-      "industrial"
+      "industrial",
+      "soot-covered",
+      "prison",
+      "dangerous",
+      "riverine"
     ],
     "coordinates": [
       [1789,3767], [1762,3834], [1723,3894], [1684,3980], [1683,4053],
@@ -38,7 +41,7 @@
   {
     "name": "Breakbay Docks",
     "type": "Industrial",
-    "description": "Main docks of the city, central to commerce and industry.",
+    "summary": "",
     "tags": [
       "district",
       "industrial"
@@ -58,7 +61,7 @@
   {
     "name": "Callus Run",
     "type": "Craft",
-    "description": "Industrial and artisanal production hub.",
+    "summary": "",
     "tags": [
       "district",
       "craft"
@@ -76,7 +79,7 @@
   {
     "name": "Caskside",
     "type": "Craft",
-    "description": "The newest part of Kolnmark, overflow residences and shops sprang up on the West side of the river.",
+    "summary": "",
     "tags": [
       "district",
       "craft"
@@ -93,7 +96,7 @@
   {
     "name": "Clerk's Ward",
     "type": "Civic",
-    "description": "Administrative offices and bureaucratic centers.",
+    "summary": "",
     "tags": [
       "district",
       "civic"
@@ -109,7 +112,7 @@
   {
     "name": "Cliff Cove",
     "type": "Industrial",
-    "description": "Industrial area near the cliffs, with shipping facilities.",
+    "summary": "",
     "tags": [
       "district",
       "industrial"
@@ -127,7 +130,7 @@
   {
     "name": "Coinrest",
     "type": "Residential",
-    "description": "A wealthier district with secure residences.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -141,7 +144,7 @@
   {
     "name": "Crafthallow",
     "type": "Craft",
-    "description": "Major craft district with numerous workshops.",
+    "summary": "",
     "tags": [
       "district",
       "craft"
@@ -160,7 +163,7 @@
   {
     "name": "Dawnwatch",
     "type": "Leisure",
-    "description": "District known for scenic views and leisurely atmosphere.",
+    "summary": "",
     "tags": [
       "district",
       "leisure"
@@ -178,7 +181,7 @@
   {
     "name": "Dockshade",
     "type": "Leisure",
-    "description": "Entertainment district popular among dockworkers.",
+    "summary": "",
     "tags": [
       "district",
       "leisure"
@@ -196,7 +199,7 @@
   {
     "name": "Eastchain Docks",
     "type": "Industrial",
-    "description": "Main docks and industrial waterfront of the city.",
+    "summary": "",
     "tags": [
       "district",
       "industrial"
@@ -217,7 +220,7 @@
   {
     "name": "Eastcliff Row",
     "type": "Residential",
-    "description": "Quiet and scenic residential district overlooking the cliffs.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -236,7 +239,7 @@
   {
     "name": "Eastmere",
     "type": "Residential",
-    "description": "A tranquil residential district by the water.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -255,7 +258,7 @@
   {
     "name": "Envoy's Rest",
     "type": "Civic",
-    "description": "Diplomatic district housing foreign dignitaries.",
+    "summary": "",
     "tags": [
       "district",
       "civic"
@@ -270,7 +273,7 @@
   {
     "name": "Garrison Row",
     "type": "Martial",
-    "description": "Military housing and barracks for mercenary companies.",
+    "summary": "",
     "tags": [
       "district",
       "martial"
@@ -286,7 +289,7 @@
   {
     "name": "Gatefold",
     "type": "Residential",
-    "description": "An affluent residential district.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -302,7 +305,7 @@
   {
     "name": "Goldedge",
     "type": "Residential",
-    "description": "Wealthy residential district, home to city's elite.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -317,7 +320,7 @@
   {
     "name": "Hearthrow",
     "type": "Residential",
-    "description": "A sprawling residential area with busy marketplaces.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -334,7 +337,7 @@
   {
     "name": "Highforge",
     "type": "Craft",
-    "description": "Prestigious craft district known for high-quality goods.",
+    "summary": "",
     "tags": [
       "district",
       "craft"
@@ -350,7 +353,7 @@
   {
     "name": "Highmarch",
     "type": "Residential",
-    "description": "Upper-class residential area known for its elegant homes.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -372,7 +375,7 @@
   {
     "name": "Ironhook",
     "type": "Craft",
-    "description": "Craft district specializing in metalworking.",
+    "summary": "",
     "tags": [
       "district",
       "craft"
@@ -388,7 +391,7 @@
   {
     "name": "Newbrick Ward",
     "type": "Residential",
-    "description": "The newest part of Kolnmark, overflow residences and shops sprang up on the West side of the river.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -404,7 +407,7 @@
   {
     "name": "Pilgrim's Way",
     "type": "Leisure",
-    "description": "District catering to religious travelers and pilgrims.",
+    "summary": "",
     "tags": [
       "district",
       "leisure"
@@ -419,7 +422,7 @@
   {
     "name": "Swordcrest",
     "type": "Martial",
-    "description": "Military district, home to officers and high-ranking soldiers.",
+    "summary": "",
     "tags": [
       "district",
       "martial"
@@ -437,7 +440,7 @@
   {
     "name": "The Point",
     "type": "Civic",
-    "description": "A key administrative and governmental district.",
+    "summary": "",
     "tags": [
       "district",
       "civic"
@@ -454,7 +457,7 @@
   {
     "name": "The Stumble",
     "type": "Leisure",
-    "description": "Popular district for entertainment and nightlife.",
+    "summary": "",
     "tags": [
       "district",
       "leisure"
@@ -468,7 +471,7 @@
   {
     "name": "The Tangle",
     "type": "Residential",
-    "description": "An older, densely populated residential district.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -487,7 +490,7 @@
   {
     "name": "Tumbledown",
     "type": "Residential",
-    "description": "Dilapidated and impoverished residential area.",
+    "summary": "",
     "tags": [
       "district",
       "residential"
@@ -505,7 +508,7 @@
   {
     "name": "Twinreach",
     "type": "Craft",
-    "description": "Bustling district known for artisan workshops.",
+    "summary": "",
     "tags": [
       "district",
       "craft"
@@ -521,7 +524,7 @@
   {
     "name": "Velvet Court",
     "type": "Leisure",
-    "description": "Luxurious entertainment and leisure area.",
+    "summary": "",
     "tags": [
       "district",
       "leisure"
@@ -537,7 +540,7 @@
   {
     "name": "Wallwrights",
     "type": "Craft",
-    "description": "Known for workshops and skilled laborers.",
+    "summary": "",
     "tags": [
       "district",
       "craft"
@@ -551,7 +554,7 @@
   {
     "name": "Windrest",
     "type": "Residential",
-    "description": "Peaceful residential district popular with families.",
+    "summary": "",
     "tags": [
       "district",
       "residential"

@@ -6,6 +6,7 @@
   <title>Kolnmark Map</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!--https://programminghead.com/Projects/find-coordinates-of-image-online.html-->
   <style>
     html, body {
       margin: 0;
@@ -201,7 +202,7 @@
       const popupContent = `
         <h3>${d.name}</h3>
         <p><strong>Type:</strong> ${d.type}</p>
-        <p>${d.description}</p>
+        <p>${d.summary}</p>
         ${tagLine}
         ${linkLine}
       `;

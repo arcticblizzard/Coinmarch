@@ -2,11 +2,35 @@
 
 **District Type**: Industrial
 
-**Short Description**: Main docks and industrial waterfront of the city.
+## Summary
 
-**Long Description**: Main docks and industrial waterfront of the city. This district plays an important role in the city's industrial activities, characterized by its unique atmosphere and specialized functions.
+A sprawling web of quays, piers and slipways on the east bank of the River Koln, Eastchain Docks stretches from the Blackspans up to the Point. Two shanty-strewn isles lie offshore—home to ramshackle fishing boats and squatters beyond city law—while a bustling southern market spills onto the waterfront, alive with exotic wares from distant seas.
 
-**Tags**: district, industrial
+## History & Role
+
+Once a single pier for fishing craft, Eastchain grew with Kolnmark’s ambition to import timber, ore and spices from upriver and abroad. Land reclamation and hastily built jetties turned the shoreline into a labyrinth of docking points. The city’s own watch rarely ventures into its smaller isles, earning them a reputation as lawless refuges.
+
+## Economy & Activity
+
+Eastchain Docks is Kolnmark’s mercantile artery: cranes and capstans turn sunrise into loaded quays, disgorging exotic imports—spices, silks, rare timber—into the southern market stalls. Lumber and coal shift hour by hour from holds to barges bound upriver, while skiffs from The Pockmarks deliver fresh catch and contraband around the tide. Inland, shipwrights ply saw and hammer to mend hulls battered by storms, as ropemakers and sail-stitchers supply every need. At sunset, waterfront taverns and open-air stalls roar with haggling voices, sealing deals for the next voyage under the glow of lanterns.
+
+## Inhabitants
+
+Dock-workers, ship captains and idle hands share cramped tenements in upstairs lofts. The offshore isles harbor families eking out a living from river harvests, and a loose collection of smugglers and freebooters who pay no dues.
+
+## Notable Locations
+
+- **Eastchain Docks** - Eastchain Docks is a sprawling network of quays, piers, and slipways lining the east bank of the Koln River—where merchant vessels, fishing boats, and makeshift shanties intermingle beneath the watchful cranes and market lanterns.
+- **The Pockmarks** –  Two overcrowded isles offshore, ringed by mudflats, where improvised huts and beached longboats cluster, inhabited by fishermen, squatters and those seeking refuge from the city’s reach.
+- **Gilded Crane Market** – A string of open-air stalls under lantern canopies, purveying foreign wares and attracting buyers from across the city.  
+- **Shipwright Row** – A rutted lane of tide-slicked workshops and lumber yards, alive with the ring of hammers on iron and the saw of blade on oak as master shipwrights and apprentices hew and plank vessels of every size.  
+- **Cargo Staging Grounds** – A broad, open yard crisscrossed by rails and block-and-tackle, piled high with crates of coal, barrels of oil, exotic imports and raw timber—each bay watched by clerks, cranes and the idle eyes of hired muscle.  
+- **The Anchor’s Rest** – A low-ceilinged sailors’ lounge tucked between two busy docks, its lantern-lit common room thick with tar smoke and salt air, where mariners swap sea-shanties, tall tales and the day’s best bets over brimming mugs of grog.
+- **Temple of the Silver Tides** – A stilted wooden pavilion rising above the mudflats, its rough-hewn beams and bleached driftwood walls hung with carved figureheads and weathered fishing floats. Inside, a slatted floor lets river breezes carry the scent of salt and incense, where seafarers slip offerings of shell, oar-shaft and coin into creaking prayer chests for tide-fair winds and safe returns.
+
+## Tags
+
+industrial, docks, market, shanty-town, shipwrights, lawless
 
 <details>
 <summary>Coordinates</summary>

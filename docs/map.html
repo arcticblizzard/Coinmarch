@@ -145,12 +145,33 @@
   function renderDistricts(districts) {
     districtLayers.forEach(layer => map.removeLayer(layer));
     districtLayers.length = 0;
+
     districts.forEach(d => {
       const flippedCoords = d.coordinates.map(([x, y]) => [imageHeight - y, x]);
-      const popupContent = `<h3>${d.name}</h3><p><strong>Type:</strong> ${d.type}</p><p>${d.description}</p>`;
+
+      const tagLine = d.tags && d.tags.length > 0
+        ? `<p><em>🏷️</em> ${d.tags.join(", ")}</p>`
+        : "";
+
+      const linkLine = d.link
+        ? `<p><a href="${d.link.replace(/\.md$/, '').replace(/^docs\//, '/Coinmarch/')}" target="_blank">Read more...</a></p>`
+        : "";
+
+      const popupContent = `
+        <h3>${d.name}</h3>
+        <p><strong>Type:</strong> ${d.type}</p>
+        <p>${d.description}</p>
+        ${tagLine}
+        ${linkLine}
+      `;
+
       const borderColor = districtTypeColors[d.type?.toLowerCase()] || "#999";
+
       const poly = L.polygon(flippedCoords, {
-        color: borderColor, weight: 3, fillColor: borderColor, fillOpacity: 0.08
+        color: borderColor,
+        weight: 3,
+        fillColor: borderColor,
+        fillOpacity: 0.08
       }).addTo(map)
         .bindPopup(popupContent)
         .on('click', () => {
@@ -166,9 +187,13 @@
           });
         })
         .bindTooltip(d.name, {
-          permanent: false, direction: 'top',
-          className: 'district-hover-label', opacity: 0.9, sticky: true
+          permanent: false,
+          direction: 'top',
+          className: 'district-hover-label',
+          opacity: 0.9,
+          sticky: true
         });
+
       districtLayers.push(poly);
     });
   }

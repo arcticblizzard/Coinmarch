@@ -95,7 +95,7 @@
     zoomSnap: 0.5
   });
   const bounds = [[0, 0], [imageHeight, imageWidth]];
-  L.imageOverlay("images/kolnmark_noLabels.jpg", bounds).addTo(map);
+  L.imageOverlay("images/kolnmark_Labels.jpg", bounds).addTo(map);
   map.fitBounds(bounds);
 
   const allMarkers = [];
@@ -141,7 +141,7 @@
         const adjustedCoords = [imageHeight - y, x];
         const popupContent = `
           <h3>${loc.title}</h3>
-          <p><strong>Type:</strong> ${loc.type}<br><strong>Region:</strong> ${loc.region}</p>
+          <p><strong>Type:</strong> ${loc.type}<br><strong>District:</strong> ${loc.district}</p>
           <p>${loc.description}</p>
           ${loc.image ? `<img src="${loc.image}" alt="${loc.title}"/>` : ""}
           <p><a href="${loc.permalink}" target="_blank">More Info</a></p>

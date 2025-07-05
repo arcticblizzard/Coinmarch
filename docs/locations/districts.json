@@ -104,7 +104,7 @@
     "link": "docs/locations/districts/Caskside.md"
   },
   {
-    "name": "Clerk’s Ward",
+    "name": "Clerk's Ward",
     "type": "Civic",
     "summary": "A compact enclave anchoring Kolnmark’s lower city core, Clerk’s Ward faces the broad boulevards and the leafy expanse of the Greenwold. At its heart stands the walled Hall of Records—a stately courtyarded complex where public ledgers, charters, and petitions are filed and reviewed. Here the pulse of daily civic life beats in the shuffle of parchment and the measured steps of robed clerks.",
     "tags": [
@@ -143,10 +143,14 @@
   {
     "name": "Coinrest",
     "type": "Residential",
-    "summary": "",
+    "summary": "Coinrest is a spacious, elegant residential quarter nestled between the leafy expanse of the Greenwold to the northwest and the towering silhouette of the Spire to the southeast. Renowned for its stately homes and quiet avenues, it is home to the city’s clergy and master artisans.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "upscale",
+      "clergy",
+      "artisans",
+      "spire-adjacent",
+      "garden-facing"
     ],
     "coordinates": [
       [4156,4698], [4166,5190], [5320,5190], [5312,5152], [4704,4462],
@@ -440,10 +444,14 @@
   {
     "name": "Pilgrim's Way",
     "type": "Leisure",
-    "summary": "",
+    "summary": "Nestled in the shadow of the Spire along the pilgrims’ thoroughfare, Pilgrim’s Way caters to well-heeled visitors making their devotions. Elegant inns, tranquil gardens, and refined taverns line the broad, flag-stone street, offering respite, fine fare, and exclusive souvenirs to clergy, nobles, and foreign dignitaries.",
     "tags": [
-      "district",
-      "leisure"
+      "leisure",
+      "pilgrimage",
+      "upscale",
+      "gardens",
+      "inns",
+      "religious-tourism"
     ],
     "coordinates": [
       [4745,4438], [5359,5152], [5381,5152], [5427,5114], [5343,4846],
@@ -579,12 +587,15 @@
     "link": "docs/locations/districts/Velvet_Court.md"
   },
   {
-    "name": "Wallwrights",
+    "name": "Wallwrights District",
     "type": "Craft",
-    "summary": "",
+    "summary": "A narrow ribbon of workshops and stalls pressed up against Kolnmark’s ancient wall, the Wallwrights District specializes in the fine stone-, glass-, and metal-work that outfits the Spire and the city’s wealthier quarters. A bustling market plaza hums day and night with merchants trading luxury embellishments, architectural fittings, and the rarest building materials.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "luxury",
+      "stained-glass",
+      "stonework",
+      "market"
     ],
     "coordinates": [
       [4167,5238], [4167,5590], [4723,5592], [5221,5472], [5375,5338],

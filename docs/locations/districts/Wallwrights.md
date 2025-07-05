@@ -1,4 +1,4 @@
-# Wallwrights District
+# Wallwrights
 
 **District Type**: Craft
 

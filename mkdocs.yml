@@ -5,6 +5,11 @@ theme:
 extra_css:
   - styles/overrides.css
 
+plugins:
+  - redirects:
+      redirect_maps:
+        index.md : player-introduction/welcome.md
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -31,9 +36,9 @@ nav:
       - Gatefold: locations/districts/Gatefold.md
       - Wallwrights: locations/districts/Wallwrights.md
       - Coinrest: locations/districts/Coinrest.md
-      - Clerk’s Ward: locations/districts/Clerk’s_Ward.md
+      - Clerk's Ward: locations/districts/Clerk's_Ward.md
       - Breakbay Docks: locations/districts/Breakbay_Docks.md
-      - Pilgrim’s Way: locations/districts/Pilgrim’s_Way.md
+      - Pilgrim's Way: locations/districts/Pilgrim's_Way.md
       - Eastcliff Row: locations/districts/Eastcliff_Row.md
       - Ironhook: locations/districts/Ironhook.md
       - The Stumble: locations/districts/The_Stumble.md
@@ -48,7 +53,7 @@ nav:
       - Crafthallow: locations/districts/Crafthallow.md
       - Velvet Court: locations/districts/Velvet_Court.md
       - Eastmere: locations/districts/Eastmere.md
-      - Envoy’s Rest: locations/districts/Envoy’s_Rest.md
+      - Envoy's Rest: locations/districts/Envoy's_Rest.md
       - Dawnwatch: locations/districts/Dawnwatch.md
       - Windrest: locations/districts/Windrest.md
       - Highforge: locations/districts/Highforge.md

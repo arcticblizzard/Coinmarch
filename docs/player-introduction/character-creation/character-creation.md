@@ -2,6 +2,8 @@
 
 Changes have been made to some of the Skills, Careers, and Rules of the Warlock! system to better fit the focus and tone of this campaign. Please use the guide below, along with the Warlock! Rulebook (starts on page 10) to create your character.
 
+[Download the Character Sheet PDF](/Coinmarch/handouts/character_sheet.pdf)
+
 ---
 
 ## Initial Skills

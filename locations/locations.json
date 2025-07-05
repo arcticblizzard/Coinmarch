@@ -741,5 +741,150 @@
     "description": "A modest white-stone shrine set amid stables and smithies. Artisans pause here each morning to leave a chip of iron or clay in thanks for steady hands.",
     "image": "",
     "permalink": ""
+  },
+  {
+    "title": "Trinity Hall",
+	  "district": "Coinrest",
+    "type": "Religious",
+    "coordinates": "5253,5151",
+    "description": "A triangular service center at the Spire’s lower entrance, housing the Spire’s administrative offices, a clerical registry, and a small public chapel; its three wings converge on a central atrium where aid and counsel are offered to pilgrims and city servants.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Silver Court",
+	  "district": "Coinrest",
+    "type": "Residential",
+    "coordinates": "4791,4804",
+    "description": "Four stately town-homes arranged around a cobblestone courtyard, where clipped hedges hide iron-bound presses used by local guild-artisans.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Roundhouse",
+	  "district": "Coinrest",
+    "type": "Religious",
+    "coordinates": "4208,4738",
+    "description": "A circular pavilion on the district’s West flank, its marble colonnade opening onto the Greenwold for morning devotions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Portico Manor",
+	  "district": "Coinrest",
+    "type": "Residential",
+    "coordinates": "4476,4528",
+    "description": "A large square mansion topped by a grand portico overlooking the northern gardens; once a private retreat for the Archbishop, now used for formal receptions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Spirewright’s Forge",
+	  "district": "Coinrest",
+    "type": "Craft",
+    "coordinates": "4911,5161",
+    "description": "A modest brick workshop near the Spire’s outer gate where master blacksmiths forge the iron fittings and brass inlays used in the tower’s doors and bells.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Acolyte’s Apothecary",
+	  "district": "Coinrest",
+    "type": "Craft",
+    "coordinates": "4343,5101",
+    "description": "A half-timbered shop set into a row of clerical cottages, offering scented oils, blessed incense, and simple remedies to priests and visitors.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Market Gate Plaza",
+	  "district": "Wallwrights",
+    "type": "Craft",
+    "coordinates": "4416,5348",
+    "description": "The heart of Wallwrights, this paved square rings with stalls and covered booths selling cut stone, stained-glass shards, polished metal fittings, and imported decorative veneers. A stone fountain at its center depicts the wall’s mythical founding.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Spire Stoneworks",
+	  "district": "Wallwrights",
+    "type": "Craft",
+    "coordinates": "5179,5314",
+    "description": "A long row of workshops beneath the shadow of the Spire, where master masons hew and finish the blocks destined to repair or expand the Spire. Their dust motes drift into the street like snow.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gleamsmith Forge",
+	  "district": "Wallwrights",
+    "type": "Craft",
+    "coordinates": "4193,5291",
+    "description": "A turreted building of blackened brick where glass-blowers and metal-casters share a single great chimney. Here the colored window panels and gilded grilles for the Spire take form.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Ivorycarver’s Row",
+	  "district": "Wallwrights",
+    "type": "Craft",
+    "coordinates": "4630,5381",
+    "description": "A narrow lane of cramped shops specializing in carved bone, ivory, and mother-of-pearl fittings—mantle inlays, reliquary panels, and high-status door pulls. Few craftsmen earn the prestige (or price) of a true “celeste sculptor.”",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Idle Implement",
+	  "district": "Wallwrights",
+    "type": "Leisure",
+    "coordinates": "4740,5291",
+    "description": "A two-story timber-and-stone guild hall at the district’s southern end, with a roaring hearth, long communal tables, and billiards. Here masons, smiths, and glass‐workers unwind over hearty stews and ale, swap techniques, and recruit journeymen for new commissions.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "The Silver Lantern Inn",
+	  "district": "Pilgrim's Way",
+    "type": "Leisure",
+    "coordinates": "5297,5048",
+    "description": "A five-story granite lodge whose private balconies offer direct views of the Spire’s lantern chamber. Known for its violet-scented baths and “Pathfinder’s Suite.”",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Spireview Pavilion",
+	  "district": "Pilgrim's Way",
+    "type": "Leisure",
+    "coordinates": "4934,4598",
+    "description": "An open-air tea garden perched atop a gradual rise; fountains whisper beneath trellises of jasmine and tea-leaf topiary.”",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Sanctum Steps",
+	  "district": "Pilgrim's Way",
+    "type": "Religious",
+    "coordinates": "5061,4404",
+    "description": "A graceful flight of carved marble stairs leading to a halved chapel façade. Pilgrims light floating lanterns each dawn in the reflecting pool below.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Celestial Quill Scriptorium",
+	  "district": "Pilgrim's Way",
+    "type": "Craft",
+    "coordinates": "4827,4378",
+    "description": "Tucked into the northern edge of Pilgrim’s Way where it meets the Clerk’s Ward, this elegant workshop specializes in hand-inscribed prayer scrolls, gilded hymnals, and bespoke devotional pens. Its stained-glass windows glow softly at dusk, drawing clerks and clergy seeking finely crafted liturgical implements.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Northern Star Auditorium",
+	  "district": "Pilgrim's Way",
+    "type": "Leisure",
+    "coordinates": "5039,4108",
+    "description": "A sector-shaped hall on the district’s northern fringe, its sweeping curved façade facing the Clerk’s Ward. Inside, tiered benches fan out from a raised dais beneath a vaulted, lantern-lit ceiling. Renowned for its crystalline acoustics, it hosts orations, sacred choirs, and intimate recitals in the Spire’s shadow.",
+    "image": "",
+    "permalink": ""
   }
 ]

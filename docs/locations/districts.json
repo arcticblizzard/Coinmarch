@@ -104,7 +104,7 @@
     "link": "docs/locations/districts/Caskside.md"
   },
   {
-    "name": "Clerk's Ward",
+    "name": "Clerk’s Ward",
     "type": "Civic",
     "summary": "A compact enclave anchoring Kolnmark’s lower city core, Clerk’s Ward faces the broad boulevards and the leafy expanse of the Greenwold. At its heart stands the walled Hall of Records—a stately courtyarded complex where public ledgers, charters, and petitions are filed and reviewed. Here the pulse of daily civic life beats in the shuffle of parchment and the measured steps of robed clerks.",
     "tags": [
@@ -125,10 +125,14 @@
   {
     "name": "Cliff Cove",
     "type": "Industrial",
-    "summary": "",
+    "summary": "Cliff Cove is the northernmost industrial foothold of the lower city, wedged between the Blade Sea’s rocky inlet, the high eastern cliffs, and the western piers of the old causeway. A single deep-water dock and a hidden beach haul-out keep the lifeblood of trade flowing up to the heights above, all bound behind a vigilant sea wall.",
     "tags": [
-      "district",
-      "industrial"
+      "industrial",
+      "dock",
+      "sea-wall",
+      "haul-stations",
+      "engineers",
+      "Blade-Sea"
     ],
     "coordinates": [
       [6036,1432], [6174,1640], [6236,1660], [6300,1772], [6338,1784],
@@ -245,10 +249,13 @@
   {
     "name": "Eastcliff Row",
     "type": "Residential",
-    "summary": "",
+    "summary": "A tiered ribbon of homes clinging to the cliff’s base and flanks, Eastcliff Row stretches north of the Spire, where sunlight scarce in the lower city finds purchase on its southern houses. Here, lower-income tenements rub shoulders with tidier middle-class dwellings, all overlooking the market stalls and mysterious warehouse at the cliff’s foot.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "mixed-income",
+      "cliffside",
+      "market",
+      "warehouse"
     ],
     "coordinates": [
       [5431,5108], [5533,5106], [5613,5146], [5653,5206], [5671,5120],
@@ -298,10 +305,13 @@
   {
     "name": "Garrison Row",
     "type": "Martial",
-    "summary": "",
+    "summary": "A compact, fortress-like enclave at the foot of the Spine causeway, Garrison Row is home to Kolnmark’s professional solders-for-hire. Walled barracks, training yards, and communal facilities cluster along narrow, regimented streets.",
     "tags": [
-      "district",
-      "martial"
+      "martial",
+      "barracks",
+      "mercenary",
+      "training",
+      "communal"
     ],
     "coordinates": [
       [5701,2542], [5705,3246], [5801,3298], [5891,3238], [5939,3022],
@@ -408,10 +418,13 @@
   {
     "name": "Ironhook",
     "type": "Craft",
-    "summary": "",
+    "summary": "Perched on the approach to the Spine and shadowed by the Breakbay cliffs, Ironhook is the city’s premier armorer and outfitter district. Its workshops and caverns churn day and night to supply the mercenaries of Garrison’s Row with weapons, armor, and provisions.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "mercenary-supply",
+      "forge",
+      "storage",
+      "cliffside"
     ],
     "coordinates": [
       [5055,4060], [5191,4170], [5191,4198], [5287,4242], [5341,4170],
@@ -442,7 +455,7 @@
     "link": "docs/locations/districts/Newbrick_Ward.md"
   },
   {
-    "name": "Pilgrim's Way",
+    "name": "Pilgrim’s Way",
     "type": "Leisure",
     "summary": "Nestled in the shadow of the Spire along the pilgrims’ thoroughfare, Pilgrim’s Way caters to well-heeled visitors making their devotions. Elegant inns, tranquil gardens, and refined taverns line the broad, flag-stone street, offering respite, fine fare, and exclusive souvenirs to clergy, nobles, and foreign dignitaries.",
     "tags": [
@@ -502,10 +515,13 @@
   {
     "name": "The Stumble",
     "type": "Leisure",
-    "summary": "",
+    "summary": "A cramped, rowdy leisure quarter wedged between Breakbay Docks and Garrison Row, The Stumble caters almost exclusively to the city’s hired swords. Cheap lodgings, boisterous taverns, and back-alley diversions draw mercenaries off duty into its lantern-lit streets.",
     "tags": [
-      "district",
-      "leisure"
+      "leisure",
+      "mercenary",
+      "tavern",
+      "market",
+      "brawling"
     ],
     "coordinates": [
       [5538,3286], [5618,3364], [5686,3286], [5682,2550], [5642,2538],
@@ -539,10 +555,14 @@
   {
     "name": "Tumbledown",
     "type": "Residential",
-    "summary": "",
+    "summary": "Tumbledown is the poorest district in all of Kolnmark, tucked entirely beneath the shattered arches of the Giant’s Causeway. Precarious tenements and ramshackle huts cling to the cliff face and the immense, overhanging stone columns. Here, the city’s destitute eke out a living in near-perpetual shadow.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "destitute",
+      "shaded",
+      "dockside",
+      "underworld",
+      "makeshift"
     ],
     "coordinates": [
       [3236,1112], [3202,1206], [3214,1336], [3344,1426], [3352,1610],

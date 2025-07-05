@@ -45,29 +45,11 @@
     "permalink": ""
   },
   {
-    "title": "Cove Docks",
-	"district": "Cliff Cove",
-    "type": "Industrial",
-    "coordinates": "6212,1457",
-    "description": "Docks found near the underside of the causeway. Large haulropes move cargo between the docks and the upper city.",
-    "image": "",
-    "permalink": ""
-  },
-  {
     "title": "Drummond's Mill",
 	"district": "Bargebreaker Island",
     "type": "Industrial",
     "coordinates": "2042,4363",
     "description": "A large and sprawling lumbermill found at the Southern edge of the Island. Drummond's has ruthlessly consumed all of the nearby independent mills in a bid to control the industry.",
-    "image": "",
-    "permalink": ""
-  },
-  {
-    "title": "Salt Vaults",
-	"district": "Ironhook",
-    "type": "Industrial",
-    "coordinates": "5789,3337",
-    "description": "Cool underground chambers storing dried goods, salted fish, and grain.",
     "image": "",
     "permalink": ""
   },
@@ -86,15 +68,6 @@
     "type": "Industrial",
     "coordinates": "6046,2086",
     "description": "A raised ruined causeway used as a military parade and training ground.",
-    "image": "",
-    "permalink": ""
-  },
-  {
-    "title": "The Oath House",
-	"district": "The Stumble",
-    "type": "Martial",
-    "coordinates": "5618,3259",
-    "description": "Official contract hall where mercenary companies register and are paid. Found near Garrison Row.",
     "image": "",
     "permalink": ""
   },
@@ -884,6 +857,269 @@
     "type": "Leisure",
     "coordinates": "5039,4108",
     "description": "A sector-shaped hall on the district’s northern fringe, its sweeping curved façade facing the Clerk’s Ward. Inside, tiered benches fan out from a raised dais beneath a vaulted, lantern-lit ceiling. Renowned for its crystalline acoustics, it hosts orations, sacred choirs, and intimate recitals in the Spire’s shadow.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliffside Market",
+	  "district": "Eastcliff Row",
+    "type": "Craft",
+    "coordinates": "5679,4394",
+    "description": "A narrow promenade of stalls and lean-tos at the cliff’s base, trading everything from salted halibut to hand-woven baskets beneath the great stone overhang.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "Stonehaven Warehouse",
+	  "district": "Eastcliff Row",
+    "type": "Industrial",
+    "coordinates": "5618,4104",
+    "description": "A squat, windowless storehouse built against the cliffs’ northern wall. Rumored to hold imported silks and rare spices, its single barred door is watched day and night by hooded sentries.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Spireview Terrace",
+	  "district": "Eastcliff Row",
+    "type": "Residential",
+    "coordinates": "5562,4944",
+    "description": "A row of modest yet well-kept homes perched in full southern sun, offering their residents rare views of the Spire’s glowing lanterns at dusk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Westbank Tenements",
+	  "district": "Eastcliff Row",
+    "type": "Residential",
+    "coordinates": "5219,4458",
+    "description": "A block of sturdy brick walk-ups on the west side, arranged around a shared cobbled courtyard. Weathered murals of fishing boats decorate the walls, and every porch rings with the clatter of children’s games.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Salt Vaults",
+	  "district": "Ironhook",
+    "type": "Industrial",
+    "coordinates": "5789,3337",
+    "description": "A labyrinth of cliff-hewn caverns kept at near-freezing temperature, where perishable goods and salted provisions are stored in brine pools.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Ironhook Foundry",
+	  "district": "Ironhook",
+    "type": "Craft",
+    "coordinates": "5684,3419",
+    "description": "A ring of open-hearth forges spewing sparks into the twilight, renowned for casting the finest swords and halberds in Kolnmark.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Mercenary’s Anvil",
+	  "district": "Ironhook",
+    "type": "Craft",
+    "coordinates": "5253,3926",
+    "description": "A busy smithy and gear-shop whose walls are hung with custom blades, greaves and gauntlets made to order.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hook & Hammer Tavern",
+	  "district": "Ironhook",
+    "type": "Leisure",
+    "coordinates": "5472,3649",
+    "description": "A stout stone inn where sellswords convene over spiced ale; private booths upstairs serve as impromptu contract halls.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Common Arsenal",
+	  "district": "Garrison Row",
+    "type": "Martial",
+    "coordinates": "5931,2982",
+    "description": "A vaulted stone warehouse storing pikes, crossbows, training dummies, and raw kit for all companies.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Barracks Mess Hall",
+	  "district": "Garrison Row",
+    "type": "Leisure",
+    "coordinates": "5761,2962",
+    "description": "A timberhewn building equipped with long communal tables under pennants of every company, where stew and ale flow to the clamor of soldier’s tales.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Fires of Fortitude Sauna",
+	  "district": "Garrison Row",
+    "type": "Leisure",
+    "coordinates": "5819,2692",
+    "description": "A heated granite chamber rigged with steam jets and plunge pools, where steel-hardened troops cleanse bruises and bond in silence.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Steelhawks Company Barracks",
+	  "district": "Garrison Row",
+    "type": "Residential",
+    "coordinates": "5731,3192",
+    "description": "The Company barracks for the Steelhawks.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Black Banner Barracks",
+	  "district": "Garrison Row",
+    "type": "Residential",
+    "coordinates": "5730,3072",
+    "description": "The Company barracks for the Black Banner Company.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Crimson Vultures Barracks",
+	  "district": "Garrison Row",
+    "type": "Residential",
+    "coordinates": "5734,2596",
+    "description": "The Company barracks for the Crimson Vulture.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Oath House",
+	  "district": "The Stumble",
+    "type": "Martial",
+    "coordinates": "5618,3259",
+    "description": "A vast, multi-winged building with a central courtyard. Company banners line its halls, where mercenary captains sign contracts and share muster fees.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Twist",
+	  "district": "The Stumble",
+    "type": "Craft",
+    "coordinates": "5561,2764",
+    "description": "A tight cluster of wooden stalls at the district’s north edge. Vendors sell crusty bread, bartered armor scraps, and all-night gaming tables.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Broken Barrel Tavern",
+	  "district": "The Stumble",
+    "type": "Leisure",
+    "coordinates": "5666,3007",
+    "description": "A low-ceilinged dive with chipped tables and sour ale. Knife-throwing boards line the back wall, and coin-hungry barkeeps settle disputes with ale-soaked fists.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Velvet Fang",
+	  "district": "The Stumble",
+    "type": "Leisure",
+    "coordinates": "5645,2664",
+    "description": "A muli-story house of ill repute tucked into a narrow side-street. Crimson lanterns glow at its entrance; inside, silk drapes, perfumed air, and hushed laughter mask the desperate hopes—and darker deals—of its patrons.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "Cliff Cove Dock",
+	  "district": "Cliff Cove",
+    "type": "Industrial",
+    "coordinates": "6212,1457",
+    "description": "An impressive deep-water berth in the lower city’s northern reaches, lined with creaking cranes and warehouses.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Haulout",
+	  "district": "Cliff Cove",
+    "type": "Industrial",
+    "coordinates": "6955,1404",
+    "description": "A narrow strip of sand where small craft are beached for hull repairs and cleaning.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Sea Wall",
+	  "district": "Cliff Cove",
+    "type": "Structural",
+    "coordinates": "6621,1577",
+    "description": "A continuous stone barrier, heavily buttressed and built to protect the cove from heavy seas.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Causeway Lifts",
+	  "district": "Cliff Cove",
+    "type": "Industrial",
+    "coordinates": "6662,2000",
+    "description": "Two colossal winch-driven platforms that hoist cargo up the cliff face to the upper city.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Engineers’ Watchtower",
+	  "district": "Cliff Cove",
+    "type": "Industrial",
+    "coordinates": "6696,1950",
+    "description": "A squat stone tower overlooking the lifts, where shore engineers monitor every turn of the winch.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Rusted Anchor",
+	  "district": "Cliff Cove",
+    "type": "Leisure",
+    "coordinates": "6254,1620",
+    "description": "A weather-beaten tavern perched on pilings at the water’s edge. Inside, dockhands and lift-crews drink brine-spiced ales and swap sea-tales beneath lanterns made from old buoy glass.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Harborstone Forge",
+	  "district": "Cliff Cove",
+    "type": "Craft",
+    "coordinates": "6881,1724",
+    "description": "A smoke-blackened smithy tucked into the cliff’s base, where ironworkers hammer out anchors, pulley components, and lift-gear for the causeway stations. The clang of hammer on anvil echoes across the cove.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Embering Flare",
+	  "district": "Tumbledown",
+    "type": "Leisure",
+    "coordinates": "4165,1197",
+    "description": "A low-rent tavern built into a collapsed arch, its smoky hearth and potent spirits attract both fishermen and cutpurses after dark.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Shale Slip Docks",
+	  "district": "Tumbledown",
+    "type": "Industrial",
+    "coordinates": "3831,814",
+    "description": "Three makeshift jetties of fallen masonry where small fishing skiffs beach at low tide and fish change hands at dawn.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Columnar Market",
+	  "district": "Tumbledown",
+    "type": "Craft",
+    "coordinates": "3581,1464",
+    "description": "A cramped open market arrayed around a single massive Causeway pillar, trading in cast-off tools, worn clothing, and “miracle” tonics.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Hollowed Vault",
+	  "district": "Tumbledown",
+    "type": "Leisure",
+    "coordinates": "3145,1134",
+    "description": "A clandestine speakeasy carved into the Causeway’s footing; vaulted stone ceilings echo with laughter, music, and whispered transactions.",
     "image": "",
     "permalink": ""
   }

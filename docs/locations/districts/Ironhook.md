@@ -2,11 +2,32 @@
 
 **District Type**: Craft
 
-**Short Description**: Craft district specializing in metalworking.
+## Summary
 
-**Long Description**: Craft district specializing in metalworking. This district plays an important role in the city's craft activities, characterized by its unique atmosphere and specialized functions.
+Perched on the approach to the Spine and shadowed by the Breakbay cliffs, Ironhook is the city’s premier armorer and outfitter district. Its workshops and caverns churn day and night to supply the mercenaries of Garrison’s Row with weapons, armor, and provisions.
 
-**Tags**: district, craft
+## History & Role
+
+Ironhook grew from a handful of cliffside forges into a sprawling network of smithies and storage caverns after the Spine Gate was reinforced. As soldiers and sellswords swelled the ranks of Kolnmark’s lower garrison, they turned to Ironhook’s craftsmen to temper steel and store their hard-won spoils.
+
+## Economy & Activity
+
+The clang of hammers echoes through narrow alleys, where ironworkers hammer out blades, weld breastplates, and carve pike shafts. Beyond the forges, cool cavernous cellars hold salted meats and cheeses for long campaigns, while woodwrights fashion sturdy crates for transport.
+
+## Inhabitants
+
+Skilled blacksmiths, armorsmiths, coopers and salt miners populate Ironhook—each workshop a family business passed down for generations. Rough-haired apprentices haul ingots and logs by dawn, while song-filled taverns throttle with mercenaries at dusk.
+
+## Notable Locations
+
+- **Salt Valt** – A labyrinth of cliff-hewn caverns kept at near-freezing temperature, where perishable goods and salted provisions are stored in brine pools.  
+- **Ironhook Foundry** – A ring of open-hearth forges spewing sparks into the twilight, renowned for casting the finest swords and halberds in Kolnmark.  
+- **The Mercenary’s Anvil** – A busy smithy and gear-shop whose walls are hung with custom blades, greaves and gauntlets made to order.  
+- **Hook & Hammer Tavern** – A stout stone inn where sellswords convene over spiced ale; private booths upstairs serve as impromptu contract halls.
+
+## Tags
+
+craft, mercenary-supply, forge, storage, cliffside
 
 <details>
 <summary>Coordinates</summary>

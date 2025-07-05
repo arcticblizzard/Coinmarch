@@ -2,11 +2,34 @@
 
 **District Type**: Martial
 
-**Short Description**: Military housing and barracks for mercenary companies.
+## Summary
 
-**Long Description**: Military housing and barracks for mercenary companies. This district plays an important role in the city's martial activities, characterized by its unique atmosphere and specialized functions.
+A compact, fortress-like enclave at the foot of the Spine causeway, Garrison Row is home to Kolnmark’s professional solders-for-hire. Walled barracks, training yards, and communal facilities cluster along narrow, regimented streets.
 
-**Tags**: district, martial
+## History & Role
+
+Originally built to house the city’s standing militia, Garrison Row expanded with the rise of mercenary companies sworn to Kolnmark’s defense (and highest bidder). Its stout ramparts and watchtowers guard the Spine Gate and serve as staging ground for campaigns both inside and beyond the city walls.
+
+## Economy & Activity
+
+Armorers contrive plate and mail for daily drill. Drill yards rattle with footfall at dawn. Common stores issue weapons and cordage; mess halls serve hearty stews and black bread. As dusk falls, steam drifts from the sauna, and mercenaries unwind before posting new contracts.
+
+## Inhabitants
+
+– **Steelhawks Company**: Veteran spearmen in pale leather cloaks.  
+– **Black Banner Company**: Rough-cut sellswords famed for nightwatch duty.  
+– **Crimson Vultures**: Pike-and-shot mercenaries who answer only coin.  
+Support staff, quartermasters, and camp followers fill the barracks corridors; rotating sentries bolster guard duties.
+
+## Notable Locations
+
+- **The Common Arsenal** – A vaulted stone warehouse storing pikes, crossbows, training dummies, and raw kit for all companies.  
+- **Barracks Mess Hall** – Long communal tables under pennants of every company, where stew and ale flow to the clamor of soldier’s tales.  
+- **Fires of Fortitude Sauna** – A heated granite chamber rigged with steam jets and plunge pools, where steel-hardened troops cleanse bruises and bond in silence.  
+
+## Tags
+
+martial, barracks, mercenary, training, communal
 
 <details>
 <summary>Coordinates</summary>

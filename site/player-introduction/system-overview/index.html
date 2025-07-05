@@ -36,9 +36,6 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="nav-item">
-                                <a href="../.." class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
                                 <a href="../welcome/" class="nav-link">Welcome</a>
                             </li>
                             <li class="nav-item">
@@ -67,11 +64,6 @@
                         </ul>
 
                     <ul class="nav navbar-nav ms-md-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
                             <li class="nav-item">
                                 <a rel="prev" href="../welcome/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
@@ -172,9 +164,10 @@
 <ul>
 <li>
 <p>Move: characters may move up to around 10 feet cautiously as part of their action (free movement). If a character desired to move beyond that limitation, they must spend their action doing so. Characters taking the Move action can move one step between the ranges.</p>
-<p>:::info
-Distance is covered in an abstract method (Close, Nearby, Faraway, or Distant).
-:::</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Distance is covered in an abstract method (Close, Nearby, Faraway, or Distant).</p>
+</div>
 </li>
 <li>
 <p>Make a melee or ranged attack</p>
@@ -183,23 +176,26 @@ Distance is covered in an abstract method (Close, Nearby, Faraway, or Distant).
 <li>Take another meaningful action (e.g., draw weapon, interact with environment).</li>
 <li><strong>To Attack</strong>: Roll <code>1d20 + weapon skill +5 (for attacking)</code>.</li>
 </ul>
-<p>:::info
-Ranged attacks at a distance of Faraway or greater may be penalized -5 on the roll.
-:::</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ranged attacks at a distance of Faraway or greater may be penalized -5 on the roll.</p>
+</div>
 <ul>
 <li>
 <p>Defender rolls <code>1d20 + appropriate defense skill</code> (Weapon Skill, Dodge, etc.).</p>
-<p>:::info
-For Ranged attacks: if the defender is aware of the attack and also has a shield, they apply a +3 and +5 bonus to their Dodge check for Small and Large shields respectively.
-:::</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For Ranged attacks: if the defender is aware of the attack and also has a shield, they apply a +3 and +5 bonus to their Dodge check for Small and Large shields respectively.</p>
+</div>
 </li>
 <li>
 <p>Higher roll hits and applies weapon damage roll</p>
 </li>
 </ul>
-<p>:::info
-Mighty Strikes: If the winner of an Attack check rolls a natural 20 or rolls more than <strong>3x</strong> the result of the defender, they achieve a Mighty Strike; <strong>Double the overall attack damage</strong>.
-:::</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Mighty Strikes: If the winner of an Attack check rolls a natural 20 or rolls more than <strong>3x</strong> the result of the defender, they achieve a Mighty Strike; <strong>Double the overall attack damage</strong>.</p>
+</div>
 </li>
 </ul>
 <hr />
@@ -208,21 +204,24 @@ Mighty Strikes: If the winner of an Attack check rolls a natural 20 or rolls mor
 <ul>
 <li>
 <p><strong>Damage</strong>: Weapons list a damage die (e.g., <code>1d6</code>, <code>1d8</code>). Roll and subtract the target's <strong>Armour</strong> value.The remaining damage is removed from <strong>Stamina</strong>.</p>
-<p>:::danger
-Even with armor and a shield, being struck will always cause at least 1 point of stamina loss (even if reduced to zero or lower).
-:::</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Even with armor and a shield, being struck will always cause at least 1 point of stamina loss (even if reduced to zero or lower).</p>
+</div>
 </li>
 <li>
 <p><strong>Armor</strong>: Provides a flat <strong>damage soak</strong> <code>1d3</code> for Light Armor, <code>1d6</code> for Medium Armor, and <code>2d6</code> for Heavy Armor.</p>
-<p>:::info
-Shields increase the armor level of a character by one rank (excluding Heavy Armor).
-:::</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Shields increase the armor level of a character by one rank (excluding Heavy Armor).</p>
+</div>
 </li>
 <li>
 <p><strong>Critical Hits</strong>: When a character takes damage that brings them to <strong>below 0 Stamina</strong>, this is a critical hit. The character suffers a critical hit effect by rolling a <code>1d6</code> against an appropriate critical hit table (Page 85).</p>
-<p>:::danger
-If the damage taken was enough to reduce stamina BELOW 0, add one to the Critical Roll for each negative point of stamina.
-:::</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If the damage taken was enough to reduce stamina BELOW 0, add one to the Critical Roll for each negative point of stamina.</p>
+</div>
 </li>
 <li>
 <p><strong>Recovery</strong>: Characters recover <strong>half</strong> of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.</p>
@@ -264,29 +263,8 @@ If the damage taken was enough to reduce stamina BELOW 0, add one to the Critica
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../../js/base.js"></script>
-        <script src="../../search/main.js"></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">

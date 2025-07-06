@@ -2,6 +2,7 @@ site_name: Coinmarch
 site_url: https://arcticblizzard.github.io/Coinmarch/
 theme:
   name: slate
+  navigation_depth: 3
 extra_css:
   - styles/overrides.css
 
@@ -21,40 +22,40 @@ nav:
     - Guide: player-introduction/character-creation/character-creation.md
     - Basic Careers: player-introduction/character-creation/basic-careers.md
     - Knacks: player-introduction/character-creation/knacks.md
-  - Map : map.md
+  - Map: map.md
   - Locations:
-    - Lower Kolnmark:
-      - Caskside: locations/districts/Caskside.md
-      - Newbrick Ward: locations/districts/Newbrick_Ward.md
-      - Bargebreaker Island: locations/districts/Bargebreaker_Island.md
-      - Hearthrow: locations/districts/Hearthrow.md
-      - Callus Run: locations/districts/Callus_Run.md
-      - Eastchain Docks: locations/districts/Eastchain_Docks.md
-      - The Point: locations/districts/The_Point.md
-      - The Tangle: locations/districts/The_Tangle.md
-      - Dockshade: locations/districts/Dockshade.md
-      - Gatefold: locations/districts/Gatefold.md
-      - Wallwrights: locations/districts/Wallwrights.md
-      - Coinrest: locations/districts/Coinrest.md
-      - Clerk's Ward: locations/districts/Clerk's_Ward.md
-      - Breakbay Docks: locations/districts/Breakbay_Docks.md
-      - Pilgrim's Way: locations/districts/Pilgrim's_Way.md
-      - Eastcliff Row: locations/districts/Eastcliff_Row.md
-      - Ironhook: locations/districts/Ironhook.md
-      - The Stumble: locations/districts/The_Stumble.md
-      - Garrison Row: locations/districts/Garrison_Row.md
-      - Tumbledown: locations/districts/Tumbledown.md
-      - Cliff Cove: locations/districts/Cliff_Cove.md
-    - Upper Kolnmark:
-      - Swordcrest: locations/districts/Swordcrest.md
-      - Highmarch: locations/districts/Highmarch.md
-      - Goldedge: locations/districts/Goldedge.md
-      - Twinreach: locations/districts/Twinreach.md
-      - Crafthallow: locations/districts/Crafthallow.md
-      - Velvet Court: locations/districts/Velvet_Court.md
-      - Eastmere: locations/districts/Eastmere.md
-      - Envoy's Rest: locations/districts/Envoy's_Rest.md
-      - Dawnwatch: locations/districts/Dawnwatch.md
-      - Windrest: locations/districts/Windrest.md
-      - Highforge: locations/districts/Highforge.md
-      - Bannercrest: locations/districts/Bannercrest.md
+    - Lower Kolnmark: locations/LowerKolnmark.md
+      #- Overview: locations/LowerKolnmark.md
+      #- Bargebreaker Island: locations/districts/Bargebreaker_Island.md
+      #- Callus Run: locations/districts/Callus_Run.md
+      #- Caskside: locations/districts/Caskside.md
+      #- Cliff Cove: locations/districts/Cliff_Cove.md
+      #- "Clerk's Ward": locations/districts/Clerk's_Ward.md
+      #- Coinrest: locations/districts/Coinrest.md
+      #- Dockshade: locations/districts/Dockshade.md
+      #- "Eastchain Docks": locations/districts/Eastchain_Docks.md
+      #- "Eastcliff Row": locations/districts/Eastcliff_Row.md
+      #- Gatefold: locations/districts/Gatefold.md
+      #- Garrison Row: locations/districts/Garrison_Row.md
+      #- Hearthrow: locations/districts/Hearthrow.md
+      #- Ironhook: locations/districts/Ironhook.md
+      #- Newbrick Ward: locations/districts/Newbrick_Ward.md
+      #- Pilgrim's Way: locations/districts/Pilgrim's_Way.md
+      #- Tumbledown: locations/districts/Tumbledown.md
+      #- The Point: locations/districts/The_Point.md
+      #- The Stumble: locations/districts/The_Stumble.md
+      #- The Tangle: locations/districts/The_Tangle.md
+    - Upper Kolnmark: locations/UpperKolnmark.md
+      #- Overview: locations/UpperKolnmark.md
+      #- Bannercrest: locations/districts/Bannercrest.md
+      #- Crafthallow: locations/districts/Crafthallow.md
+      #- Dawnwatch: locations/districts/Dawnwatch.md
+      #- Eastmere: locations/districts/Eastmere.md
+      #- "Envoy's Rest": locations/districts/Envoy's_Rest.md
+      #- Goldedge: locations/districts/Goldedge.md
+      #- Highforge: locations/districts/Highforge.md
+      #- Highmarch: locations/districts/Highmarch.md
+      #- Swordcrest: locations/districts/Swordcrest.md
+      #- Twinreach: locations/districts/Twinreach.md
+      #- "Velvet Court": locations/districts/Velvet_Court.md
+      #- Windrest: locations/districts/Windrest.md

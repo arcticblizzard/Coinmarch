@@ -104,7 +104,7 @@
     "link": "docs/locations/districts/Caskside.md"
   },
   {
-    "name": "Clerk’s Ward",
+    "name": "Clerk's Ward",
     "type": "Civic",
     "summary": "A compact enclave anchoring Kolnmark’s lower city core, Clerk’s Ward faces the broad boulevards and the leafy expanse of the Greenwold. At its heart stands the walled Hall of Records—a stately courtyarded complex where public ledgers, charters, and petitions are filed and reviewed. Here the pulse of daily civic life beats in the shuffle of parchment and the measured steps of robed clerks.",
     "tags": [
@@ -455,7 +455,7 @@
     "link": "docs/locations/districts/Newbrick_Ward.md"
   },
   {
-    "name": "Pilgrim’s Way",
+    "name": "Pilgrim's Way",
     "type": "Leisure",
     "summary": "Nestled in the shadow of the Spire along the pilgrims’ thoroughfare, Pilgrim’s Way caters to well-heeled visitors making their devotions. Elegant inns, tranquil gardens, and refined taverns line the broad, flag-stone street, offering respite, fine fare, and exclusive souvenirs to clergy, nobles, and foreign dignitaries.",
     "tags": [
@@ -607,7 +607,7 @@
     "link": "docs/locations/districts/Velvet_Court.md"
   },
   {
-    "name": "Wallwrights District",
+    "name": "Wallwrights",
     "type": "Craft",
     "summary": "A narrow ribbon of workshops and stalls pressed up against Kolnmark’s ancient wall, the Wallwrights District specializes in the fine stone-, glass-, and metal-work that outfits the Spire and the city’s wealthier quarters. A bustling market plaza hums day and night with merchants trading luxury embellishments, architectural fittings, and the rarest building materials.",
     "tags": [

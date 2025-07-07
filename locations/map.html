@@ -133,7 +133,7 @@
             zoomSnap: 0.5
           }),
           bounds = [[0,0],[imageHeight,imageWidth]];
-    L.imageOverlay("images/kolnmark_Labels.jpg", bounds).addTo(map);
+    L.imageOverlay("../images/kolnmark_Labels.jpg", bounds).addTo(map);
     map.fitBounds(bounds);
 
     // --- Marker logic ---
@@ -161,7 +161,7 @@
       return fallbackColors[Math.abs(h) % fallbackColors.length];
     }
 
-    fetch('locations/locations.json')
+    fetch('locations.json')
       .then(r => r.json())
       .then(locations => {
         locations.forEach(loc => {
@@ -277,7 +277,7 @@
         districtLayers.push(poly);
       });
     }
-    fetch('locations/districts.json')
+    fetch('districts.json')
       .then(r=>r.json())
       .then(renderDistricts);
 

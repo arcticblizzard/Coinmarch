@@ -22,7 +22,6 @@ nav:
     - Guide: player-introduction/character-creation/character-creation.md
     - Basic Careers: player-introduction/character-creation/basic-careers.md
     - Knacks: player-introduction/character-creation/knacks.md
-  - Map: map.md
-  - Locations:
-    - Lower Kolnmark: locations/LowerKolnmark.md
-    - Upper Kolnmark: locations/UpperKolnmark.md
+  - The Setting:
+    - The City: locations/Kolnmark.md
+    - Factions: factions/overview.md

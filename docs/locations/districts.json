@@ -104,7 +104,7 @@
     "link": "docs/locations/districts/Caskside.md"
   },
   {
-    "name": "Clerk's Ward",
+    "name": "Clerk’s Ward",
     "type": "Civic",
     "summary": "A compact enclave anchoring Kolnmark’s lower city core, Clerk’s Ward faces the broad boulevards and the leafy expanse of the Greenwold. At its heart stands the walled Hall of Records—a stately courtyarded complex where public ledgers, charters, and petitions are filed and reviewed. Here the pulse of daily civic life beats in the shuffle of parchment and the measured steps of robed clerks.",
     "tags": [
@@ -290,10 +290,14 @@
   {
     "name": "Envoy's Rest",
     "type": "Civic",
-    "summary": "",
+    "summary": "Tucked just east of Swordcrest, Envoy’s Rest is Kolnmark’s compact diplomatic quarter. Stately lodges and administrative halls line its narrow avenues, while a shaded woodland park near its edge offers a quiet refuge. Here rival delegations converge, each hoping to secure fresh mercenary support, under the watchful eyes of city guards.",
     "tags": [
-      "district",
-      "civic"
+      "civic",
+      "diplomacy",
+      "mercenaries",
+      "security",
+      "lodgings",
+      "negotiation"
     ],
     "coordinates": [
       [6658,3126], [6774,3286], [6888,3336], [6916,3324], [6966,3350],
@@ -396,10 +400,14 @@
   {
     "name": "Highmarch",
     "type": "Residential",
-    "summary": "",
+    "summary": "Perched on the western cliffs of Upper Kolnmark, Highmarch is the city’s most exclusive residential quarter. From its lofty vantage it stretches south from the ancient city wall up to the Spine, its grand estates overlooking both sea and skyline.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "elite",
+      "estates",
+      "cliffside",
+      "culture",
+      "leisure"
     ],
     "coordinates": [
       [5620,5378], [5552,5422], [5708,5622], [6066,5722], [6152,5724],
@@ -476,10 +484,13 @@
   {
     "name": "Swordcrest",
     "type": "Martial",
-    "summary": "",
+    "summary": "Perched on the northern edge of Upper Kolnmark, Swordcrest is the Kingdom’s premier martial district. It adjoins the Giant’s Causeway—vast parade grounds for daily drills and grand tournaments—and revolves around a central eight-spoked rotunda that houses the commanders of the city’s foremost mercenary companies.",
     "tags": [
-      "district",
-      "martial"
+      "martial",
+      "mercenary",
+      "training",
+      "armory",
+      "diplomacy"
     ],
     "coordinates": [
       [5828,2344], [5816,2408], [5794,2446], [5822,2484], [5852,2548],

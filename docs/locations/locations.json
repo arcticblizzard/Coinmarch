@@ -9,15 +9,6 @@
     "permalink": ""
   },
   {
-    "title": "The Spire",
-	"district": "Highmarch",
-    "type": "Religious",
-    "coordinates": "5503,5281",
-    "description": "A looming, austere tower visible across the city — home to the city’s dominant faith.",
-    "image": "",
-    "permalink": ""
-  },
-  {
     "title": "Eastchain Docks",
 	"district": "Eastchain Docks",
     "type": "Industrial",
@@ -64,7 +55,7 @@
   },
   {
     "title": "Giant's Causeway",
-	"district": "Swordcrest",
+	  "district": "Swordcrest",
     "type": "Industrial",
     "coordinates": "6046,2086",
     "description": "A raised ruined causeway used as a military parade and training ground.",
@@ -1120,6 +1111,168 @@
     "type": "Leisure",
     "coordinates": "3145,1134",
     "description": "A clandestine speakeasy carved into the Causeway’s footing; vaulted stone ceilings echo with laughter, music, and whispered transactions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Giant's Causeway",
+	  "district": "Swordcrest",
+    "type": "Martial",
+    "coordinates": "6046,2086",
+    "description": "A raised ruined causeway used as a military parade and training ground.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Octal Rotunda",
+	  "district": "Swordcrest",
+    "type": "Martial",
+    "coordinates": "6587,2640",
+    "description": "A great circular hall divided by eight radial corridors, each devoted to one of the city’s leading mercenary companies. Command councils and contract signings take place beneath its vaulted dome.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Clang",
+	  "district": "Swordcrest",
+    "type": "Craft",
+    "coordinates": "6198,2892",
+    "description": "A narrow street of interlinked workshops where master smiths forge swords, siege hammers, and intricately tooled pikes to outfit entire companies.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Ledger Hall",
+	  "district": "Swordcrest",
+    "type": "Civic",
+    "coordinates": "6668,3030",
+    "description": "A fortified complex of vaulted chambers and brass-bound ledgers, Ledger Hall serves as the administrative heart for Swordcrest’s companies. Inside, clerks in tabard-lined cubicles pore over muster rolls, negotiate contract amendments, and process payroll requisitions. A vast rotating ledger wheel in the central chamber displays every active hire, payment schedule, and obligation—ensuring captains, recruiters, and quartermasters keep their companies in service and fully supplied.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Viewing Hall",
+	  "district": "Swordcrest",
+    "type": "Leisure",
+    "coordinates": "6626,2395",
+    "description": "A raised pavilion of glass and steel overlooking the Causeway. Foreign diplomats and highborn patrons watch live demonstrations of tactics before negotiating contracts over lavious drinks and meals.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Spire",
+	  "district": "Highmarch",
+    "type": "Religious",
+    "coordinates": "5503,5281",
+    "description": "A looming, austere tower visible across the city — home to the city’s dominant faith.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Sundermere Court",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5726,3935",
+    "description": "At the northern edge, this white-stuccoed villa belongs to Lady Sundermere; its reflecting pool and walled citrus grove overlook the open sea.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Crestfall Manor",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5826,4162",
+    "description": "Named for its terraced battlements, this sandstone estate of the Crestfall family features an ornate belvedere tower and private chapel.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hawklorn Hall",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5829,4385",
+    "description": "A red-brick mansion halfway down the cliff, famed for its aviary of trained falcons and its sunken rose garden.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliffhaven Estate",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5780,4660",
+    "description": "The fourth estate from the north, Cliffhaven is Highmarch’s grandest property by far. A lavish main manor stands atop a terraced rise, flanked by walled gardens, guest lodges, stables, kennels, an armory and its own private chapel. Carriage drives wind down to service yards, and a lofty belvedere pavilion offers sweeping views of the city and sea beyond.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Twinbrook Manors",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5776,5092",
+    "description": "The southernmost clutch of Highmarch’s cliff mansions is actually a twin estate: two near-identical manors separated by a formal reflecting pool and commemorative colonnade.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Sans Pareil Amphitheater",
+	  "district": "Highmarch",
+    "type": "Leisure",
+    "coordinates": "6241,4222",
+    "description": "A grand, freestanding stone coliseum sited directly on Highmarch’s principal north–south thoroughfare from the Twin Gates. Its tiered marble seating—arranged in a gentle semi-circle—rises around a broad central stage, framed by ornate proscenium arches and capped with fluttering pennants. Though visible from the cliff-edge mansions above, its position on the main road makes it equally accessible to visiting nobles, merchants, and clergy. By day, it hosts ceremonial processions and oratory contests; by dusk, its acoustics fill with the strains of chamber orchestras, touring troupes’ dramas, and the hush of spectators under lamplit torches.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Crystal Palm Conservatory",
+	  "district": "Highmarch",
+    "type": "Leisure",
+    "coordinates": "6190,3437",
+    "description": "Sited at the northern edge of Highmarch, the Crystal Palm Conservatory is a pioneering circular glass dome set into a dignified granite rotunda. Inside, rare tropical palms, luminous orchids, and vine-wrapped pillars flourish beneath the curved panes, their leaves whispering in gentle piped breezes. A concentric gallery rings the central planting bed, where silk-cushioned benches invite patrons to admire the exotic blooms—and to imagine distant, sun-soaked shores. Its blend of cutting-edge glasswork and stone architecture makes it both a scientific marvel and a favorite promenade for Highmarch’s elite.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Concord Park",
+	  "district": "Envoy's Rest",
+    "type": "Leisure",
+    "coordinates": "6799,3082",
+    "description": "A gated, oak-shaded enclave where emissaries meditate between sessions, its winding paths punctuated by open-air pavilions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Diplomat's Court",
+	  "district": "Envoy's Rest",
+    "type": "Civic",
+    "coordinates": "7354,2620",
+    "description": "A pale-stone complex of chancery offices, where scrolls are drawn up, sealed, and dispatched.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Exchange",
+	  "district": "Envoy's Rest",
+    "type": "Civic",
+    "coordinates": "7197,3095",
+    "description": "Mercenary brokerages occupy these interconnected townhouses, each representing one of Kolnmark’s famed companies.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Iron Gate Lodge",
+	  "district": "Envoy's Rest",
+    "type": "Residential",
+    "coordinates": "6916,3183",
+    "description": "The district’s largest hostelry, its twin iron portcullises and honor-guarded entrance set the tone for martial hospitality.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Vault of Accordance",
+	  "district": "Envoy's Rest",
+    "type": "Civic",
+    "coordinates": "7170,3357",
+    "description": "A vaulted, oak-paneled repository adjacent to Diplomat’s Court. Here visiting delegations consult codices of regional law, treaties past and present, and local customaries. Private study alcoves and on-call scribes ensure that envoys can research, translate, and commission exact copies of any document under discreet candlelight.",
     "image": "",
     "permalink": ""
   }

@@ -1636,5 +1636,77 @@
     "description": "A slender lighthouse-like spire on the western cliff edge, its beacon guides incoming ships and signals across Kolnmark’s defenses.",
     "image": "",
     "permalink": ""
+  },
+  {
+    "title": "Aurorcrest Manor",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7868,2725",
+    "description": "The southernmost cliff estate, its glass-walled solarium captures every sunrise in a blaze of color.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gildedrow House",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7858,2529",
+    "description": "Clad inside and out in beaten bronze, this manor’s terraces gleam like a beacon at dusk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Fate’s Flurry Casino",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7814,2349",
+    "description": "Housed in the defaulted Valebrook estate, its vaulted gaming halls host dice, cards, and masked intrigues.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Emberhold Hall",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7816,2125",
+    "description": "A red-sandstone pile crowned with flaming torches, famed for its fiery cliff-top banquets.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Nettlesmith Twins",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7820,1931",
+    "description": "Two identical pavilions set amid rose-lined courtyards, connected by an arched loggia.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Stormring Arena",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7882,1503",
+    "description": "An oval amphitheater of limestone, where chariot races, gladiatorial bouts, and civic pageants thunder above the cliffs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Siren’s Spigot",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7568,2795",
+    "description": "Perched on the southern stretch of the High Road, this bleached-driftwood tavern is draped in coral nets and illuminated by glowing seashell lanterns. Inside, hulking barrels of “coralfire rum” are ladled into brine-rimmed mugs while patrons belt out sea-shanties through conch-horn megaphones—then compete in nightly “Siren’s Screech” contests, where the loudest war cry earns the next round on the house.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliffside Green Park",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7538,1305",
+    "description": "A narrow promontory lawn with winding paths and shaded pavilions, offering a rare moment of calm above the sea.",
+    "image": "",
+    "permalink": ""
   }
 ]

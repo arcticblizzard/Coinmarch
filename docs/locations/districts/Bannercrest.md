@@ -28,7 +28,7 @@ A dense population of magistrates, councilors, jurists, clerks, and their retain
 - **Hall of Lords** – A lofty marble chamber ringed with carved banners, where the city’s patrician families debate edicts under vaulted frescoes.  
 - **Hall of Commons** – A more modest, plank-floored hall for elected delegates; its benches creak with the voices of merchants, gildsmen, and ward representatives.  
 - **Grand Courthouse** – A domed basilica of justice, its judges’ dais overlooks a tribunal floor where even the mightiest may stand accused.  
-- **Northern Bastion** – A strongly fortified keep at the cliff’s tip, encircled by high curtain walls and moats. It serves as the governor’s residence, emergency stronghold, and secure archive for the city’s most sensitive records.  
+- **The Great Seat** – A strongly fortified keep at the cliff’s tip, encircled by high curtain walls and moats. It serves as the governor’s residence, emergency stronghold, and secure archive for the city’s most sensitive records.  
 - **Westwatch Tower** – A slender lighthouse-like spire on the western cliff edge, its beacon guides incoming ships and signals across Kolnmark’s defenses.
 
 ## Tags

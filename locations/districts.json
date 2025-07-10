@@ -2,10 +2,13 @@
   {
     "name": "Bannercrest",
     "type": "Civic",
-    "summary": "",
+    "summary": "Sitting at the northernmost promontory of Upper Kolnmark, Bannercrest is the city’s seat of power. Its white stone halls and ramparts crown the cliffs, gazing out over the Blade Sea. Here the lords and commons convene, justice is meted out, and the city’s highest offices are housed.",
     "tags": [
-      "district",
-      "civic"
+      "civic",
+      "government",
+      "justice",
+      "fortified",
+      "administration"
     ],
     "coordinates": [
       [7108,432], [7172,716], [7244,754], [7292,832], [7280,904],
@@ -187,10 +190,13 @@
   {
     "name": "Dawnwatch",
     "type": "Leisure",
-    "summary": "",
+    "summary": "Set upon the eastern cliffs overlooking the Blade Sea, Dawnwatch is Kolnmark’s most raucous leisure district. Glittering manors, boisterous taverns, and gilded vice dens line its winding streets, while grand spectacles—from chariot races to open-air gaming—draw thrill-seekers from across the city.",
     "tags": [
-      "district",
-      "leisure"
+      "leisure",
+      "entertainment",
+      "gambling",
+      "cliffs",
+      "nightlife"
     ],
     "coordinates": [
       [7553,2954], [7475,2538], [7531,2510], [7559,2460], [7553,2410],
@@ -274,7 +280,7 @@
   {
     "name": "Eastmere",
     "type": "Residential",
-    "summary": "Eastmere perches between the High Road and the sheer cliffs overlooking the Blade Sea, just inside the East Gate. Its winding lanes lead from a bustling square south of the gate up toward a row of grand cliff-top residences. Eastmere is prized by the city’s elite who seek both easy access to the High Road and sweeping sea vistas.",
+    "summary": "Eastmere sits between the High Road and the sheer cliffs overlooking the Blade Sea, just inside the East Gate. Its winding lanes lead from a bustling square south of the gate up toward a row of grand cliff-top residences. Eastmere is prized by the city’s elite who seek both easy access to the High Road and sweeping sea vistas.",
     "tags": [
       "residential",
       "waterfront",
@@ -396,10 +402,13 @@
   {
     "name": "Highforge",
     "type": "Craft",
-    "summary": "",
+    "summary": "Perched on the windswept promontory that juts into the Blade Sea, Highforge is a compact enclave of master artisans who fashion luxury goods for Kolnmark’s elite. Its steep cliffs offer dramatic sea views, while Cliff Cove lifts disgorge exotic shipments that fuel Highforge’s bespoke workshops.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "luxury",
+      "maritime",
+      "bespoke",
+      "elite"
     ],
     "coordinates": [
       [7418,996], [7374,990], [7276,916], [7172,1028], [7144,1054],
@@ -412,7 +421,7 @@
   {
     "name": "Highmarch",
     "type": "Residential",
-    "summary": "Perched on the western cliffs of Upper Kolnmark, Highmarch is the city’s most exclusive residential quarter. From its lofty vantage it stretches south from the ancient city wall up to the Spine, its grand estates overlooking both sea and skyline.",
+    "summary": "Resting atop the western cliffs of Upper Kolnmark, Highmarch is the city’s most exclusive residential quarter. From this lofty vantage it stretches south from the ancient city wall up to the Spine, its grand estates overlooking both sea and skyline.",
     "tags": [
       "residential",
       "elite",
@@ -496,7 +505,7 @@
   {
     "name": "Swordcrest",
     "type": "Martial",
-    "summary": "Perched on the northern edge of Upper Kolnmark, Swordcrest is the Kingdom’s premier martial district. It adjoins the Giant’s Causeway—vast parade grounds for daily drills and grand tournaments—and revolves around a central eight-spoked rotunda that houses the commanders of the city’s foremost mercenary companies.",
+    "summary": "Situated on the northern edge of Upper Kolnmark, Swordcrest is the Kingdom’s premier martial district. It adjoins the Giant’s Causeway—vast parade grounds for daily drills and grand tournaments—and revolves around a central eight-spoked rotunda that houses the commanders of the city’s foremost mercenary companies.",
     "tags": [
       "martial",
       "mercenary",

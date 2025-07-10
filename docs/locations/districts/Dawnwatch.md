@@ -4,7 +4,7 @@
 
 ## Summary
 
-Perched on the eastern cliffs overlooking the Blade Sea, Dawnwatch is Kolnmark’s most raucous leisure district. Glittering manors, boisterous taverns, and gilded vice dens line its winding streets, while grand spectacles—from chariot races to open-air gaming—draw thrill-seekers from across the city.
+Set upon the eastern cliffs overlooking the Blade Sea, Dawnwatch is Kolnmark’s most raucous leisure district. Glittering manors, boisterous taverns, and gilded vice dens line its winding streets, while grand spectacles—from chariot races to open-air gaming—draw thrill-seekers from across the city.
 
 ## History & Role
 

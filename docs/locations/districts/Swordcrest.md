@@ -4,7 +4,7 @@
 
 ## Summary
 
-Perched on the northern edge of Upper Kolnmark, Swordcrest is the Kingdom’s premier martial district. It adjoins the Giant’s Causeway—vast parade grounds for daily drills and grand tournaments—and revolves around a central eight-spoked rotunda that houses the commanders of the city’s foremost mercenary companies.
+Situated on the northern edge of Upper Kolnmark, Swordcrest is the Kingdom’s premier martial district. It adjoins the Giant’s Causeway—vast parade grounds for daily drills and grand tournaments—and revolves around a central eight-spoked rotunda that houses the commanders of the city’s foremost mercenary companies.
 
 ## History & Role
 

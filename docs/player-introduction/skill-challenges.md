@@ -69,8 +69,8 @@ Each Check awards SP as follows:
     | Difficulty | SP Threshold | Success Probability |
     |------------|--------------|---------------------|
     | Easy       | 3            | 85.33%              |
-    | Standard   | 4            | 71.38%              |
-    | Hard       | 5            | 54.32%              |
+    | Standard   | 4            | 72.24%              |
+    | Hard       | 5            | 56.16%              |
 
 ---
 

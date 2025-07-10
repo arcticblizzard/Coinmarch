@@ -21,7 +21,7 @@ Everything that a character attempts to do which is dramatic and where failure a
 
 _Page 60_
 
-Luck tests exist to avoid unfortunate circumstances from an action or even of the world around the character.
+Luck tests exist to avoid unfortunate circumstances from an incoming negative effect.
 
 - **Basic Luck Test**: Roll `1d20 + Luck attribute`. A total of **20 or more** is a success.
 
@@ -101,7 +101,9 @@ _Page 81_
         If the damage taken was enough to reduce stamina BELOW 0, add one to the Critical Roll for each negative point of stamina.
     
 
-- **Recovery**: Characters recover **half** of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.
+- **Recovery**
+  - Stamina: Characters recover **half** of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.
+  - Luck: On rolling a natural 20, a player may add +1 to their Luck score (as long as it doesn't exceed the cap of 13.). Additionally, at the start of each adventure/mission all characters may roll `1d4` and add the result to their current Luck score (again, as long as it is at or under the cap of 13).
 
 ---
 

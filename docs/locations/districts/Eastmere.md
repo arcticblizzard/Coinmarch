@@ -4,7 +4,7 @@
 
 ## Summary
 
-Eastmere perches between the High Road and the sheer cliffs overlooking the Blade Sea, just inside the East Gate. Its winding lanes lead from a bustling square south of the gate up toward a row of grand cliff-top residences. Eastmere is prized by the city’s elite who seek both easy access to the High Road and sweeping sea vistas.
+Eastmere sits between the High Road and the sheer cliffs overlooking the Blade Sea, just inside the East Gate. Its winding lanes lead from a bustling square south of the gate up toward a row of grand cliff-top residences. Eastmere is prized by the city’s elite who seek both easy access to the High Road and sweeping sea vistas.
 
 ## History & Role
 

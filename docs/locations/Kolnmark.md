@@ -111,49 +111,49 @@ A narrow ribbon of workshops and stalls pressed up against Kolnmark’s ancient 
 Perched atop the white cliffs, Upper Kolnmark is the city’s rarified summit—where marble halls, noble estates and grand plazas reflect the sun’s first light.
 
 ### Bannercrest  
-The ceremonial quarter around the grand keep, where colorful banners and heraldic standards fly.  
+Sitting at the northernmost promontory of Upper Kolnmark, Bannercrest is the city’s seat of power. Its white stone halls and ramparts crown the cliffs, gazing out over the Blade Sea. Here the lords and commons convene, justice is meted out, and the city’s highest offices are housed.
 [More info](locations/districts/Bannercrest.md)
 
 ### Crafthallow  
-Home to the gilded guildhalls, artisan workshops and showrooms of master craftsmen.  
+Crafthallow is Kolnmark’s greatest hub of artisans and guilds, occupying the geographic center of the Upper City. Neighboring leisure promenades, civic offices, and grand residences, its streets hum with the forging of metal, the shaping of glass, and the weaving of fabrics. At its heart lies a tree-lined specialty market; beyond that, vast workshops and showrooms define its skyline.  
 [More info](locations/districts/Crafthallow.md)
 
 ### Dawnwatch  
-Fortified watchtowers guard the eastern approach, their sentries greeting the sunrise.  
+Set upon the eastern cliffs overlooking the Blade Sea, Dawnwatch is Kolnmark’s most raucous leisure district. Glittering manors, boisterous taverns, and gilded vice dens line its winding streets, while grand spectacles—from chariot races to open-air gaming—draw thrill-seekers from across the city.
 [More info](locations/districts/Dawnwatch.md)
 
 ### Eastmere  
-The upper city’s mercantile heart, overlooking the harbor from ivory-stone quays and glass-roofed arcades.  
+Eastmere sits between the High Road and the sheer cliffs overlooking the Blade Sea, just inside the East Gate. Its winding lanes lead from a bustling square south of the gate up toward a row of grand cliff-top residences. Eastmere is prized by the city’s elite who seek both easy access to the High Road and sweeping sea vistas.
 [More info](locations/districts/Eastmere.md)
 
 ### Envoy's Rest  
-Embassy row and diplomatic lodgings for foreign envoys, its courtyards filled with exotic plantings.  
+Tucked just east of Swordcrest, Envoy’s Rest is Kolnmark’s compact diplomatic quarter. Stately lodges and administrative halls line its narrow avenues, while a shaded woodland park near its edge offers a quiet refuge. Here rival delegations converge, each hoping to secure fresh mercenary support, under the watchful eyes of city guards.
 [More info](locations/districts/Envoy's_Rest.md)
 
 ### Goldedge  
-The finance district, gleaming with banker’s offices, exclusive exchanges and vaults of polished brass.  
+Clinging to the inner face of the northern city wall just inside the Twin Gates, Goldedge is Coinmarch’s premier middle-class neighborhood. Broad, tree-lined avenues are flanked by elegant brick townhouses and private mews; only a handful of discreet, ground-floor shops hint at the district’s mercantile roots. 
 [More info](locations/districts/Goldedge.md)
 
 ### Highforge  
-Roaring forges and armorers’ halls ring with hammer strikes—here the Realm’s weapons are crafted.  
+Perched on the windswept promontory that juts into the Blade Sea, Highforge is a compact enclave of master artisans who fashion luxury goods for Kolnmark’s elite. Its steep cliffs offer dramatic sea views, while Cliff Cove lifts disgorge exotic shipments that fuel Highforge’s bespoke workshops. 
 [More info](locations/districts/Highforge.md)
 
 ### Highmarch  
-Officer training grounds and parade squares where the city’s elite militias drill at dawn.  
+Resting atop the western cliffs of Upper Kolnmark, Highmarch is the city’s most exclusive residential quarter. From this lofty vantage it stretches south from the ancient city wall up to the Spine, its grand estates overlooking both sea and skyline.
 [More info](locations/districts/Highmarch.md)
 
 ### Swordcrest  
-A string of fortified guardposts along the northern wall, their parapets studded with sharpened spearheads.  
+Situated on the northern edge of Upper Kolnmark, Swordcrest is the Kingdom’s premier martial district. It adjoins the Giant’s Causeway—vast parade grounds for daily drills and grand tournaments—and revolves around a central eight-spoked rotunda that houses the commanders of the city’s foremost mercenary companies.
 [More info](locations/districts/Swordcrest.md)
 
 ### Twinreach  
-Two grand plazas ringed by elegant arcades, a favored stage for festivals and summer markets.  
+Twinreach is the city’s foremost artisan quarter, stretching from the bustling Twin Gates thoroughfare eastward to the High Road at the East Gate. Renowned for its concentration of workshops and merchant stalls, its northwest park offers a leafy oasis amid the clang of hammers and hum of looms. 
 [More info](locations/districts/Twinreach.md)
 
 ### Velvet Court  
-The elite social district—opal-tiled salons, velvet-draped theaters and gilded pleasure houses.  
+Velvet Court is a compact enclave of opulence and indulgence on Upper Kolnmark’s southern flank. Its centerpiece is an open-air spa and garden complex built atop a marble crepidoma, where wealthy patrons soak in thermal pools and stroll fragrant walkways. Along the district’s southern edge, velvet-draped pleasure houses offer discreet entertainments, while refined taverns near the Foreign Quarter cater to visiting dignitaries seeking comforts of home.
 [More info](locations/districts/Velvet_Court.md)
 
 ### Windrest  
-Perched atop the clifftops, its breezy parks and marble promenades offer panoramic sea views.  
+Perched at the northern foot of the cliffs, Windrest serves as the favored enclave for Kolnmark’s mercenary captains and senior city officials. Its winding lanes link the Causeway and the Foreign Quarter to the upper Cliff Cove lift terminus, blending grand townhouses with discreet service hubs.  
 [More info](locations/districts/Windrest.md)

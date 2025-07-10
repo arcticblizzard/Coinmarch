@@ -4,7 +4,7 @@
 
 ## Summary
 
-Perched on the western cliffs of Upper Kolnmark, Highmarch is the city’s most exclusive residential quarter. From its lofty vantage it stretches south from the ancient city wall up to the Spine, its grand estates overlooking both sea and skyline.
+Resting atop the western cliffs of Upper Kolnmark, Highmarch is the city’s most exclusive residential quarter. From this lofty vantage it stretches south from the ancient city wall up to the Spine, its grand estates overlooking both sea and skyline.
 
 ## History & Role
 

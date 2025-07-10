@@ -56,6 +56,8 @@ Your initial career also sets your **Career Skill**, equal to your **lowest** of
 
 Each character begins with a Knack - a unique ability picked up through hard lessons, close calls, or raw instinct. Knacks grant both a small **passive** benefit that is always in effect, and a limited-use **active** **ability** that can be triggered during play. These knacks represent what sets your character apart from the other cutthroats and misfits scraping by in the city’s underbelly.
 
+The passive ability of a knack may *exceed* the skill cap set out by your basic career.
+
 !!! warning "Warning"
 
     These knacks are homebrewed, and the GM reserves the rights to make small tweaks for balancing reasons during downtime.

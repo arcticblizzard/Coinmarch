@@ -2,7 +2,7 @@
 
 | Knack | Passive Benefit | Active Ability |
 | --- | --- | --- |
-| **Silver Tongue** | +1 to Persuasion and Lie skill checks when dealing with city-dwellers. | Once per session, spend 1 Luck to automatically succeed on a single social skill test (Lie, Persuasion, Diplomacy) against a non-hostile NPC, so long as the stakes are not life-threatening. |
+| **Silver Tongue** | +1 to Persuasion and Lie skill checks when dealing with city-dwellers. | Once per session, spend 1 Luck to automatically succeed on a single social skill test (Lie, Persuasion, Diplomacy) against a non-hostile minor NPC, so long as the stakes are not life-threatening. |
 | **Ghoststep** | +1 to Stealth checks performed in urban environments. | Once per session, spend 1 Luck to become completely undetectable for one scene while moving through shadows or crowds. |
 | **Wound-Wise** | When stabilizing a **critically injured** character (Stamina <= 0), you gain +2 to your Medicine test, and the patient immediately regains 1d4 Stamina upon success. | Once per session, when an ally is about to roll on the Critical Wounds table, you may forfeit your next Action to intervene. The ally rolls as if their Stamina were exactly 0, ignoring any excess negative Stamina. |
 | **Quick Fingers** | +1 to Sleight of Hand checks when picking pockets, locks, or disarming simple traps. | Once per session, spend 1 Luck to instantly open a mundane lock, disarm a basic trap, or pickpocket an unaware target without a roll. |

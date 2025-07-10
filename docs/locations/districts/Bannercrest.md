@@ -4,7 +4,7 @@
 
 ## Summary
 
-Perched at the northernmost promontory of Upper Kolnmark, Bannercrest is the city’s seat of power. Its white stone halls and ramparts stand atop the cliffs, gazing out over the Blade Sea. Here the lords and commons convene, justice is meted out, and the city’s highest offices are housed.
+Sitting at the northernmost promontory of Upper Kolnmark, Bannercrest is the city’s seat of power. Its white stone halls and ramparts crown the cliffs, gazing out over the Blade Sea. Here the lords and commons convene, justice is meted out, and the city’s highest offices are housed.
 
 ## History & Role
 

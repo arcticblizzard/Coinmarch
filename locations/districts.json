@@ -165,10 +165,13 @@
   {
     "name": "Crafthallow",
     "type": "Craft",
-    "summary": "",
+    "summary": "Crafthallow is Kolnmark’s greatest hub of artisans and guilds, occupying the geographic center of the Upper City. Neighboring leisure promenades, civic offices, and grand residences, its streets hum with the forging of metal, the shaping of glass, and the weaving of fabrics. At its heart lies a tree-lined specialty market; beyond that, vast workshops and showrooms define its skyline.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "artisans",
+      "guilds",
+      "metallurgy",
+      "luxury-goods"
     ],
     "coordinates": [
       [6381,3422], [6387,4652], [6451,4718], [7685,4706], [7707,4584],
@@ -288,7 +291,7 @@
     "link": "docs/locations/districts/Eastmere.md"
   },
   {
-    "name": "Envoy's Rest",
+    "name": "Envoy’s Rest",
     "type": "Civic",
     "summary": "Tucked just east of Swordcrest, Envoy’s Rest is Kolnmark’s compact diplomatic quarter. Stately lodges and administrative halls line its narrow avenues, while a shaded woodland park near its edge offers a quiet refuge. Here rival delegations converge, each hoping to secure fresh mercenary support, under the watchful eyes of city guards.",
     "tags": [
@@ -347,10 +350,14 @@
   {
     "name": "Goldedge",
     "type": "Residential",
-    "summary": "",
+    "summary": "Clinging to the inner face of the northern city wall just inside the Twin Gates, Goldedge is Coinmarch’s premier middle-class neighborhood. Broad, tree-lined avenues are flanked by elegant brick townhouses and private mews; only a handful of discreet, ground-floor shops hint at the district’s mercantile roots.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "middle-class",
+      "townhouses",
+      "mews",
+      "gardens",
+      "quiet"
     ],
     "coordinates": [
       [6466,5236], [6514,5280], [6528,5692], [6666,5722], [6934,5956],
@@ -463,7 +470,7 @@
     "link": "docs/locations/districts/Newbrick_Ward.md"
   },
   {
-    "name": "Pilgrim's Way",
+    "name": "Pilgrim’s Way",
     "type": "Leisure",
     "summary": "Nestled in the shadow of the Spire along the pilgrims’ thoroughfare, Pilgrim’s Way caters to well-heeled visitors making their devotions. Elegant inns, tranquil gardens, and refined taverns line the broad, flag-stone street, offering respite, fine fare, and exclusive souvenirs to clergy, nobles, and foreign dignitaries.",
     "tags": [
@@ -588,10 +595,14 @@
   {
     "name": "Twinreach",
     "type": "Craft",
-    "summary": "",
+    "summary": "Twinreach is the city’s foremost artisan quarter, stretching from the bustling Twin Gates thoroughfare eastward to the High Road at the East Gate. Renowned for its concentration of workshops and merchant stalls, its northwest park offers a leafy oasis amid the clang of hammers and hum of looms.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "workshops",
+      "market",
+      "artisans",
+      "taverns",
+      "park"
     ],
     "coordinates": [
       [6388,5222], [6458,5228], [6518,5148], [6652,5248], [6764,5250],
@@ -604,10 +615,16 @@
   {
     "name": "Velvet Court",
     "type": "Leisure",
-    "summary": "",
+    "summary": "Velvet Court is a compact enclave of opulence and indulgence on Upper Kolnmark’s southern flank. Its centerpiece is an open-air spa and garden complex built atop a marble crepidoma, where wealthy patrons soak in thermal pools and stroll fragrant walkways. Along the district’s southern edge, velvet-draped pleasure houses offer discreet entertainments, while refined taverns near the Foreign Quarter cater to visiting dignitaries seeking comforts of home.",
     "tags": [
-      "district",
-      "leisure"
+      "indulgence",
+      "spa",
+      "pleasure",
+      "gardens",
+      "exclusive",
+      "hospitality",
+      "luxury",
+      "foreign-style"
     ],
     "coordinates": [
       [7288,3502], [7316,3532], [7254,3608], [7206,3734], [7230,3962],

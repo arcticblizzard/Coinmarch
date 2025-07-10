@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://arcticblizzard.github.io/Coinmarch/player-introduction/system-overview/">
+        <link rel="canonical" href="https://arcticblizzard.github.io/Coinmarch/player-introduction/skill-challenges/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Basic Systems - Coinmarch</title>
+        <title>Skill Challenges - Coinmarch</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../css/brands.min.css" rel="stylesheet">
@@ -43,11 +43,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Basic Systems</a>
+    <a href="../system-overview/" class="dropdown-item">Basic Systems</a>
 </li>
                                     
 <li>
-    <a href="../skill-challenges/" class="dropdown-item">Skill Challenges</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Skill Challenges</a>
 </li>
                                 </ul>
                             </li>
@@ -85,12 +85,12 @@
 
                     <ul class="nav navbar-nav ms-md-auto">
                             <li class="nav-item">
-                                <a rel="prev" href="../welcome/" class="nav-link">
+                                <a rel="prev" href="../system-overview/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../skill-challenges/" class="nav-link">
+                                <a rel="next" href="../character-creation/character-creation/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -112,26 +112,50 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#system-overview" class="nav-link">System Overview</a>
+            <li class="nav-item" data-bs-level="1"><a href="#skill-challenges" class="nav-link">Skill Challenges</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#skill-tests" class="nav-link">Skill Tests</a>
+            <li class="nav-item" data-bs-level="2"><a href="#1-gm-sets-parameters" class="nav-link">1. GM Sets Parameters</a>
               <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#luck-tests" class="nav-link">Luck Tests</a>
+            <li class="nav-item" data-bs-level="3"><a href="#11-challenge-dc" class="nav-link">1.1 Challenge DC</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#combat" class="nav-link">Combat</a>
+            <li class="nav-item" data-bs-level="3"><a href="#12-success-point-threshold" class="nav-link">1.2 Success Point Threshold</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#damage-armour-and-recovery" class="nav-link">Damage, Armour, and Recovery</a>
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#2-pcs-make-checks" class="nav-link">2. PCs Make Checks</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#magic-general" class="nav-link">Magic (General)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#3-success-points-earned" class="nav-link">3. Success Points Earned</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4-adjudicating-results" class="nav-link">4. Adjudicating Results</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="3"><a href="#41-individual-outcomes" class="nav-link">4.1 Individual Outcomes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3"><a href="#42-group-outcome" class="nav-link">4.2 Group Outcome</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#5-additional-rules" class="nav-link">5. Additional Rules</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="3"><a href="#51-repeated-checks" class="nav-link">5.1 Repeated Checks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3"><a href="#52-helping-allies" class="nav-link">5.2 Helping Allies</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
               </ul>
@@ -141,134 +165,98 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="system-overview">System Overview</h1>
-<p>Below is a distilled overview of relevant <em>Warlock!</em> mechanics. Rulebook page numbers can be found next to section headers if more detailed information is needed.</p>
-<h2 id="skill-tests">Skill Tests</h2>
-<p><em>Page 58</em></p>
-<p>Everything that a character attempts to do which is dramatic and where failure advances the story as much as success is resolved via a skill test. Basic skill tests are for when characters attempt to impose themselves upon the world around them, while an opposed skill test has the character in direct conflict with another individual.</p>
+<h1 id="skill-challenges">Skill Challenges</h1>
+<p>This framework adapts DC20’s cinematic “Challenge” mechanic to Warlock!’s flat DC 20 skill-test system. Players still roll d20 + Skill vs. a single Challenge DC, but earn <strong>Success Points (SP)</strong> to drive both individual flair and group outcomes.</p>
+<hr />
+<h2 id="1-gm-sets-parameters">1. GM Sets Parameters</h2>
+<p>Challenges have two key parameters, borrowed directly from DC20:</p>
+<h3 id="11-challenge-dc">1.1 Challenge DC</h3>
+<p>In <em>Warlock!</em> the basic Skill Check DC remains 20.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As players migrate to Advanced Careers, it may become necessary to increase the difficulty of these Challenge checks by 2 or more.</p>
+</div>
+<h3 id="12-success-point-threshold">1.2 Success Point Threshold</h3>
 <ul>
-<li><strong>Basic Skill Test</strong>: Roll <code>1d20 + relevant skill</code>. A total of <strong>20 or more</strong> is a success.<ul>
-<li>Natural 20 = critical success.</li>
-<li>GM may assign ± modifiers to adjust difficulty.</li>
-</ul>
-</li>
-<li><strong>Opposed Skill Test</strong>: Each party rolls <code>1d20 + relevant skill</code>.<ul>
-<li>Higher total wins.</li>
-<li>Ties are either determined by a reroll or by a Basic Luck Test.</li>
-</ul>
-</li>
+<li><strong>Easy</strong>: Number of PCs – 1</li>
+<li><strong>Standard</strong>: Number of PCs</li>
+<li><strong>Hard</strong>: Number of PCs + 1</li>
 </ul>
 <hr />
-<h2 id="luck-tests">Luck Tests</h2>
-<p><em>Page 60</em></p>
-<p>Luck tests exist to avoid unfortunate circumstances from an action or even of the world around the character.</p>
-<ul>
-<li><strong>Basic Luck Test</strong>: Roll <code>1d20 + Luck attribute</code>. A total of <strong>20 or more</strong> is a success.</li>
+<h2 id="2-pcs-make-checks">2. PCs Make Checks</h2>
+<ol>
+<li><strong>Narration</strong>: Each player describes how their PC contributes.</li>
+<li><strong>Skill Assignment</strong>: GM assigns an appropriate Warlock! Adventuring Skill.</li>
+<li><strong>Roll</strong>: Player rolls <strong>d20 + Skill Level</strong>.<ul>
+<li><strong>Basic Skill Test</strong>: succeed on a total of 20 or more (GM may impose –2/–4 for extreme difficulty).</li>
+<li><strong>Advantage/Disadvantage</strong> apply normally; GM may waive if situation demands.</li>
 </ul>
-<div class="admonition info">
-<p class="admonition-title">Note</p>
-<p>All Luck tests (regardless of outcome) reduce the character’s Luck attribute by 1.</p>
-</div>
+</li>
+</ol>
 <hr />
-<h2 id="combat">Combat</h2>
-<p><em>Page 74</em></p>
-<p>Attacks between combatants are resolved as opposed tests - the winner hits the loser and inflicts damage. Combat is divided into rounds, roughly representing 30 seconds.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Note that it is possible to take damage as an attacker if you roll badly in the opposed test</p>
-</div>
+<h2 id="3-success-points-earned">3. Success Points Earned</h2>
+<p>Each Check awards SP as follows:</p>
 <ul>
-<li><strong>Initiative</strong>: Initiate is usually determined by the narrative (which party is more prepared for the fight?). In situations where that cannot be easily determined, each side rolls <code>1d6</code>, and the highest roll side goes first. Turn order within the group is determined amongst the group.</li>
-<li>
-<p><strong>Each Round</strong>, a character may:</p>
-<ul>
-<li>
-<p>Move: characters may move up to around 10 feet cautiously as part of their action (free movement). If a character desired to move beyond that limitation, they must spend their action doing so. Characters taking the Move action can move one step between the ranges.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Distance is covered in an abstract method (Close, Nearby, Faraway, or Distant).</p>
-</div>
-</li>
-<li>
-<p>Make a melee or ranged attack</p>
-</li>
-<li>Cast a spell or use a knack,</li>
-<li>Take another meaningful action (e.g., draw weapon, interact with environment).</li>
-<li><strong>To Attack</strong>: Roll <code>1d20 + weapon skill +5 (for attacking)</code>.</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Ranged attacks at a distance of Faraway or greater may be penalized -5 on the roll.</p>
-</div>
-<ul>
-<li>
-<p>Defender rolls <code>1d20 + appropriate defense skill</code> (Weapon Skill, Dodge, etc.).</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>For Ranged attacks: if the defender is aware of the attack and also has a shield, they apply a +3 and +5 bonus to their Dodge check for Small and Large shields respectively.</p>
-</div>
-</li>
-<li>
-<p>Higher roll hits and applies weapon damage roll</p>
-</li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Mighty Strikes: If the winner of an Attack check rolls a natural 20 or rolls more than <strong>3x</strong> the result of the defender, they achieve a Mighty Strike; <strong>Double the overall attack damage</strong>.</p>
-</div>
-</li>
+<li><strong>Success</strong> (total ≥ DC): <strong>1 SP</strong></li>
+<li><strong>Critical Success</strong> (natural 20): <strong>+1 SP</strong></li>
+<li><strong>Margin</strong>: +1 SP for each full 5 points above DC</li>
+<li><strong>Failure</strong> (total &lt; DC): <strong>0 SP</strong></li>
 </ul>
 <hr />
-<h2 id="damage-armour-and-recovery">Damage, Armour, and Recovery</h2>
-<p><em>Page 81</em></p>
+<h2 id="4-adjudicating-results">4. Adjudicating Results</h2>
+<h3 id="41-individual-outcomes">4.1 Individual Outcomes</h3>
 <ul>
-<li>
-<p><strong>Damage</strong>: Weapons list a damage die (e.g., <code>1d6</code>, <code>1d8</code>). Roll and subtract the target's <strong>Armour</strong> value.The remaining damage is removed from <strong>Stamina</strong>.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Even with armor and a shield, being struck will always cause at least 1 point of stamina loss (even if reduced to zero or lower).</p>
-</div>
+<li><strong>Success</strong>: SP awarded; may grant a minor boon (information, inspiration, temp HP).</li>
+<li><strong>Failure</strong>: No SP; may incur a small penalty (damage, time lost, complication).</li>
+</ul>
+<h3 id="42-group-outcome">4.2 Group Outcome</h3>
+<ul>
+<li><strong>Total SP</strong> vs. <strong>Threshold</strong>:<ul>
+<li><strong>Group Success</strong> (SP ≥ Threshold): PCs achieve the goal and earn full rewards.</li>
+<li><strong>Group Failure</strong> (SP &lt; Threshold): Challenge falls short—apply setback (damage, next DC +1).</li>
+</ul>
 </li>
-<li>
-<p><strong>Armor</strong>: Provides a flat <strong>damage soak</strong> <code>1d3</code> for Light Armor, <code>1d6</code> for Medium Armor, and <code>2d6</code> for Heavy Armor.</p>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Shields increase the armor level of a character by one rank (excluding Heavy Armor).</p>
+<p><em>Even failures should move the story forward; avoid narrative dead-ends.</em></p>
 </div>
-</li>
-<li>
-<p><strong>Critical Hits</strong>: When a character takes damage that brings them to <strong>below 0 Stamina</strong>, this is a critical hit. The character suffers a critical hit effect by rolling a <code>1d6</code> against an appropriate critical hit table (Page 85).</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>If the damage taken was enough to reduce stamina BELOW 0, add one to the Critical Roll for each negative point of stamina.</p>
+<div class="admonition note">
+<p class="admonition-title">The Maths</p>
+<p>Based on a 4-person Party and a max skill of 12 (basic career):</p>
+<table>
+<thead>
+<tr>
+<th>Difficulty</th>
+<th>SP Threshold</th>
+<th>Success Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Easy</td>
+<td>3</td>
+<td>85.33%</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>4</td>
+<td>71.38%</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>5</td>
+<td>54.32%</td>
+</tr>
+</tbody>
+</table>
 </div>
-</li>
-<li>
-<p><strong>Recovery</strong>: Characters recover <strong>half</strong> of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.</p>
-</li>
-</ul>
 <hr />
-<h2 id="magic-general">Magic (General)</h2>
-<p>Magic in <em>Warlock!</em> comes <strong>exclusively</strong> from entities outside of the mortal realm: gods, demons, abberations, etc. Spells are nothing more than requests upon these beings and are initiated through the act of reciting from a spell scroll.</p>
-<ul>
-<li><strong>Casting Spells</strong>:<ul>
-<li>The spell caster pays the required amount of Stamina</li>
-<li>Roll <code>1d20 + Incantation</code><ul>
-<li>A total of <strong>20+</strong> is required to succeed.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>Magical Mishaps:</strong> Natural 1 = the spell caster has <em>potentially</em> miscast their spell.<ul>
-<li>The spell fails</li>
-<li>They must immediately attempt another Incantation skill test<ul>
-<li><strong>Success</strong> \= nothing happens</li>
-<li><strong>Failure</strong> \= Roll <code>1d20</code> on the miscast table (Page 94).</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<h2 id="5-additional-rules">5. Additional Rules</h2>
+<h3 id="51-repeated-checks">5.1 Repeated Checks</h3>
+<p>If a PC repeats another’s narrative action <strong>and</strong> uses the same Check, that Check is made with a <strong>-5</strong> <strong>modifier</strong>. This prevents “me too” tactics and ensures each action in the Challenge remains distinct.</p>
+<h3 id="52-helping-allies">5.2 Helping Allies</h3>
+<p>If a PC wants to assist an ally, they must narratively describe <strong>how</strong> they’re helping <strong>and</strong> make a Check that reflects that help (e.g. “I brace the lever,” Athletics Check). They <strong>do not</strong> grant a Help Die or automatic bonus.</p>
 <hr /></div>
             </div>
         </div>

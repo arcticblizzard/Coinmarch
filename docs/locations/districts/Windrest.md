@@ -2,11 +2,35 @@
 
 **District Type**: Residential
 
-**Short Description**: Peaceful residential district popular with families.
+## Summary
 
-**Long Description**: Peaceful residential district popular with families. This district plays an important role in the city's residential activities, characterized by its unique atmosphere and specialized functions.
+Perched at the northern foot of the cliffs, Windrest serves as the favored enclave for Kolnmark’s mercenary captains and senior city officials. Its winding lanes link the Causeway and the Foreign Quarter to the upper Cliff Cove lift terminus, blending grand townhouses with discreet service hubs.
 
-**Tags**: district, residential
+## History & Role
+
+Originally little more than a handful of cliff-side cottages, Windrest grew in importance once the Cliff Cove lifts were installed to carry cargo from the lower docks. Its proximity to Swordcrest’s training grounds and the Causeway’s muster fields attracted the captains and administrators of Kolnmark’s famed free companies, who quickly erected stately manors and secure service quarters here.
+
+## Economy & Activity
+
+Windrest’s economy revolves around two pillars:  
+- **Mercenary administration**: Contracts are negotiated in private townhouses; payrolls and provisioning offices handle vast troop movements south along the Causeway.  
+- **Cargo transfer**: The Cove Lift Exchange processes incoming bales, barrels, and war-packs delivered from the lower city, then dispatches them onward by road or river.
+
+## Inhabitants
+
+A tight-knit community of mercenary leaders, high-ranking city clerks, and retired captains. Their households staff everything from personal bodyguards to ledger clerks. Despite its military ties, Windrest maintains a calm, almost reserved atmosphere—chiefly punctuated by the thrum of arriving lifts.
+
+## Notable Locations
+
+- **Bladehaven Terrace** – A terrace of grand stone townhouses overlooking the Causeway, each home to a different free-company commander. Guards on permanent watch stand sentinel at every gate.  
+- **Cove Lift Exchange** – A series of loading docks and warehouess where goods arrive by lift and are sorted for onward transport. Its high ledgers track dozens of mercenary paymasters and their requisitions.  
+- **The Silver Zephyr** – A brisk, well-appointed tavern on the eastern High Road, famed for its cliff-fresh sea breezes, dark ales, and discreet private booths favored by visiting dignitaries.  
+- **Windrest Gatehouse** – A fortified landing platform built around the upper terminus of the Cliff Cove lifts. Serves as both customs house and first line of defense against any unwelcome “passengers.”
+
+## Tags
+
+residential, mercenary, administration, lift-terminal, tavern
+
 
 <details>
 <summary>Coordinates</summary>

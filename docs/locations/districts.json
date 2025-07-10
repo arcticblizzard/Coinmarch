@@ -274,10 +274,15 @@
   {
     "name": "Eastmere",
     "type": "Residential",
-    "summary": "",
+    "summary": "Eastmere perches between the High Road and the sheer cliffs overlooking the Blade Sea, just inside the East Gate. Its winding lanes lead from a bustling square south of the gate up toward a row of grand cliff-top residences. Eastmere is prized by the city’s elite who seek both easy access to the High Road and sweeping sea vistas.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "waterfront",
+      "manor",
+      "civic",
+      "shrines",
+      "patrician",
+      "parks"
     ],
     "coordinates": [
       [7554,2962], [7788,4444], [7884,4536], [7942,4658], [7946,4696],
@@ -654,10 +659,13 @@
   {
     "name": "Windrest",
     "type": "Residential",
-    "summary": "",
+    "summary": "Perched at the northern foot of the cliffs, Windrest serves as the favored enclave for Kolnmark’s mercenary captains and senior city officials. Its winding lanes link the Causeway and the Foreign Quarter to the upper Cliff Cove lift terminus, blending grand townhouses with discreet service hubs.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "mercenary",
+      "administration",
+      "lift-terminal",
+      "tavern"
     ],
     "coordinates": [
       [6398,1972], [6554,2186], [6638,2228], [6682,2244], [6722,2278],

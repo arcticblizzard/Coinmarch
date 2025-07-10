@@ -99,15 +99,6 @@
     "permalink": ""
   },
   {
-    "title": "East Gate",
-	"district": "Eastmere",
-    "type": "Structural",
-    "coordinates": "7988,5001",
-    "description": "",
-    "image": "",
-    "permalink": ""
-  },
-  {
     "title": "The Spine",
 	"district": "Swordcrest",
     "type": "Structural",
@@ -1454,6 +1445,105 @@
     "type": "Craft",
     "coordinates": "7647,4118",
     "description": "A marble kiosk in the spa’s shadow, where artisan chocolatiers, silversmiths, and perfumers display their finest wares to well-heeled passersby.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "East Gate",
+	"district": "Eastmere",
+    "type": "Structural",
+    "coordinates": "7988,5001",
+    "description": "",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliffhaven Estate",
+	  "district": "Eastmere",
+    "type": "Residential",
+    "coordinates": "8377,3907",
+    "description": "A soaring white-stone manor clinging to the northern cliffs, its terraced gardens tumble toward the sea, planted with wind-tolerant pines and roses.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Opaline Rotunda",
+	  "district": "Eastmere",
+    "type": "Civic",
+    "coordinates": "7941,4458",
+    "description": "North of the gate square, this domed, winged hall of pale granite seats the district’s magistrates; broad steps descend to a formal garden and reflecting pool open to all.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "House of Varindale",
+	  "district": "Eastmere",
+    "type": "Residential",
+    "coordinates": "8078,4085",
+    "description": "Raised on a broad crepidoma, this twin-winged manor features Ionic columns, marble balustrades, and a raised fountain courtyard.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Patrician Hall of Unity",
+	  "district": "Eastmere",
+    "type": "Civic",
+    "coordinates": "7700,3685",
+    "description": "Along the High Road near Velvet Court, this vaulted meeting hall hosts noble assemblies, ambassadorial receptions, and contract negotiations among the city’s great families.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Shrine Terrace Park",
+	  "district": "Eastmere",
+    "type": "Religious",
+    "coordinates": "8137,3508",
+    "description": "A cliff-edge grove of circular pavilions and chapels honoring the Old Gods, each set amid sheltered niches and carved stone benches.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Tideholm House",
+	  "district": "Eastmere",
+    "type": "Residential",
+    "coordinates": "7905,3245",
+    "description": "A smaller, twin-manor complex midway down the cliffs, its paired pavilions flank a formal koi pond accompanied by the sea breeze.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Bladehaven Terrace",
+	  "district": "Windrest",
+    "type": "Residential",
+    "coordinates": "6917,2338",
+    "description": "A terrace of grand stone townhouses overlooking the Causeway, each home to a different free-company commander. Guards on permanent watch stand sentinel at every gate.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cove Lift Exchange",
+	  "district": "Windrest",
+    "type": "Civic",
+    "coordinates": "6583,2048",
+    "description": "A series of loading docks and warehouess where goods arrive by lift and are sorted for onward transport. Its high ledgers track dozens of mercenary paymasters and their requisitions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Silver Zephyr",
+	  "district": "Windrest",
+    "type": "Leisure",
+    "coordinates": "7357,1977",
+    "description": "A brisk, well-appointed tavern on the eastern High Road, famed for its cliff-fresh sea breezes, dark ales, and discreet private booths favored by visiting dignitaries.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Windrest Gatehouse*",
+	  "district": "Windrest",
+    "type": "Martial",
+    "coordinates": "6626,2023",
+    "description": "A fortified landing platform built around the upper terminus of the Cliff Cove lifts. Serves as both customs house and first line of defense against any unwelcome 'passengers.'",
     "image": "",
     "permalink": ""
   }

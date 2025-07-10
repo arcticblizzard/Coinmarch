@@ -15,9 +15,12 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - tables
 nav:
   - Welcome: player-introduction/welcome.md
-  - Overview: player-introduction/system-overview.md
+  - Overview: 
+    - Basic Systems: player-introduction/system-overview.md
+    - Skill Challenges: player-introduction/skill-challenges.md
   - Character Creation:
     - Guide: player-introduction/character-creation/character-creation.md
     - Basic Careers: player-introduction/character-creation/basic-careers.md

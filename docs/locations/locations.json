@@ -54,15 +54,6 @@
     "permalink": ""
   },
   {
-    "title": "Giant's Causeway",
-	  "district": "Swordcrest",
-    "type": "Industrial",
-    "coordinates": "6046,2086",
-    "description": "A raised ruined causeway used as a military parade and training ground.",
-    "image": "",
-    "permalink": ""
-  },
-  {
     "title": "The Blackspans",
 	"district": "Bargebreaker Island",
     "type": "Structural",
@@ -1273,6 +1264,196 @@
     "type": "Civic",
     "coordinates": "7170,3357",
     "description": "A vaulted, oak-paneled repository adjacent to Diplomat’s Court. Here visiting delegations consult codices of regional law, treaties past and present, and local customaries. Private study alcoves and on-call scribes ensure that envoys can research, translate, and commission exact copies of any document under discreet candlelight.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "Goldedge Terrace",
+	  "district": "Goldedge",
+    "type": "Craft",
+    "coordinates": "7402,5283",
+    "description": "A graceful row of three-story brick townhouses set beneath iron-filigree balconies. Many feature small shopfronts—tailors’ windows or apothecary displays—beneath the families’ private quarters.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Twin Gate Lodges",
+	  "district": "Goldedge",
+    "type": "Residential",
+    "coordinates": "6568,5588",
+    "description": "Converted guardhouses flanking the city wall’s inner gate. Their vaulted ground floors now feed and house well-to-do lodgers.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Silvered Ivy Gardens",
+	  "district": "Goldedge",
+    "type": "Leisure",
+    "coordinates": "6964,5382",
+    "description": "A sunken public square planted with espaliered fruit trees and clipped hedges. Every Saturday, local makers set up stalls beneath the linden boughs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Many-Hued Chapel",
+	  "district": "Goldedge",
+    "type": "Religious",
+    "coordinates": "7684,5258",
+    "description": "A modest white-stone church built into the wall’s curtain, its stained-glass windows gleaming in morning light. The resident priest doubles as a notary for district affairs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Quill & Ledger Office",
+	  "district": "Goldedge",
+    "type": "Civic",
+    "coordinates": "7299,5852",
+    "description": "A discreet two-story stone building. Its ground-floor reading room and public counters serve Goldedge’s residents for notarial filings, household registrations, and guild paperwork, while a narrow oak-paneled stair leads upstairs to clerks’ offices where ledgers are kept by candlelight.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Mastermaker Park",
+	  "district": "Twinreach",
+    "type": "Leisure",
+    "coordinates": "6794,4883",
+    "description": "A broad, trimmed‐hedge square in the northwest, laid out with flowering beds, winding paths, and sculpted stone benches. Rising in the park’s center, a crystal‐domed gazebo of aquamarine stone and filigreed spires hosts guild demonstrations, minstrels’ performances, and seasonal fairs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Artisan Row",
+	  "district": "Twinreach",
+    "type": "Craft",
+    "coordinates": "6820,4777",
+    "description": "A large group of small retail shops opening up onto the park, each showcasing the district’s finest copperware, leather goods, glassware, and finely woven cloths. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Ember & Anvil",
+	  "district": "Twinreach",
+    "type": "Leisure",
+    "coordinates": "6827,5202",
+    "description": "A large timber-framed eatery near the East Gate, its roaring hearth and iron-forged décor serving molten iron ale and blackened roast to workshop hands and contract brokers alike.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Silver Bell Taproom",
+	  "district": "Twinreach",
+    "type": "Leisure",
+    "coordinates": "7583,4992",
+    "description": "Perched on Forge Street, known for its spiced peppercorn ale, nightly bardic recitals, and cordial welcome to both local journeymen and visiting dignitaries.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Moonfire Kilns",
+	  "district": "Twinreach",
+    "type": "Craft",
+    "coordinates": "7140,5162",
+    "description": "Nestled at Twinreach’s southern edge, a horseshoe of compact workshops surrounds a shared courtyard of glowing embers. Here master glassblowers forge moonfire glass, a rare mineral-infused crystal that absorbs daylight and softly radiates at night—shaping everything from lantern lenses and inlaid jewelry to luminescent display spheres that light the courtyard long after the kilns cool.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hallowed Market",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "6706,3980",
+    "description": "A circular plaza ringed with linden trees and covered stalls, where exotic dyes, enchanted inks, and rare implements change hands in the open air.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Twinforge Atelier",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "7602,4647",
+    "description": "Twin domes of burnished bronze and slate shelter the royal Metallurgists’ Guild. One hall’s roaring hearths forge iron and steel; the other tempers gold, silver, and gemstone‐inlaid alloys.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Forgebinder Hall",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "6594,3408",
+    "description": "A grand marble‐faced pavilion overlooking Crafthallow Square and the border of Swordcrest and Highmarch. Inside, vaulted galleries display prototype weapons and armor, and sculpted reliefs honor Kolnmark’s greatest smiths.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gilded Crescent Workshops",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "7027,3652",
+    "description": "A horseshoe of massive brick and timber workshops on the northern edge, where tapestry masters, glassblowers, and gemcutters produce luxury goods destined for Velvet Court and trading caravans.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Loomwrights' Guildhall",
+	  "district": "Crafthallow",
+    "type": "Civic",
+    "coordinates": "7079,4347",
+    "description": "A vaulted sandstone hall adorned with stained‐glass skylights. Inside, master weavers gather to negotiate commissions for noble courts and apprentice the next generation of tapestry artists.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gearcrafters' Guildhall",
+	  "district": "Crafthallow",
+    "type": "Civic",
+    "coordinates": "6980,4640",
+    "description": "A soaring iron‐and‐stone building, where clockwork engineers and intricate machinists draft contracts and supervise the crafting of precision mechanisms for city defenses and luxury curios.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "House of Caldara Spa",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7442,4095",
+    "description": "A two-tiered marble crepidoma ringed with classical colonnades. Its eight hot springs vary in mineral composition for health and beauty treatments.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Garden of Sighs",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7440,3797",
+    "description": "A terraced grove of moon-lit fountains and jasmine arbors, where guests whisper secrets under lantern light.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Velvet Embrace",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7589,3677",
+    "description": "The district’s most lavish bordello, its velvet-lined salons and perfumed baths draw nobles who demand privacy and perfection.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Amber Lamp Tavern",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7328,3577",
+    "description": "A tavern nearby Envoy’s Rest, famed for importing rare Hissai wines and Fesselburg teas, with live minstrel recitals at dusk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Pavilion",
+	  "district": "Velvet Court",
+    "type": "Craft",
+    "coordinates": "7647,4118",
+    "description": "A marble kiosk in the spa’s shadow, where artisan chocolatiers, silversmiths, and perfumers display their finest wares to well-heeled passersby.",
     "image": "",
     "permalink": ""
   }

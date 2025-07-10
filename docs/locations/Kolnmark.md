@@ -6,7 +6,7 @@ Coinmarch occupies a strategic perch at the mouth of the River Koln on the north
 
 ![Panorama of Coinmarch](/Coinmarch/images/kolnmark_panorama.jpg)
 
-The modern city is cleaved in two by those same white cliffs—the bustling [Lower City](/Coinmarch/locations/LowerKolnmark) hugging the riverbanks below, and the grand [Upper City](/Coinmarch/locations/UpperKolnmark)  crowned atop the bluffs. They are joined only by the sloping thoroughfare called the Spine, which winds its way between merchant stalls below to marble-paved avenues above. Coinmarch has defined itself as the world’s premier home for mercenary companies, whose captains and commanders both live and do business here. Though the lands beyond are racked by endless war, none dare besiege the city that supplies the blade for every battle. In Coinmarch, conflict is currency—and its elite grow inexorably richer on the world’s strife.
+The modern city is cleaved in two by those same white cliffs—the bustling [Lower City](/Coinmarch/locations/LowerKolnmark) hugging the riverbanks below, and the grand [Upper City](/Coinmarch/locations/UpperKolnmark)  crowned atop the bluffs. They are joined only by the sloping thoroughfare called the Spine, which winds its way between merchant stalls below to marble-paved avenues above. Coinmarch has defined itself as the world’s premier home for mercenary companies, whose captains and commanders both live and do business here. Though the lands beyond are racked by endless war, none dare besiege the city that supplies the blade for every battle. In Coinmarch, conflict is currency—and its elite grow inexorably richer upon that strife.
 
 ---
 

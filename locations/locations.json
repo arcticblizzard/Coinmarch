@@ -1539,11 +1539,56 @@
     "permalink": ""
   },
   {
-    "title": "Windrest Gatehouse*",
+    "title": "Windrest Gatehouse",
 	  "district": "Windrest",
     "type": "Martial",
     "coordinates": "6626,2023",
     "description": "A fortified landing platform built around the upper terminus of the Cliff Cove lifts. Serves as both customs house and first line of defense against any unwelcome 'passengers.'",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Promontory Foundry",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7068,1283",
+    "description": "A vaulted smithy built near the cliff’s edge, where master smiths temper damascene steel beneath roaring forges.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Glasswind Atelier",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7246,1069",
+    "description": "A glass-domed workshop where artisans spin sea-glass into jeweled goblets and lanterns.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliff Cove Customs",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7076,1733",
+    "description": "The squat granite exchange house near the lift terminus, where exotic cargo is cataloged and workshop bids are opened each dawn.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Silkreef Draperies",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7374,1477",
+    "description": "A two-story weaving hall along the main road, famed for its ocean-hued silks and salt-stained tapestries. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Mariners’ Canopy",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7215,1383",
+    "description": "An open-arced pavilion of fine ropeworks and compass makers, its carved beams echoing with the murmur of visiting captains.",
     "image": "",
     "permalink": ""
   }

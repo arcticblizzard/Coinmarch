@@ -1591,5 +1591,50 @@
     "description": "An open-arced pavilion of fine ropeworks and compass makers, its carved beams echoing with the murmur of visiting captains.",
     "image": "",
     "permalink": ""
+  },
+  {
+    "title": "Hall of Lords",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7762,725",
+    "description": "A lofty marble chamber ringed with carved banners, where the city’s patrician families debate edicts under vaulted frescoes.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hall of Commons",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7808,887",
+    "description": "A more modest, plank-floored hall for elected delegates; its benches creak with the voices of merchants, gildsmen, and ward representatives.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Grand Courthouse",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7216,647",
+    "description": "A domed basilica of justice, its judges’ dais overlooks a tribunal floor where even the mightiest may stand accused. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Great Seat",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7374,337",
+    "description": "A strongly fortified keep at the cliff’s tip, encircled by high curtain walls and moats. It serves as the governor’s residence, emergency stronghold, and secure archive for the city’s most sensitive records.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Westwatch Tower",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7188,469",
+    "description": "A slender lighthouse-like spire on the western cliff edge, its beacon guides incoming ships and signals across Kolnmark’s defenses.",
+    "image": "",
+    "permalink": ""
   }
 ]

@@ -4,7 +4,7 @@ Changes have been made to some of the Skills, Careers, and Rules of the Warlock!
 
 [Download the Character Sheet PDF](/Coinmarch/handouts/character_sheet2.pdf)
 
-[Example Character](/Coinmarch/handouts/charcter_example.pdf)
+[Example Character](/Coinmarch/handouts/character_example.pdf)
 
 ---
 

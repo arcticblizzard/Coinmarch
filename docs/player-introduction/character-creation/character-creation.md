@@ -16,7 +16,7 @@ All characters start with their 32 skills at **Level 4**. Then:
 - Raise another **10** skills of your choice to **Level 5** (representing abilities your character is somewhat proficient in).
 - Additional skill points will be awarded after career selection (see next section)
 
-!!! info "Note"
+!!! note "Skill Changes"
 
     A few changes to Skills that deviate from the rulebook:
     
@@ -40,13 +40,13 @@ Slight changes have been made to the available Basic Careers and their associate
 
 After selecting your career, distribute **10 additional skills points** across your career skills.
 
-!!! info "Note"
+!!! note "Starting Skill Total"
 
     Starting characters should total **168 skills points** across all skills (not counting any additional bonuses from Knacks).
 
 Your initial career also sets your **Career Skill**, equal to your **lowest** of your five career skills. This is used for miscellaneous checks, improving stamina, and guiding character advancement.
 
-!!! info "Note"
+!!! note "Custom Carrers"
 
     If your character concept does not fit the existing careers, discuss it with the GM. Some character concepts may not be fully achievable at the start, but can be accommodated in advanced careers.
 
@@ -58,7 +58,7 @@ Each character begins with a Knack - a unique ability picked up through hard les
 
 The passive ability of a knack may *exceed* the skill cap set out by your basic career.
 
-!!! warning "Warning"
+!!! warning "GM Fiat"
 
     These knacks are homebrewed, and the GM reserves the rights to make small tweaks for balancing reasons during downtime.
 
@@ -74,10 +74,8 @@ The following are the remaining items that need to be filled into your character
 - A brief background
 - Your character’s Kin (race).
     
-!!! warning "Warning"
+!!! note "No Race Mechanics"
     While Kin has no direct mechanical effects, it influences how the world interacts with you.
-
-    
 
 ---
 
@@ -93,5 +91,5 @@ Players can use these Advancements to:
 - Change Career (Page 62) by spending **5** Advances.
 - Advancing a Career (Page 63) by spending **5** Advances.
     
-!!! warning "Warning"
+!!! warning "Additional Requirements"
     There are additional requirements that must be met for the selection of an Advanced Career, outlined on Page 63.

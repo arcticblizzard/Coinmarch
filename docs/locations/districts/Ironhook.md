@@ -4,11 +4,11 @@
 
 ## Summary
 
-Perched on the approach to the Spine and shadowed by the Breakbay cliffs, Ironhook is the city’s premier armorer and outfitter district. Its workshops and caverns churn day and night to supply the mercenaries of Garrison’s Row with weapons, armor, and provisions.
+Perched on the approach to the Cleft and shadowed by the Breakbay cliffs, Ironhook is the city’s premier armorer and outfitter district. Its workshops and caverns churn day and night to supply the mercenaries of Garrison’s Row with weapons, armor, and provisions.
 
 ## History & Role
 
-Ironhook grew from a handful of cliffside forges into a sprawling network of smithies and storage caverns after the Spine Gate was reinforced. As soldiers and sellswords swelled the ranks of Kolnmark’s lower garrison, they turned to Ironhook’s craftsmen to temper steel and store their hard-won spoils.
+Ironhook grew from a handful of cliffside forges into a sprawling network of smithies and storage caverns after the Cleft Gate was reinforced. As soldiers and sellswords swelled the ranks of Kolnmark’s lower garrison, they turned to Ironhook’s craftsmen to temper steel and store their hard-won spoils.
 
 ## Economy & Activity
 

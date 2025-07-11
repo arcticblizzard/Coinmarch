@@ -305,7 +305,7 @@
   {
     "name": "Garrison Row",
     "type": "Martial",
-    "summary": "A compact, fortress-like enclave at the foot of the Spine causeway, Garrison Row is home to Kolnmark’s professional solders-for-hire. Walled barracks, training yards, and communal facilities cluster along narrow, regimented streets.",
+    "summary": "A compact, fortress-like enclave at the foot of the Cleft causeway, Garrison Row is home to Kolnmark’s professional solders-for-hire. Walled barracks, training yards, and communal facilities cluster along narrow, regimented streets.",
     "tags": [
       "martial",
       "barracks",
@@ -418,7 +418,7 @@
   {
     "name": "Ironhook",
     "type": "Craft",
-    "summary": "Perched on the approach to the Spine and shadowed by the Breakbay cliffs, Ironhook is the city’s premier armorer and outfitter district. Its workshops and caverns churn day and night to supply the mercenaries of Garrison’s Row with weapons, armor, and provisions.",
+    "summary": "Perched on the approach to the Cleft and shadowed by the Breakbay cliffs, Ironhook is the city’s premier armorer and outfitter district. Its workshops and caverns churn day and night to supply the mercenaries of Garrison’s Row with weapons, armor, and provisions.",
     "tags": [
       "craft",
       "mercenary-supply",

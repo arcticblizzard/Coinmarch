@@ -4,11 +4,11 @@
 
 ## Summary
 
-A compact, fortress-like enclave at the foot of the Spine causeway, Garrison Row is home to Kolnmark’s professional solders-for-hire. Walled barracks, training yards, and communal facilities cluster along narrow, regimented streets.
+A compact, fortress-like enclave at the foot of the Cleft causeway, Garrison Row is home to Kolnmark’s professional solders-for-hire. Walled barracks, training yards, and communal facilities cluster along narrow, regimented streets.
 
 ## History & Role
 
-Originally built to house the city’s standing militia, Garrison Row expanded with the rise of mercenary companies sworn to Kolnmark’s defense (and highest bidder). Its stout ramparts and watchtowers guard the Spine Gate and serve as staging ground for campaigns both inside and beyond the city walls.
+Originally built to house the city’s standing militia, Garrison Row expanded with the rise of mercenary companies sworn to Kolnmark’s defense (and highest bidder). Its stout ramparts and watchtowers guard the Cleft Gate and serve as staging ground for campaigns both inside and beyond the city walls.
 
 ## Economy & Activity
 

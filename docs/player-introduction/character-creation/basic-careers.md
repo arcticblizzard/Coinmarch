@@ -30,8 +30,9 @@ In lieu of Players rolling to build a random list of basic careers to choose fro
 | Sneak | Grave Robber | Persuasion, Small Blade, Spot | Brawling, Intimidate |
 | Sneak | Skulker | Stealth, Spot, Athletics | Disguise, Street Craft |
 
+---
 
-!!! info "Info"
+!!! note "Moral Careers"
 
     _Careers marked with_ **_\*_** _are ones typically found on the right side of the law; in order to play these careers as criminals, a Characters’ backstory should contain some reason for them to have turned away from their “law-abiding” career._
 

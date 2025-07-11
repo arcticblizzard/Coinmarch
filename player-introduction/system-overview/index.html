@@ -124,10 +124,34 @@
             </li>
             <li class="nav-item" data-bs-level="2"><a href="#combat" class="nav-link">Combat</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="3"><a href="#initiative" class="nav-link">Initiative</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3"><a href="#combat-actions" class="nav-link">Combat Actions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3"><a href="#attacks" class="nav-link">Attacks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
             <li class="nav-item" data-bs-level="2"><a href="#damage-armour-and-recovery" class="nav-link">Damage, Armour, and Recovery</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="3"><a href="#damage" class="nav-link">Damage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3"><a href="#armor" class="nav-link">Armor</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="3"><a href="#recovery" class="nav-link">Recovery</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
             <li class="nav-item" data-bs-level="2"><a href="#magic-general" class="nav-link">Magic (General)</a>
@@ -165,8 +189,8 @@
 <ul>
 <li><strong>Basic Luck Test</strong>: Roll <code>1d20 + Luck attribute</code>. A total of <strong>20 or more</strong> is a success.</li>
 </ul>
-<div class="admonition info">
-<p class="admonition-title">Note</p>
+<div class="admonition note">
+<p class="admonition-title">Luck Runs Out</p>
 <p>All Luck tests (regardless of outcome) reduce the character’s Luck attribute by 1.</p>
 </div>
 <hr />
@@ -174,18 +198,18 @@
 <p><em>Page 74</em></p>
 <p>Attacks between combatants are resolved as opposed tests - the winner hits the loser and inflicts damage. Combat is divided into rounds, roughly representing 30 seconds.</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Combat is Dangerous</p>
 <p>Note that it is possible to take damage as an attacker if you roll badly in the opposed test</p>
 </div>
-<ul>
-<li><strong>Initiative</strong>: Initiate is usually determined by the narrative (which party is more prepared for the fight?). In situations where that cannot be easily determined, each side rolls <code>1d6</code>, and the highest roll side goes first. Turn order within the group is determined amongst the group.</li>
-<li>
+<h3 id="initiative">Initiative</h3>
+<p>Initiative is usually determined by the narrative (which party is more prepared for the fight?). In situations where that cannot be easily determined, each side rolls <code>1d6</code>, and the highest roll side goes first. Turn order within the group is determined amongst the group.</p>
+<h3 id="combat-actions">Combat Actions</h3>
 <p><strong>Each Round</strong>, a character may:</p>
-<ul>
+<ol>
 <li>
 <p>Move: characters may move up to around 10 feet cautiously as part of their action (free movement). If a character desired to move beyond that limitation, they must spend their action doing so. Characters taking the Move action can move one step between the ranges.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Abstraction</p>
 <p>Distance is covered in an abstract method (Close, Nearby, Faraway, or Distant).</p>
 </div>
 </li>
@@ -194,61 +218,55 @@
 </li>
 <li>Cast a spell or use a knack,</li>
 <li>Take another meaningful action (e.g., draw weapon, interact with environment).</li>
-<li><strong>To Attack</strong>: Roll <code>1d20 + weapon skill +5 (for attacking)</code>.</li>
-</ul>
+</ol>
+<h3 id="attacks">Attacks</h3>
+<p><strong>To Attack</strong></p>
+<ol>
+<li>
+<p>Roll <code>1d20 + weapon skill +5 (for attacking)</code>.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Distance Penalty</p>
 <p>Ranged attacks at a distance of Faraway or greater may be penalized -5 on the roll.</p>
 </div>
-<ul>
+</li>
 <li>
-<p>Defender rolls <code>1d20 + appropriate defense skill</code> (Weapon Skill, Dodge, etc.).</p>
+<p>The defender rolls <code>1d20 + appropriate defense skill</code> (Weapon Skill, Dodge, etc.).</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Shield Bonus</p>
 <p>For Ranged attacks: if the defender is aware of the attack and also has a shield, they apply a +3 and +5 bonus to their Dodge check for Small and Large shields respectively.</p>
 </div>
 </li>
 <li>
-<p>Higher roll hits and applies weapon damage roll</p>
-</li>
-</ul>
+<p>Apply weapon damage to the loser of the roll</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Mighty Strikes: If the winner of an Attack check rolls a natural 20 or rolls more than <strong>3x</strong> the result of the defender, they achieve a Mighty Strike; <strong>Double the overall attack damage</strong>.</p>
+<p class="admonition-title">Mighty Strikes</p>
+<p>If the winner of an Attack check rolls a natural 20 or rolls more than <strong>3x</strong> the result of the defender, they achieve a Mighty Strike; <strong>Double the overall attack damage</strong>.</p>
 </div>
 </li>
-</ul>
+</ol>
 <hr />
 <h2 id="damage-armour-and-recovery">Damage, Armour, and Recovery</h2>
 <p><em>Page 81</em></p>
-<ul>
-<li>
-<p><strong>Damage</strong>: Weapons list a damage die (e.g., <code>1d6</code>, <code>1d8</code>). Roll and subtract the target's <strong>Armour</strong> value.The remaining damage is removed from <strong>Stamina</strong>.</p>
+<h3 id="damage">Damage</h3>
+<p>Weapons list a damage die (e.g., <code>1d6</code>, <code>1d8</code>). Roll and subtract the target's <strong>Armour</strong> value.The remaining damage is removed from <strong>Stamina</strong>.</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Minimum 1 Damage</p>
 <p>Even with armor and a shield, being struck will always cause at least 1 point of stamina loss (even if reduced to zero or lower).</p>
 </div>
-</li>
-<li>
-<p><strong>Armor</strong>: Provides a flat <strong>damage soak</strong> <code>1d3</code> for Light Armor, <code>1d6</code> for Medium Armor, and <code>2d6</code> for Heavy Armor.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Shields increase the armor level of a character by one rank (excluding Heavy Armor).</p>
-</div>
-</li>
-<li>
 <p><strong>Critical Hits</strong>: When a character takes damage that brings them to <strong>below 0 Stamina</strong>, this is a critical hit. The character suffers a critical hit effect by rolling a <code>1d6</code> against an appropriate critical hit table (Page 85).</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Critical Damage</p>
 <p>If the damage taken was enough to reduce stamina BELOW 0, add one to the Critical Roll for each negative point of stamina.</p>
 </div>
-</li>
-<li>
-<p><strong>Recovery</strong></p>
-</li>
-<li>Stamina: Characters recover <strong>half</strong> of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.</li>
-<li>Luck: On rolling a natural 20, a player may add +1 to their Luck score (as long as it doesn't exceed the cap of 13.). Additionally, at the start of each adventure/mission all characters may roll <code>1d4</code> and add the result to their current Luck score (again, as long as it is at or under the cap of 13).</li>
-</ul>
+<h3 id="armor">Armor</h3>
+<p>Armor Provides a flat <strong>damage soak</strong> <code>1d3</code> for Light Armor, <code>1d6</code> for Medium Armor, and <code>2d6</code> for Heavy Armor.</p>
+<div class="admonition note">
+<p class="admonition-title">Sheilds</p>
+<p>Shields increase the armor level of a character by one rank (excluding Heavy Armor).</p>
+</div>
+<h3 id="recovery">Recovery</h3>
+<p><strong>Stamina</strong>: Characters recover <strong>half</strong> of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.</p>
+<p><strong>Luck</strong>: On rolling a natural 20, a player may add +1 to their Luck score (as long as it doesn't exceed the cap of 13.). Additionally, at the start of each adventure/mission all characters may roll <code>1d4</code> and add the result to their current Luck score (again, as long as it is at or under the cap of 13).</p>
 <hr />
 <h2 id="magic-general">Magic (General)</h2>
 <p>Magic in <em>Warlock!</em> comes <strong>exclusively</strong> from entities outside of the mortal realm: gods, demons, abberations, etc. Spells are nothing more than requests upon these beings and are initiated through the act of reciting from a spell scroll.</p>

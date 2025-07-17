@@ -1,0 +1,49 @@
+/* campaign-frame.css */
+
+/* outer card container */
+.campaign-frame {
+  background: var(--md-default-bg-color, #fff);
+  border: 1px solid var(--md-default-border-color, #ddd);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+/* header styling */
+.campaign-frame .cf-header {
+  border-bottom: 2px solid var(--md-default-primary-color, #4b6b9e);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.campaign-frame .cf-header .cf-title {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--md-primary-text-color, #333);
+}
+.campaign-frame .cf-header .cf-subtitle {
+  margin: 0.25rem 0 0;
+  color: var(--md-secondary-text-color, #666);
+  font-style: italic;
+}
+
+/* section titles */
+.campaign-frame .cf-section h2 {
+  font-size: 1.4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--md-primary-text-color, #333);
+}
+
+/* lists inside sections */
+.campaign-frame .cf-section ul {
+  list-style: disc inside;
+  margin: 0 0 1rem;
+  color: var(--md-secondary-text-color, #555);
+}
+
+/* tighten up paragraphs */
+.campaign-frame .cf-section p {
+  margin: 0 0 1rem;
+  color: var(--md-secondary-text-color, #555);
+}

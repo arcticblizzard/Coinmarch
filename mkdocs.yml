@@ -17,7 +17,9 @@ markdown_extensions:
   - pymdownx.superfences
   - tables
 nav:
-  - Welcome: player-introduction/welcome.md
+  - Welcome: 
+    - Introduction: player-introduction/welcome.md
+    - Campaign Frame: player-introduction/campaign-frame.md
   - Overview: 
     - Basic Systems: player-introduction/system-overview.md
     - Skill Challenges: player-introduction/skill-challenges.md

@@ -95,58 +95,58 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
 
     Player Principles define the approach you should take to create an engaging and collaborative story. They are reminders that this campaign thrives when characters take bold actions, embrace their flaws, and make choices that matter. These principles encourage agency, risk-taking, and weaving personal goals into the shared narrative.
 
--   :material-run-fast:{ .lg .middle } __Take the Initiative__
-
-    ---
-
-    Don’t wait for the story to come to you—pursue your goals, make moves, and shape events.
-
--   :material-drama-masks:{ .lg .middle } __Lean into the Grey__
-
-    ---
-
-    Embrace moral ambiguity; hero and villain are roles you define in the moment.
-
--   :fontawesome-solid-hand-holding-hand:{ .lg .middle } __Forge and Break Bonds__
-
-    ---
-
-    Build connections with NPCs and party members—but know trust always comes at a cost.
-
--   :material-lightbulb-on-outline:{ .lg .middle } __Think Creatively__
-
-    ---
-
-    Coinmarch rewards clever solutions; the bold and inventive often prosper… or perish spectacularly.
+    -   :material-run-fast:{ .lg .middle } __Take the Initiative__
+    
+        ---
+    
+        Don’t wait for the story to come to you—pursue your goals, make moves, and shape events.
+    
+    -   :material-drama-masks:{ .lg .middle } __Lean into the Grey__
+    
+        ---
+    
+        Embrace moral ambiguity; hero and villain are roles you define in the moment.
+    
+    -   :fontawesome-solid-hand-holding-hand:{ .lg .middle } __Forge and Break Bonds__
+    
+        ---
+    
+        Build connections with NPCs and party members—but know trust always comes at a cost.
+    
+    -   :material-lightbulb-on-outline:{ .lg .middle } __Think Creatively__
+    
+        ---
+    
+        Coinmarch rewards clever solutions; the bold and inventive often prosper… or perish spectacularly.
 
 === "GM Principles"
 
     GM Principles guide the tone and structure of the game world, ensuring Coinmarch feels alive, reactive, and steeped in intrigue. They emphasize fairness, consequence-driven storytelling, and creating opportunities for players to shine through meaningful choices and moral complexity.
 
 
--   :material-city-variant-outline:{ .lg .middle } __Make Coinmarch Feel Active__
-
-    ---
-
-    Give districts unique voices, factions distinct agendas, and let the city breathe like a living organism.
-
--   :material-scale-balance:{ .lg .middle } __Consequences Are Real__
-
-    ---
-
-    Every choice ripples outward—reward risks, and make actions matter in the long term.
-
--   :material-eye-outline:{ .lg .middle } __Reveal Secrets Slowly__
-
-    ---
-
-    Let mystery simmer; uncover truths piece by piece to keep players guessing.
-
--   :material-sword-cross:{ .lg .middle } __Keep Tension High__
-
-    ---
-
-    Conflict should feel present, even outside combat—through politics, personal stakes, and the threat of betrayal.
+    -   :material-city-variant-outline:{ .lg .middle } __Make Coinmarch Feel Active__
+    
+        ---
+    
+        Give districts unique voices, factions distinct agendas, and let the city breathe like a living organism.
+    
+    -   :material-scale-balance:{ .lg .middle } __Consequences Are Real__
+    
+        ---
+    
+        Every choice ripples outward—reward risks, and make actions matter in the long term.
+    
+    -   :material-eye-outline:{ .lg .middle } __Reveal Secrets Slowly__
+    
+        ---
+    
+        Let mystery simmer; uncover truths piece by piece to keep players guessing.
+    
+    -   :material-sword-cross:{ .lg .middle } __Keep Tension High__
+    
+        ---
+    
+        Conflict should feel present, even outside combat—through politics, personal stakes, and the threat of betrayal.
 
 ## Campaign Mechanics
 

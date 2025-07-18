@@ -95,6 +95,7 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
 
     Player Principles define the approach you should take to create an engaging and collaborative story. They are reminders that this campaign thrives when characters take bold actions, embrace their flaws, and make choices that matter. These principles encourage agency, risk-taking, and weaving personal goals into the shared narrative.
 
+<div class="grid cards" markdown>
     -   :material-run-fast:{ .lg .middle } __Take the Initiative__
     
         ---
@@ -118,12 +119,13 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
         ---
     
         Coinmarch rewards clever solutions; the bold and inventive often prosper… or perish spectacularly.
+</div>
 
 === "GM Principles"
 
     GM Principles guide the tone and structure of the game world, ensuring Coinmarch feels alive, reactive, and steeped in intrigue. They emphasize fairness, consequence-driven storytelling, and creating opportunities for players to shine through meaningful choices and moral complexity.
 
-
+<div class="grid cards" markdown>
     -   :material-city-variant-outline:{ .lg .middle } __Make Coinmarch Feel Active__
     
         ---
@@ -147,6 +149,7 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
         ---
     
         Conflict should feel present, even outside combat—through politics, personal stakes, and the threat of betrayal.
+</div>
 
 ## Campaign Mechanics
 

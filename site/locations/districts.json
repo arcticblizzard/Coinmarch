@@ -2,10 +2,13 @@
   {
     "name": "Bannercrest",
     "type": "Civic",
-    "summary": "",
+    "summary": "Sitting at the northernmost promontory of Upper Kolnmark, Bannercrest is the city’s seat of power. Its white stone halls and ramparts crown the cliffs, gazing out over the Blade Sea. Here the lords and commons convene, justice is meted out, and the city’s highest offices are housed.",
     "tags": [
-      "district",
-      "civic"
+      "civic",
+      "government",
+      "justice",
+      "fortified",
+      "administration"
     ],
     "coordinates": [
       [7108,432], [7172,716], [7244,754], [7292,832], [7280,904],
@@ -104,7 +107,7 @@
     "link": "docs/locations/districts/Caskside.md"
   },
   {
-    "name": "Clerk's Ward",
+    "name": "Clerk’s Ward",
     "type": "Civic",
     "summary": "A compact enclave anchoring Kolnmark’s lower city core, Clerk’s Ward faces the broad boulevards and the leafy expanse of the Greenwold. At its heart stands the walled Hall of Records—a stately courtyarded complex where public ledgers, charters, and petitions are filed and reviewed. Here the pulse of daily civic life beats in the shuffle of parchment and the measured steps of robed clerks.",
     "tags": [
@@ -165,10 +168,13 @@
   {
     "name": "Crafthallow",
     "type": "Craft",
-    "summary": "",
+    "summary": "Crafthallow is Kolnmark’s greatest hub of artisans and guilds, occupying the geographic center of the Upper City. Neighboring leisure promenades, civic offices, and grand residences, its streets hum with the forging of metal, the shaping of glass, and the weaving of fabrics. At its heart lies a tree-lined specialty market; beyond that, vast workshops and showrooms define its skyline.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "artisans",
+      "guilds",
+      "metallurgy",
+      "luxury-goods"
     ],
     "coordinates": [
       [6381,3422], [6387,4652], [6451,4718], [7685,4706], [7707,4584],
@@ -184,10 +190,13 @@
   {
     "name": "Dawnwatch",
     "type": "Leisure",
-    "summary": "",
+    "summary": "Set upon the eastern cliffs overlooking the Blade Sea, Dawnwatch is Kolnmark’s most raucous leisure district. Glittering manors, boisterous taverns, and gilded vice dens line its winding streets, while grand spectacles—from chariot races to open-air gaming—draw thrill-seekers from across the city.",
     "tags": [
-      "district",
-      "leisure"
+      "leisure",
+      "entertainment",
+      "gambling",
+      "cliffs",
+      "nightlife"
     ],
     "coordinates": [
       [7553,2954], [7475,2538], [7531,2510], [7559,2460], [7553,2410],
@@ -271,10 +280,15 @@
   {
     "name": "Eastmere",
     "type": "Residential",
-    "summary": "",
+    "summary": "Eastmere sits between the High Road and the sheer cliffs overlooking the Blade Sea, just inside the East Gate. Its winding lanes lead from a bustling square south of the gate up toward a row of grand cliff-top residences. Eastmere is prized by the city’s elite who seek both easy access to the High Road and sweeping sea vistas.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "waterfront",
+      "manor",
+      "civic",
+      "shrines",
+      "patrician",
+      "parks"
     ],
     "coordinates": [
       [7554,2962], [7788,4444], [7884,4536], [7942,4658], [7946,4696],
@@ -288,12 +302,16 @@
     "link": "docs/locations/districts/Eastmere.md"
   },
   {
-    "name": "Envoy's Rest",
+    "name": "Envoy’s Rest",
     "type": "Civic",
-    "summary": "",
+    "summary": "Tucked just east of Swordcrest, Envoy’s Rest is Kolnmark’s compact diplomatic quarter. Stately lodges and administrative halls line its narrow avenues, while a shaded woodland park near its edge offers a quiet refuge. Here rival delegations converge, each hoping to secure fresh mercenary support, under the watchful eyes of city guards.",
     "tags": [
-      "district",
-      "civic"
+      "civic",
+      "diplomacy",
+      "mercenaries",
+      "security",
+      "lodgings",
+      "negotiation"
     ],
     "coordinates": [
       [6658,3126], [6774,3286], [6888,3336], [6916,3324], [6966,3350],
@@ -343,10 +361,14 @@
   {
     "name": "Goldedge",
     "type": "Residential",
-    "summary": "",
+    "summary": "Clinging to the inner face of the northern city wall just inside the Twin Gates, Goldedge is Coinmarch’s premier middle-class neighborhood. Broad, tree-lined avenues are flanked by elegant brick townhouses and private mews; only a handful of discreet, ground-floor shops hint at the district’s mercantile roots.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "middle-class",
+      "townhouses",
+      "mews",
+      "gardens",
+      "quiet"
     ],
     "coordinates": [
       [6466,5236], [6514,5280], [6528,5692], [6666,5722], [6934,5956],
@@ -380,10 +402,13 @@
   {
     "name": "Highforge",
     "type": "Craft",
-    "summary": "",
+    "summary": "Perched on the windswept promontory that juts into the Blade Sea, Highforge is a compact enclave of master artisans who fashion luxury goods for Kolnmark’s elite. Its steep cliffs offer dramatic sea views, while Cliff Cove lifts disgorge exotic shipments that fuel Highforge’s bespoke workshops.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "luxury",
+      "maritime",
+      "bespoke",
+      "elite"
     ],
     "coordinates": [
       [7418,996], [7374,990], [7276,916], [7172,1028], [7144,1054],
@@ -396,10 +421,14 @@
   {
     "name": "Highmarch",
     "type": "Residential",
-    "summary": "",
+    "summary": "Resting atop the western cliffs of Upper Kolnmark, Highmarch is the city’s most exclusive residential quarter. From this lofty vantage it stretches south from the ancient city wall up to the Cleft, its grand estates overlooking both sea and skyline.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "elite",
+      "estates",
+      "cliffside",
+      "culture",
+      "leisure"
     ],
     "coordinates": [
       [5620,5378], [5552,5422], [5708,5622], [6066,5722], [6152,5724],
@@ -455,7 +484,7 @@
     "link": "docs/locations/districts/Newbrick_Ward.md"
   },
   {
-    "name": "Pilgrim's Way",
+    "name": "Pilgrim’s Way",
     "type": "Leisure",
     "summary": "Nestled in the shadow of the Spire along the pilgrims’ thoroughfare, Pilgrim’s Way caters to well-heeled visitors making their devotions. Elegant inns, tranquil gardens, and refined taverns line the broad, flag-stone street, offering respite, fine fare, and exclusive souvenirs to clergy, nobles, and foreign dignitaries.",
     "tags": [
@@ -476,10 +505,13 @@
   {
     "name": "Swordcrest",
     "type": "Martial",
-    "summary": "",
+    "summary": "Situated on the northern edge of Upper Kolnmark, Swordcrest is the Kingdom’s premier martial district. It adjoins the Giant’s Causeway—vast parade grounds for daily drills and grand tournaments—and revolves around a central eight-spoked rotunda that houses the commanders of the city’s foremost mercenary companies.",
     "tags": [
-      "district",
-      "martial"
+      "martial",
+      "mercenary",
+      "training",
+      "armory",
+      "diplomacy"
     ],
     "coordinates": [
       [5828,2344], [5816,2408], [5794,2446], [5822,2484], [5852,2548],
@@ -577,10 +609,14 @@
   {
     "name": "Twinreach",
     "type": "Craft",
-    "summary": "",
+    "summary": "Twinreach is the city’s foremost artisan quarter, stretching from the bustling Twin Gates thoroughfare eastward to the High Road at the East Gate. Renowned for its concentration of workshops and merchant stalls, its northwest park offers a leafy oasis amid the clang of hammers and hum of looms.",
     "tags": [
-      "district",
-      "craft"
+      "craft",
+      "workshops",
+      "market",
+      "artisans",
+      "taverns",
+      "park"
     ],
     "coordinates": [
       [6388,5222], [6458,5228], [6518,5148], [6652,5248], [6764,5250],
@@ -593,10 +629,16 @@
   {
     "name": "Velvet Court",
     "type": "Leisure",
-    "summary": "",
+    "summary": "Velvet Court is a compact enclave of opulence and indulgence on Upper Kolnmark’s southern flank. Its centerpiece is an open-air spa and garden complex built atop a marble crepidoma, where wealthy patrons soak in thermal pools and stroll fragrant walkways. Along the district’s southern edge, velvet-draped pleasure houses offer discreet entertainments, while refined taverns near the Foreign Quarter cater to visiting dignitaries seeking comforts of home.",
     "tags": [
-      "district",
-      "leisure"
+      "indulgence",
+      "spa",
+      "pleasure",
+      "gardens",
+      "exclusive",
+      "hospitality",
+      "luxury",
+      "foreign-style"
     ],
     "coordinates": [
       [7288,3502], [7316,3532], [7254,3608], [7206,3734], [7230,3962],
@@ -626,10 +668,13 @@
   {
     "name": "Windrest",
     "type": "Residential",
-    "summary": "",
+    "summary": "Perched at the northern foot of the cliffs, Windrest serves as the favored enclave for Kolnmark’s mercenary captains and senior city officials. Its winding lanes link the Causeway and the Foreign Quarter to the upper Cliff Cove lift terminus, blending grand townhouses with discreet service hubs.",
     "tags": [
-      "district",
-      "residential"
+      "residential",
+      "mercenary",
+      "administration",
+      "lift-terminal",
+      "tavern"
     ],
     "coordinates": [
       [6398,1972], [6554,2186], [6638,2228], [6682,2244], [6722,2278],

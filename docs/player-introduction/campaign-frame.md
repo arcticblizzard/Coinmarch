@@ -1,136 +1,115 @@
-# Campaign Frame
+# Coinmarch Campaign Frame
 
-<div class="container">
-  <div class="campaign-frame">
+>Quote: Tagline text
 
-  <!-- Title & Short Description -->
-  <header class="cf-header">
-    <h1 class="cf-title">Coinmarch Campaign</h1>
-    <p class="cf-subtitle">A struggle for control of the Pillars of Destinies, where prophecy and revolution collide.</p>
-  </header>
+## The Pitch
 
-  <!-- The Pitch -->
-  <section class="cf-section" id="pitch">
-    <h2>The Pitch</h2>
-    <p>“Long ago, twelve Pillars stood as linchpins between worlds… now they awaken, and you must choose which destiny to forge.”</p>
-  </section>
+PITCH TEXT
 
-  <!-- Tone & Feel -->
-  <section class="cf-section" id="tone">
-    <h2>Tone &amp; Feel</h2>
-    <ul>
-      <li>Mythic</li>
-      <li>Revolutionary</li>
-      <li>Grim-hope</li>
-    </ul>
-  </section>
+<div class="grid cards" markdown>
 
-  <!-- Themes -->
-  <section class="cf-section" id="themes">
-    <h2>Themes</h2>
-    <ul>
-      <li>Power and Prophecy</li>
-      <li>Betrayal &amp; Redemption</li>
-      <li>Civil Unrest</li>
-    </ul>
-  </section>
+-   :material-palette:{ .lg .middle } __Tone and Feel__
 
-  <!-- Touchstones -->
-  <section class="cf-section" id="touchstones">
-    <h2>Touchstones</h2>
-    <ul>
-      <li>*Game of Thrones* meets *Foundation*</li>
-      <li>*Mistborn* trilogies</li>
-      <li>*Legend of Zelda: Breath of the Wild*</li>
-    </ul>
-  </section>
+    ---
 
-  <!-- Overview -->
-  <section class="cf-section" id="overview">
-    <h2>Overview</h2>
-    <p>The Twelve Pillars loom across this world—ancient monoliths that shape fate. When they stir, the delicate balance fractures, and every power will vie for control…</p>
-  </section>
+    - Gritty
+    - Intrigue
+    - Adventure
 
-  <!-- Communities -->
-  <section class="cf-section" id="communities">
-    <h2>Communities</h2>
-    <ul>
-      <li><strong>The Pillarbound:</strong> Guardians sworn to protect a single Pillar.  
-        <em>S0 Question:</em> Which oath binds you most—blood or duty?</li>
-      <li><strong>The Free Cities:</strong> Merchant-states built on prophecy trade.  
-        <em>S0 Question:</em> What secret might you haggle away?</li>
-      <li><strong>Nomadic Diviners:</strong> Oracles who chase the Pillars’ voices.  
-        <em>S0 Question:</em> Whose future haunts your visions?</li>
-    </ul>
-  </section>
+-   :simple-abstract:{ .lg .middle } __Themes__
 
-  <!-- Ancestries -->
-  <section class="cf-section" id="ancestries">
-    <h2>Ancestries</h2>
-    <ul>
-      <li>Human • Aelfkin • Stoneborn • Sky-touched • Wildbore</li>
-    </ul>
-  </section>
+    ---
 
-  <!-- Classes -->
-  <section class="cf-section" id="classes">
-    <h2>Classes</h2>
-    <ul>
-      <li>Scepterbearer • Pillarbinder • Seer • Revolutionist • …</li>
-    </ul>
-  </section>
+    - Betrayal and Trust
+    - Ambition and Consequences
+    - Secrets and Revelations
 
-  <!-- Player Principles -->
-  <section class="cf-section" id="player-principles">
-    <h2>Player Principles</h2>
-    <ul>
-      <li><strong>Prophecy First:</strong> Everyone has a stake in the vision.</li>
-      <li><strong>Epic Risks:</strong> If you’re not risking your Pillar’s favor, you’re playing too safe.</li>
-      <li><strong>Revolution &amp; Trust:</strong> Alliances are temporary—betray wisely.</li>
-    </ul>
-  </section>
+-   :material-book:{ .lg .middle } __Touchstones__
 
-  <!-- GM Principles -->
-  <section class="cf-section" id="gm-principles">
-    <h2>GM Principles</h2>
-    <ul>
-      <li><strong>Prophecy as Compass:</strong> Use visions to guide, not dictate.</li>
-      <li><strong>Balance Factions:</strong> Every power should feel both dangerous and sympathetic.</li>
-      <li><strong>Hard Choices:</strong> True stakes demand real consequences.</li>
-    </ul>
-  </section>
+    ---
 
-  <!-- Distinctions -->
-  <section class="cf-section" id="distinctions">
-    <h2>Distinctions</h2>
-    <p>Use Pillar events as your scene-framing device; each session opens with a Pillar’s omen.</p>
-  </section>
+    - The Lies of Locke Lamora
+    - Thief
+    - Dishonored Series
 
-  <!-- Inciting Incident -->
-  <section class="cf-section" id="inciting-incident">
-    <h2>Inciting Incident</h2>
-    <p>The Pillar of Dawn flares to life overnight—bathing the capital in golden light and awakening half-remembered prophecies.</p>
-  </section>
+-   :fontawesome-solid-building-columns:{ .lg .middle } __Pillars__
 
-  <!-- Campaign Mechanics -->
-  <section class="cf-section" id="mechanics">
-    <h2>Campaign Mechanics</h2>
-    <ul>
-      <li>Prophecy Tokens: Spend to claim minor fated boons.</li>
-      <li>Pillar Corruption: A rising tide mechanic that alters scenes.</li>
-    </ul>
-  </section>
+    ---
 
-  <!-- Session Zero Questions -->
-  <section class="cf-section" id="session-zero">
-    <h2>Session Zero Questions</h2>
-    <ul>
-      <li>Which Pillar did your family once serve—and why did you abandon it?</li>
-      <li>What prophecy have you heard whispered at your birth?</li>
-      <li>Who in the group is closest to revolution, and who clings to order?</li>
-    </ul>
-  </section>
+    - Style Over Steel
+    - Moriality is Grey
+    - Wealth is Power
 
 </div>
 
+![Image of Coinmarch](/Coinmarch/images/kolnmark_mural.jpg)
+
+## Overview
+_Information about the setting and world to help guide character creation_
+
+## Comunities
+_Quick description, link to city page_
+
+## Ancestries and Classes
+
+=== "Ancestries"
+
+    Coinmarch is one of the most progressive cities on the Blade Sea: all are welcome to feed the machines of war - be they bold, broken, or desparate.
+
+    - Humans
+    - Elves
+    - Dwarves
+    - Halflings
+
+=== "Classes"
+
+    blurb text
+
+    - x
+    - y
+    - z
+
+## Principles
+
+=== "Player Principles"
+
+    blurb text
+
+    1. __Principle 1:__ blah
+    2. __Principle 2:__ blah
+    3. __Principle 3:__ blah
+
+=== "GM Principles"
+
+    blurb text 2
+
+    1. __Principle 1:__ blah
+    2. __Principle 2:__ blah
+    3. __Principle 3:__ blah
+
+## The Inciting Incident
+
+## Campaign Mechanics
+
+The following mechanics have been added to this campaign that have been borrowed from other systems or homebrewed.
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Timers__
+
+    ---
+
+    The world is moving and reacting to your actions. Special timers may be added during play to represent potential responses to your actions.
+
+-   :octicons-sparkles-fill-24:{ .lg .middle } __Knacks__
+
+    ---
+
+    Characters have a knack or special ability that gives them an edge in their perilous lives.
+
+    [:octicons-arrow-right-24: Learn more](/Coinmarch/player-introduction/character-creation/knacks)
+
+
 </div>
+
+## Session Zero Questions

@@ -9,15 +9,6 @@
     "permalink": ""
   },
   {
-    "title": "The Spire",
-	"district": "Highmarch",
-    "type": "Religious",
-    "coordinates": "5503,5281",
-    "description": "A looming, austere tower visible across the city — home to the city’s dominant faith.",
-    "image": "",
-    "permalink": ""
-  },
-  {
     "title": "Eastchain Docks",
 	"district": "Eastchain Docks",
     "type": "Industrial",
@@ -63,15 +54,6 @@
     "permalink": ""
   },
   {
-    "title": "Giant's Causeway",
-	"district": "Swordcrest",
-    "type": "Industrial",
-    "coordinates": "6046,2086",
-    "description": "A raised ruined causeway used as a military parade and training ground.",
-    "image": "",
-    "permalink": ""
-  },
-  {
     "title": "The Blackspans",
 	"district": "Bargebreaker Island",
     "type": "Structural",
@@ -113,15 +95,6 @@
     "type": "Structural",
     "coordinates": "6373,5719",
     "description": "Main entrance to the upper city. Gilded twin gates.",
-    "image": "",
-    "permalink": ""
-  },
-  {
-    "title": "East Gate",
-	"district": "Eastmere",
-    "type": "Structural",
-    "coordinates": "7988,5001",
-    "description": "",
     "image": "",
     "permalink": ""
   },
@@ -1120,6 +1093,619 @@
     "type": "Leisure",
     "coordinates": "3145,1134",
     "description": "A clandestine speakeasy carved into the Causeway’s footing; vaulted stone ceilings echo with laughter, music, and whispered transactions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Giant's Causeway",
+	  "district": "Swordcrest",
+    "type": "Martial",
+    "coordinates": "6046,2086",
+    "description": "A raised ruined causeway used as a military parade and training ground.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Octal Rotunda",
+	  "district": "Swordcrest",
+    "type": "Martial",
+    "coordinates": "6587,2640",
+    "description": "A great circular hall divided by eight radial corridors, each devoted to one of the city’s leading mercenary companies. Command councils and contract signings take place beneath its vaulted dome.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Clang",
+	  "district": "Swordcrest",
+    "type": "Craft",
+    "coordinates": "6198,2892",
+    "description": "A narrow street of interlinked workshops where master smiths forge swords, siege hammers, and intricately tooled pikes to outfit entire companies.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Ledger Hall",
+	  "district": "Swordcrest",
+    "type": "Civic",
+    "coordinates": "6668,3030",
+    "description": "A fortified complex of vaulted chambers and brass-bound ledgers, Ledger Hall serves as the administrative heart for Swordcrest’s companies. Inside, clerks in tabard-lined cubicles pore over muster rolls, negotiate contract amendments, and process payroll requisitions. A vast rotating ledger wheel in the central chamber displays every active hire, payment schedule, and obligation—ensuring captains, recruiters, and quartermasters keep their companies in service and fully supplied.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Viewing Hall",
+	  "district": "Swordcrest",
+    "type": "Leisure",
+    "coordinates": "6626,2395",
+    "description": "A raised pavilion of glass and steel overlooking the Causeway. Foreign diplomats and highborn patrons watch live demonstrations of tactics before negotiating contracts over lavious drinks and meals.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Spire",
+	  "district": "Highmarch",
+    "type": "Religious",
+    "coordinates": "5503,5281",
+    "description": "A looming, austere tower visible across the city — home to the city’s dominant faith.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Sundermere Court",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5726,3935",
+    "description": "At the northern edge, this white-stuccoed villa belongs to Lady Sundermere; its reflecting pool and walled citrus grove overlook the open sea.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Crestfall Manor",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5826,4162",
+    "description": "Named for its terraced battlements, this sandstone estate of the Crestfall family features an ornate belvedere tower and private chapel.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hawklorn Hall",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5829,4385",
+    "description": "A red-brick mansion halfway down the cliff, famed for its aviary of trained falcons and its sunken rose garden.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliffhaven Estate",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5780,4660",
+    "description": "The fourth estate from the north, Cliffhaven is Highmarch’s grandest property by far. A lavish main manor stands atop a terraced rise, flanked by walled gardens, guest lodges, stables, kennels, an armory and its own private chapel. Carriage drives wind down to service yards, and a lofty belvedere pavilion offers sweeping views of the city and sea beyond.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Twinbrook Manors",
+	  "district": "Highmarch",
+    "type": "Residential",
+    "coordinates": "5776,5092",
+    "description": "The southernmost clutch of Highmarch’s cliff mansions is actually a twin estate: two near-identical manors separated by a formal reflecting pool and commemorative colonnade.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Sans Pareil Amphitheater",
+	  "district": "Highmarch",
+    "type": "Leisure",
+    "coordinates": "6241,4222",
+    "description": "A grand, freestanding stone coliseum sited directly on Highmarch’s principal north–south thoroughfare from the Twin Gates. Its tiered marble seating—arranged in a gentle semi-circle—rises around a broad central stage, framed by ornate proscenium arches and capped with fluttering pennants. Though visible from the cliff-edge mansions above, its position on the main road makes it equally accessible to visiting nobles, merchants, and clergy. By day, it hosts ceremonial processions and oratory contests; by dusk, its acoustics fill with the strains of chamber orchestras, touring troupes’ dramas, and the hush of spectators under lamplit torches.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Crystal Palm Conservatory",
+	  "district": "Highmarch",
+    "type": "Leisure",
+    "coordinates": "6190,3437",
+    "description": "Sited at the northern edge of Highmarch, the Crystal Palm Conservatory is a pioneering circular glass dome set into a dignified granite rotunda. Inside, rare tropical palms, luminous orchids, and vine-wrapped pillars flourish beneath the curved panes, their leaves whispering in gentle piped breezes. A concentric gallery rings the central planting bed, where silk-cushioned benches invite patrons to admire the exotic blooms—and to imagine distant, sun-soaked shores. Its blend of cutting-edge glasswork and stone architecture makes it both a scientific marvel and a favorite promenade for Highmarch’s elite.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Concord Park",
+	  "district": "Envoy's Rest",
+    "type": "Leisure",
+    "coordinates": "6799,3082",
+    "description": "A gated, oak-shaded enclave where emissaries meditate between sessions, its winding paths punctuated by open-air pavilions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Diplomat's Court",
+	  "district": "Envoy's Rest",
+    "type": "Civic",
+    "coordinates": "7354,2620",
+    "description": "A pale-stone complex of chancery offices, where scrolls are drawn up, sealed, and dispatched.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Exchange",
+	  "district": "Envoy's Rest",
+    "type": "Civic",
+    "coordinates": "7197,3095",
+    "description": "Mercenary brokerages occupy these interconnected townhouses, each representing one of Kolnmark’s famed companies.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Iron Gate Lodge",
+	  "district": "Envoy's Rest",
+    "type": "Residential",
+    "coordinates": "6916,3183",
+    "description": "The district’s largest hostelry, its twin iron portcullises and honor-guarded entrance set the tone for martial hospitality.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Vault of Accordance",
+	  "district": "Envoy's Rest",
+    "type": "Civic",
+    "coordinates": "7170,3357",
+    "description": "A vaulted, oak-paneled repository adjacent to Diplomat’s Court. Here visiting delegations consult codices of regional law, treaties past and present, and local customaries. Private study alcoves and on-call scribes ensure that envoys can research, translate, and commission exact copies of any document under discreet candlelight.",
+    "image": "",
+    "permalink": ""
+  }
+  ,
+  {
+    "title": "Goldedge Terrace",
+	  "district": "Goldedge",
+    "type": "Craft",
+    "coordinates": "7402,5283",
+    "description": "A graceful row of three-story brick townhouses set beneath iron-filigree balconies. Many feature small shopfronts—tailors’ windows or apothecary displays—beneath the families’ private quarters.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Twin Gate Lodges",
+	  "district": "Goldedge",
+    "type": "Residential",
+    "coordinates": "6568,5588",
+    "description": "Converted guardhouses flanking the city wall’s inner gate. Their vaulted ground floors now feed and house well-to-do lodgers.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Silvered Ivy Gardens",
+	  "district": "Goldedge",
+    "type": "Leisure",
+    "coordinates": "6964,5382",
+    "description": "A sunken public square planted with espaliered fruit trees and clipped hedges. Every Saturday, local makers set up stalls beneath the linden boughs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Many-Hued Chapel",
+	  "district": "Goldedge",
+    "type": "Religious",
+    "coordinates": "7684,5258",
+    "description": "A modest white-stone church built into the wall’s curtain, its stained-glass windows gleaming in morning light. The resident priest doubles as a notary for district affairs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Quill & Ledger Office",
+	  "district": "Goldedge",
+    "type": "Civic",
+    "coordinates": "7299,5852",
+    "description": "A discreet two-story stone building. Its ground-floor reading room and public counters serve Goldedge’s residents for notarial filings, household registrations, and guild paperwork, while a narrow oak-paneled stair leads upstairs to clerks’ offices where ledgers are kept by candlelight.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Mastermaker Park",
+	  "district": "Twinreach",
+    "type": "Leisure",
+    "coordinates": "6794,4883",
+    "description": "A broad, trimmed‐hedge square in the northwest, laid out with flowering beds, winding paths, and sculpted stone benches. Rising in the park’s center, a crystal‐domed gazebo of aquamarine stone and filigreed spires hosts guild demonstrations, minstrels’ performances, and seasonal fairs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Artisan Row",
+	  "district": "Twinreach",
+    "type": "Craft",
+    "coordinates": "6820,4777",
+    "description": "A large group of small retail shops opening up onto the park, each showcasing the district’s finest copperware, leather goods, glassware, and finely woven cloths. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Ember & Anvil",
+	  "district": "Twinreach",
+    "type": "Leisure",
+    "coordinates": "6827,5202",
+    "description": "A large timber-framed eatery near the East Gate, its roaring hearth and iron-forged décor serving molten iron ale and blackened roast to workshop hands and contract brokers alike.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Silver Bell Taproom",
+	  "district": "Twinreach",
+    "type": "Leisure",
+    "coordinates": "7583,4992",
+    "description": "Perched on Forge Street, known for its spiced peppercorn ale, nightly bardic recitals, and cordial welcome to both local journeymen and visiting dignitaries.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Moonfire Kilns",
+	  "district": "Twinreach",
+    "type": "Craft",
+    "coordinates": "7140,5162",
+    "description": "Nestled at Twinreach’s southern edge, a horseshoe of compact workshops surrounds a shared courtyard of glowing embers. Here master glassblowers forge moonfire glass, a rare mineral-infused crystal that absorbs daylight and softly radiates at night—shaping everything from lantern lenses and inlaid jewelry to luminescent display spheres that light the courtyard long after the kilns cool.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hallowed Market",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "6706,3980",
+    "description": "A circular plaza ringed with linden trees and covered stalls, where exotic dyes, enchanted inks, and rare implements change hands in the open air.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Twinforge Atelier",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "7602,4647",
+    "description": "Twin domes of burnished bronze and slate shelter the royal Metallurgists’ Guild. One hall’s roaring hearths forge iron and steel; the other tempers gold, silver, and gemstone‐inlaid alloys.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Forgebinder Hall",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "6594,3408",
+    "description": "A grand marble‐faced pavilion overlooking Crafthallow Square and the border of Swordcrest and Highmarch. Inside, vaulted galleries display prototype weapons and armor, and sculpted reliefs honor Kolnmark’s greatest smiths.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gilded Crescent Workshops",
+	  "district": "Crafthallow",
+    "type": "Craft",
+    "coordinates": "7027,3652",
+    "description": "A horseshoe of massive brick and timber workshops on the northern edge, where tapestry masters, glassblowers, and gemcutters produce luxury goods destined for Velvet Court and trading caravans.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Loomwrights' Guildhall",
+	  "district": "Crafthallow",
+    "type": "Civic",
+    "coordinates": "7079,4347",
+    "description": "A vaulted sandstone hall adorned with stained‐glass skylights. Inside, master weavers gather to negotiate commissions for noble courts and apprentice the next generation of tapestry artists.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gearcrafters' Guildhall",
+	  "district": "Crafthallow",
+    "type": "Civic",
+    "coordinates": "6980,4640",
+    "description": "A soaring iron‐and‐stone building, where clockwork engineers and intricate machinists draft contracts and supervise the crafting of precision mechanisms for city defenses and luxury curios.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "House of Caldara Spa",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7442,4095",
+    "description": "A two-tiered marble crepidoma ringed with classical colonnades. Its eight hot springs vary in mineral composition for health and beauty treatments.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Garden of Sighs",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7440,3797",
+    "description": "A terraced grove of moon-lit fountains and jasmine arbors, where guests whisper secrets under lantern light.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Velvet Embrace",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7589,3677",
+    "description": "The district’s most lavish bordello, its velvet-lined salons and perfumed baths draw nobles who demand privacy and perfection.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Amber Lamp Tavern",
+	  "district": "Velvet Court",
+    "type": "Leisure",
+    "coordinates": "7328,3577",
+    "description": "A tavern nearby Envoy’s Rest, famed for importing rare Hissai wines and Fesselburg teas, with live minstrel recitals at dusk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Pavilion",
+	  "district": "Velvet Court",
+    "type": "Craft",
+    "coordinates": "7647,4118",
+    "description": "A marble kiosk in the spa’s shadow, where artisan chocolatiers, silversmiths, and perfumers display their finest wares to well-heeled passersby.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "East Gate",
+	"district": "Eastmere",
+    "type": "Structural",
+    "coordinates": "7988,5001",
+    "description": "",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliffhaven Estate",
+	  "district": "Eastmere",
+    "type": "Residential",
+    "coordinates": "8377,3907",
+    "description": "A soaring white-stone manor clinging to the northern cliffs, its terraced gardens tumble toward the sea, planted with wind-tolerant pines and roses.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Opaline Rotunda",
+	  "district": "Eastmere",
+    "type": "Civic",
+    "coordinates": "7941,4458",
+    "description": "North of the gate square, this domed, winged hall of pale granite seats the district’s magistrates; broad steps descend to a formal garden and reflecting pool open to all.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "House of Varindale",
+	  "district": "Eastmere",
+    "type": "Residential",
+    "coordinates": "8078,4085",
+    "description": "Raised on a broad crepidoma, this twin-winged manor features Ionic columns, marble balustrades, and a raised fountain courtyard.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Patrician Hall of Unity",
+	  "district": "Eastmere",
+    "type": "Civic",
+    "coordinates": "7700,3685",
+    "description": "Along the High Road near Velvet Court, this vaulted meeting hall hosts noble assemblies, ambassadorial receptions, and contract negotiations among the city’s great families.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Shrine Terrace Park",
+	  "district": "Eastmere",
+    "type": "Religious",
+    "coordinates": "8137,3508",
+    "description": "A cliff-edge grove of circular pavilions and chapels honoring the Old Gods, each set amid sheltered niches and carved stone benches.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Tideholm House",
+	  "district": "Eastmere",
+    "type": "Residential",
+    "coordinates": "7905,3245",
+    "description": "A smaller, twin-manor complex midway down the cliffs, its paired pavilions flank a formal koi pond accompanied by the sea breeze.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Bladehaven Terrace",
+	  "district": "Windrest",
+    "type": "Residential",
+    "coordinates": "6917,2338",
+    "description": "A terrace of grand stone townhouses overlooking the Causeway, each home to a different free-company commander. Guards on permanent watch stand sentinel at every gate.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cove Lift Exchange",
+	  "district": "Windrest",
+    "type": "Civic",
+    "coordinates": "6583,2048",
+    "description": "A series of loading docks and warehouess where goods arrive by lift and are sorted for onward transport. Its high ledgers track dozens of mercenary paymasters and their requisitions.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Silver Zephyr",
+	  "district": "Windrest",
+    "type": "Leisure",
+    "coordinates": "7357,1977",
+    "description": "A brisk, well-appointed tavern on the eastern High Road, famed for its cliff-fresh sea breezes, dark ales, and discreet private booths favored by visiting dignitaries.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Windrest Gatehouse",
+	  "district": "Windrest",
+    "type": "Martial",
+    "coordinates": "6626,2023",
+    "description": "A fortified landing platform built around the upper terminus of the Cliff Cove lifts. Serves as both customs house and first line of defense against any unwelcome 'passengers.'",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Promontory Foundry",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7068,1283",
+    "description": "A vaulted smithy built near the cliff’s edge, where master smiths temper damascene steel beneath roaring forges.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Glasswind Atelier",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7246,1069",
+    "description": "A glass-domed workshop where artisans spin sea-glass into jeweled goblets and lanterns.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliff Cove Customs",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7076,1733",
+    "description": "The squat granite exchange house near the lift terminus, where exotic cargo is cataloged and workshop bids are opened each dawn.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Silkreef Draperies",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7374,1477",
+    "description": "A two-story weaving hall along the main road, famed for its ocean-hued silks and salt-stained tapestries. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Mariners’ Canopy",
+	  "district": "Highforge",
+    "type": "Craft",
+    "coordinates": "7215,1383",
+    "description": "An open-arced pavilion of fine ropeworks and compass makers, its carved beams echoing with the murmur of visiting captains.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hall of Lords",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7762,725",
+    "description": "A lofty marble chamber ringed with carved banners, where the city’s patrician families debate edicts under vaulted frescoes.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Hall of Commons",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7808,887",
+    "description": "A more modest, plank-floored hall for elected delegates; its benches creak with the voices of merchants, gildsmen, and ward representatives.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Grand Courthouse",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7216,647",
+    "description": "A domed basilica of justice, its judges’ dais overlooks a tribunal floor where even the mightiest may stand accused. ",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Great Seat",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7374,337",
+    "description": "A strongly fortified keep at the cliff’s tip, encircled by high curtain walls and moats. It serves as the governor’s residence, emergency stronghold, and secure archive for the city’s most sensitive records.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Westwatch Tower",
+	  "district": "Bannercrest",
+    "type": "Civic",
+    "coordinates": "7188,469",
+    "description": "A slender lighthouse-like spire on the western cliff edge, its beacon guides incoming ships and signals across Kolnmark’s defenses.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Aurorcrest Manor",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7868,2725",
+    "description": "The southernmost cliff estate, its glass-walled solarium captures every sunrise in a blaze of color.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Gildedrow House",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7858,2529",
+    "description": "Clad inside and out in beaten bronze, this manor’s terraces gleam like a beacon at dusk.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Fate’s Flurry Casino",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7814,2349",
+    "description": "Housed in the defaulted Valebrook estate, its vaulted gaming halls host dice, cards, and masked intrigues.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Emberhold Hall",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7816,2125",
+    "description": "A red-sandstone pile crowned with flaming torches, famed for its fiery cliff-top banquets.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Nettlesmith Twins",
+	  "district": "Dawnwatch",
+    "type": "Residential",
+    "coordinates": "7820,1931",
+    "description": "Two identical pavilions set amid rose-lined courtyards, connected by an arched loggia.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Stormring Arena",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7882,1503",
+    "description": "An oval amphitheater of limestone, where chariot races, gladiatorial bouts, and civic pageants thunder above the cliffs.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "The Siren’s Spigot",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7568,2795",
+    "description": "Perched on the southern stretch of the High Road, this bleached-driftwood tavern is draped in coral nets and illuminated by glowing seashell lanterns. Inside, hulking barrels of “coralfire rum” are ladled into brine-rimmed mugs while patrons belt out sea-shanties through conch-horn megaphones—then compete in nightly “Siren’s Screech” contests, where the loudest war cry earns the next round on the house.",
+    "image": "",
+    "permalink": ""
+  },
+  {
+    "title": "Cliffside Green Park",
+	  "district": "Dawnwatch",
+    "type": "Leisure",
+    "coordinates": "7538,1305",
+    "description": "A narrow promontory lawn with winding paths and shaded pavilions, offering a rare moment of calm above the sea.",
     "image": "",
     "permalink": ""
   }

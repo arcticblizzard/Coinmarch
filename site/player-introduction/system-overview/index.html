@@ -1,150 +1,852 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
         <link rel="canonical" href="https://arcticblizzard.github.io/Coinmarch/player-introduction/system-overview/">
-        <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Overview - Coinmarch</title>
-        <link href="../../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../../css/fontawesome.min.css" rel="stylesheet">
-        <link href="../../css/brands.min.css" rel="stylesheet">
-        <link href="../../css/solid.min.css" rel="stylesheet">
-        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/darcula.min.css" >
-        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
-        <link href="../../styles/overrides.css" rel="stylesheet">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
+      
+      
+        <link rel="prev" href="../campaign-frame/">
+      
+      
+        <link rel="next" href="../skill-challenges/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Basic Systems - Coinmarch</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+      
 
-    <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">Coinmarch</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a href="../welcome/" class="nav-link">Welcome</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">Overview</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Character Creation</a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../character-creation/character-creation/" class="dropdown-item">Guide</a>
-</li>
-                                    
-<li>
-    <a href="../character-creation/basic-careers/" class="dropdown-item">Basic Careers</a>
-</li>
-                                    
-<li>
-    <a href="../character-creation/knacks/" class="dropdown-item">Knacks</a>
-</li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="../../map/" class="nav-link">Map</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Locations</a>
-                                <ul class="dropdown-menu">
-                                    
-  <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Lower Kolnmark</a>
-    <ul class="dropdown-menu">
-            
-<li>
-    <a href="../../locations/LowerKolnmark/" class="dropdown-item">Overview</a>
-</li>
-    </ul>
-  </li>
-                                    
-  <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Upper Kolnmark</a>
-    <ul class="dropdown-menu">
-            
-<li>
-    <a href="../../locations/UpperKolnmark/" class="dropdown-item">Overview</a>
-</li>
-    </ul>
-  </li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ms-md-auto">
-                            <li class="nav-item">
-                                <a rel="prev" href="../welcome/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../character-creation/character-creation/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-bs-level="1"><a href="#system-overview" class="nav-link">System Overview</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#skill-tests" class="nav-link">Skill Tests</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#luck-tests" class="nav-link">Luck Tests</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#combat" class="nav-link">Combat</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#damage-armour-and-recovery" class="nav-link">Damage, Armour, and Recovery</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#magic-general" class="nav-link">Magic (General)</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../styles/overrides.css">
+    
+      <link rel="stylesheet" href="../../styles/campaign-frame.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#system-overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
-</div></div>
-                    <div class="col-md-9" role="main">
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Coinmarch" class="md-header__button md-logo" aria-label="Coinmarch" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Coinmarch
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Basic Systems
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Coinmarch" class="md-nav__button md-logo" aria-label="Coinmarch" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Coinmarch
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Welcome
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Welcome
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../welcome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../campaign-frame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Campaign Frame
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Overview
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Basic Systems
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basic Systems
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#skill-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill Tests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#luck-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Luck Tests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Combat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combat-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat Actions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-armour-and-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage, Armour, and Recovery
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage, Armour, and Recovery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Armor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovery
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magic-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      Magic (General)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../skill-challenges/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Skill Challenges
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Character Creation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Character Creation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../character-creation/character-creation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../character-creation/basic-careers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basic Careers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../character-creation/knacks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knacks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    The Setting
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            The Setting
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../locations/Kolnmark/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    The City
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factions/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Factions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#skill-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Skill Tests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#luck-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Luck Tests
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Combat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initiative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initiative
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combat-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combat Actions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attacks
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#damage-armour-and-recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage, Armour, and Recovery
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Damage, Armour, and Recovery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Damage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Armor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovery
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magic-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      Magic (General)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
 
 <h1 id="system-overview">System Overview</h1>
 <p>Below is a distilled overview of relevant <em>Warlock!</em> mechanics. Rulebook page numbers can be found next to section headers if more detailed information is needed.</p>
@@ -166,12 +868,12 @@
 <hr />
 <h2 id="luck-tests">Luck Tests</h2>
 <p><em>Page 60</em></p>
-<p>Luck tests exist to avoid unfortunate circumstances from an action or even of the world around the character.</p>
+<p>Luck tests exist to avoid unfortunate circumstances from an incoming negative effect.</p>
 <ul>
 <li><strong>Basic Luck Test</strong>: Roll <code>1d20 + Luck attribute</code>. A total of <strong>20 or more</strong> is a success.</li>
 </ul>
-<div class="admonition info">
-<p class="admonition-title">Note</p>
+<div class="admonition note">
+<p class="admonition-title">Luck Runs Out</p>
 <p>All Luck tests (regardless of outcome) reduce the character’s Luck attribute by 1.</p>
 </div>
 <hr />
@@ -179,18 +881,18 @@
 <p><em>Page 74</em></p>
 <p>Attacks between combatants are resolved as opposed tests - the winner hits the loser and inflicts damage. Combat is divided into rounds, roughly representing 30 seconds.</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Combat is Dangerous</p>
 <p>Note that it is possible to take damage as an attacker if you roll badly in the opposed test</p>
 </div>
-<ul>
-<li><strong>Initiative</strong>: Initiate is usually determined by the narrative (which party is more prepared for the fight?). In situations where that cannot be easily determined, each side rolls <code>1d6</code>, and the highest roll side goes first. Turn order within the group is determined amongst the group.</li>
-<li>
+<h3 id="initiative">Initiative</h3>
+<p>Initiative is usually determined by the narrative (which party is more prepared for the fight?). In situations where that cannot be easily determined, each side rolls <code>1d6</code>, and the highest roll side goes first. Turn order within the group is determined amongst the group.</p>
+<h3 id="combat-actions">Combat Actions</h3>
 <p><strong>Each Round</strong>, a character may:</p>
-<ul>
+<ol>
 <li>
 <p>Move: characters may move up to around 10 feet cautiously as part of their action (free movement). If a character desired to move beyond that limitation, they must spend their action doing so. Characters taking the Move action can move one step between the ranges.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Abstraction</p>
 <p>Distance is covered in an abstract method (Close, Nearby, Faraway, or Distant).</p>
 </div>
 </li>
@@ -199,59 +901,55 @@
 </li>
 <li>Cast a spell or use a knack,</li>
 <li>Take another meaningful action (e.g., draw weapon, interact with environment).</li>
-<li><strong>To Attack</strong>: Roll <code>1d20 + weapon skill +5 (for attacking)</code>.</li>
-</ul>
+</ol>
+<h3 id="attacks">Attacks</h3>
+<p><strong>To Attack</strong></p>
+<ol>
+<li>
+<p>Roll <code>1d20 + weapon skill +5 (for attacking)</code>.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Distance Penalty</p>
 <p>Ranged attacks at a distance of Faraway or greater may be penalized -5 on the roll.</p>
 </div>
-<ul>
+</li>
 <li>
-<p>Defender rolls <code>1d20 + appropriate defense skill</code> (Weapon Skill, Dodge, etc.).</p>
+<p>The defender rolls <code>1d20 + appropriate defense skill</code> (Weapon Skill, Dodge, etc.).</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Shield Bonus</p>
 <p>For Ranged attacks: if the defender is aware of the attack and also has a shield, they apply a +3 and +5 bonus to their Dodge check for Small and Large shields respectively.</p>
 </div>
 </li>
 <li>
-<p>Higher roll hits and applies weapon damage roll</p>
-</li>
-</ul>
+<p>Apply weapon damage to the loser of the roll</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Mighty Strikes: If the winner of an Attack check rolls a natural 20 or rolls more than <strong>3x</strong> the result of the defender, they achieve a Mighty Strike; <strong>Double the overall attack damage</strong>.</p>
+<p class="admonition-title">Mighty Strikes</p>
+<p>If the winner of an Attack check rolls a natural 20 or rolls more than <strong>3x</strong> the result of the defender, they achieve a Mighty Strike; <strong>Double the overall attack damage</strong>.</p>
 </div>
 </li>
-</ul>
+</ol>
 <hr />
 <h2 id="damage-armour-and-recovery">Damage, Armour, and Recovery</h2>
 <p><em>Page 81</em></p>
-<ul>
-<li>
-<p><strong>Damage</strong>: Weapons list a damage die (e.g., <code>1d6</code>, <code>1d8</code>). Roll and subtract the target's <strong>Armour</strong> value.The remaining damage is removed from <strong>Stamina</strong>.</p>
+<h3 id="damage">Damage</h3>
+<p>Weapons list a damage die (e.g., <code>1d6</code>, <code>1d8</code>). Roll and subtract the target's <strong>Armour</strong> value.The remaining damage is removed from <strong>Stamina</strong>.</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Minimum 1 Damage</p>
 <p>Even with armor and a shield, being struck will always cause at least 1 point of stamina loss (even if reduced to zero or lower).</p>
 </div>
-</li>
-<li>
-<p><strong>Armor</strong>: Provides a flat <strong>damage soak</strong> <code>1d3</code> for Light Armor, <code>1d6</code> for Medium Armor, and <code>2d6</code> for Heavy Armor.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Shields increase the armor level of a character by one rank (excluding Heavy Armor).</p>
-</div>
-</li>
-<li>
 <p><strong>Critical Hits</strong>: When a character takes damage that brings them to <strong>below 0 Stamina</strong>, this is a critical hit. The character suffers a critical hit effect by rolling a <code>1d6</code> against an appropriate critical hit table (Page 85).</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Critical Damage</p>
 <p>If the damage taken was enough to reduce stamina BELOW 0, add one to the Critical Roll for each negative point of stamina.</p>
 </div>
-</li>
-<li>
-<p><strong>Recovery</strong>: Characters recover <strong>half</strong> of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.</p>
-</li>
-</ul>
+<h3 id="armor">Armor</h3>
+<p>Armor Provides a flat <strong>damage soak</strong> <code>1d3</code> for Light Armor, <code>1d6</code> for Medium Armor, and <code>2d6</code> for Heavy Armor.</p>
+<div class="admonition note">
+<p class="admonition-title">Sheilds</p>
+<p>Shields increase the armor level of a character by one rank (excluding Heavy Armor).</p>
+</div>
+<h3 id="recovery">Recovery</h3>
+<p><strong>Stamina</strong>: Characters recover <strong>half</strong> of their lost stamina as soon as they take half an hour to catch their breath, during which time they may do nothing but rest. The remaining stamina is recovered after a good night’s sleep. Critical injuries take much longer to recover from and is determined by the GM.</p>
+<p><strong>Luck</strong>: On rolling a natural 20, a player may add +1 to their Luck score (as long as it doesn't exceed the cap of 13.). Additionally, at the start of each adventure/mission all characters may roll <code>1d4</code> and add the result to their current Luck score (again, as long as it is at or under the cap of 13).</p>
 <hr />
 <h2 id="magic-general">Magic (General)</h2>
 <p>Magic in <em>Warlock!</em> comes <strong>exclusively</strong> from entities outside of the mortal realm: gods, demons, abberations, etc. Spells are nothing more than requests upon these beings and are initiated through the act of reciting from a spell scroll.</p>
@@ -274,61 +972,60 @@
 </ul>
 </li>
 </ul>
-<hr /></div>
-            </div>
-        </div>
+<hr />
 
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="../../js/bootstrap.bundle.min.js"></script>
-        <script>
-            var base_url = "../..",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="../../js/base.js"></script>
 
-        <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
             </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-    </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
 </div>
-
-    </body>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
 </html>

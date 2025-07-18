@@ -24,7 +24,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs
-          pip install mkdocs-bootswatch
           pip install pymdown-extensions
           pip install mkdocs-redirects
 

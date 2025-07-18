@@ -1,13 +1,24 @@
 site_name: Coinmarch
 site_url: https://arcticblizzard.github.io/Coinmarch/
 theme:
-  name: slate
-  navigation_depth: 3
+  name: material
+  logo: images/Coinmarch_Stencil.png
+  palette:
+    scheme: slate
+    primary: amber
+  font:
+    text: 'Cardo'
+    code: Fira Code
+    headings: Cinzel
+  features:
+    - navigation.tabs
+    - toc.integrate
 extra_css:
   - styles/overrides.css
   - styles/campaign-frame.css
 
 plugins:
+  - search
   - redirects:
       redirect_maps:
         index.md : player-introduction/welcome.md
@@ -17,6 +28,13 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
 nav:
   - Welcome: 
     - Introduction: player-introduction/welcome.md

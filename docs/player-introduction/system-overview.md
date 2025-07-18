@@ -119,7 +119,7 @@ Armor Provides a flat **damage soak** `1d3` for Light Armor, `1d6` for Medium Ar
 
 ---
 
-## Magic (General)
+## Magic
 
 Magic in _Warlock!_ comes **exclusively** from entities outside of the mortal realm: gods, demons, abberations, etc. Spells are nothing more than requests upon these beings and are initiated through the act of reciting from a spell scroll.
 

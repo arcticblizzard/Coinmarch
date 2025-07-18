@@ -91,6 +91,8 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
 
     __A Note About Magic:__ Magic in Coinmarch is tightly regulated: all scrolls are to be registered and embossed with the official seal of the City. Any scroll found without the seal is confiscated, and its holder set to face steep consequences. Those with predilictions towards magic are generally distrusted and if caught weilding unlicensed magic are either exiled or conscripted into an eager mercenary company's magical regiment.
 
+    [:octicons-arrow-right-24: Learn more](/Coinmarch/player-introduction/character-creation/system-overview#magic)
+
 ## Principles
 
 === "Player Principles"

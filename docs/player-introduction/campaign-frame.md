@@ -4,7 +4,7 @@
 
 ## The Pitch
 
-Coinmarch’s sun-bleached spires soar above the Blade Sea, gleaming by day with the promise of wealth and power. But when the sun dips below the horizon, the city’s true heart comes alive—an ever-shifting web of back-alley deals, guild rivalries, and hidden whispers that echo through the ancient Middens below. Last week, one of the city’s richest merchant-princes was found dead in his private gallery—his treasures gone, his blood spilt by sorcery. Now suspicion coils through every district: watchmen tighten their patrols, guild bosses whisper betrayals in shadowed courtyards, and every scrap of information is worth more than its weight in gold. You arrive at this crossroads of light and shadow, where every lock you pick and every secret you unearth could turn the city’s fortunes… or seal your own fate.
+Coinmarch’s sun-bleached spires rise over the Blade Sea, gleaming by day with the promise of wealth and influence. But when night falls, the city’s true face emerges—an intricate web of back-alley bargains, simmering guild rivalries, and whispers that slither through the ancient Middens below. For weeks now, people have been disappearing—dockside laborers, guild apprentices, even scions of noble blood—vanishing without a trace. Rumors swirl of a new and dangerous power moving in the shadows: the Cult of the Undine. Fear coils through every district as watchmen tighten patrols and desperate guildmasters hire blades to keep their houses safe. In this tense and shifting cityscape, every secret you uncover, every lock you pick, and every risk you take could earn you a fortune… or drag you under with the rest of the lost.
 
 <div class="grid cards" markdown>
 
@@ -52,7 +52,7 @@ You and your crew are a handpicked band of opportunists, specialists, and misfit
 Your purpose is simple and flexible: carve out your own fortunes and forge your own legends. Perhaps you’ll liberate locked vaults, broker alliances between rival guilds, or delve into the Middens in search of forgotten relics. The specifics are yours to decide—but rest assured: in a city built on commerce and conspiracy, your ambitions will shape Kolnmark’s future… or see you swallowed by its shadows.
 
 ## Communities
-Coinmarch is a thriving port city of roughly 50,000 souls, where every race and station of life converges beneath the same sky. From the sun-washed spires of the Upper City to the bustling markets and shadowed alleys of the Lower City, and down into the winding tunnels of the Midden, each tier tells a different story. Above, marble facades and gilded balconies speak of wealth and influence; below, crowded streets and hidden bazaars hum with ambition and survival; and beneath it all, the ancient stone corridors of the Midden pulse with secret histories and untold dangers.
+Coinmarch is a thriving port city of roughly 50,000 souls, where every race and station of life converges beneath the same sky. From the sun-washed spires of the Upper City to the bustling markets and shadowed alleys of the Lower City, and down into the winding tunnels of the Midden, each tier tells a different story. Above, marble facades and gilded balconies speak of wealth and influence; below, crowded streets and hidden bazaars hum with ambition and survival; and beneath it all, the ancient stone corridors of the Middens pulse with secret histories and untold dangers.
 
 === "Upper City"
 
@@ -93,21 +93,60 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
 
 === "Player Principles"
 
-    blurb text
+    Player Principles define the approach you should take to create an engaging and collaborative story. They are reminders that this campaign thrives when characters take bold actions, embrace their flaws, and make choices that matter. These principles encourage agency, risk-taking, and weaving personal goals into the shared narrative.
 
-    1. __Principle 1:__ blah
-    2. __Principle 2:__ blah
-    3. __Principle 3:__ blah
+-   :material-run-fast:{ .lg .middle } __Take the Initiative__
+
+    ---
+
+    Don’t wait for the story to come to you—pursue your goals, make moves, and shape events.
+
+-   :material-drama-masks:{ .lg .middle } __Lean into the Grey__
+
+    ---
+
+    Embrace moral ambiguity; hero and villain are roles you define in the moment.
+
+-   :fontawesome-solid-hand-holding-hand:{ .lg .middle } __Forge and Break Bonds__
+
+    ---
+
+    Build connections with NPCs and party members—but know trust always comes at a cost.
+
+-   :material-lightbulb-on-outline:{ .lg .middle } __Think Creatively__
+
+    ---
+
+    Coinmarch rewards clever solutions; the bold and inventive often prosper… or perish spectacularly.
 
 === "GM Principles"
 
-    blurb text 2
+    GM Principles guide the tone and structure of the game world, ensuring Coinmarch feels alive, reactive, and steeped in intrigue. They emphasize fairness, consequence-driven storytelling, and creating opportunities for players to shine through meaningful choices and moral complexity.
 
-    1. __Principle 1:__ blah
-    2. __Principle 2:__ blah
-    3. __Principle 3:__ blah
 
-## The Inciting Incident
+-   :material-city-variant-outline:{ .lg .middle } __Make Coinmarch Feel Active__
+
+    ---
+
+    Give districts unique voices, factions distinct agendas, and let the city breathe like a living organism.
+
+-   :material-scale-balance:{ .lg .middle } __Consequences Are Real__
+
+    ---
+
+    Every choice ripples outward—reward risks, and make actions matter in the long term.
+
+-   :material-eye-outline:{ .lg .middle } __Reveal Secrets Slowly__
+
+    ---
+
+    Let mystery simmer; uncover truths piece by piece to keep players guessing.
+
+-   :material-sword-cross:{ .lg .middle } __Keep Tension High__
+
+    ---
+
+    Conflict should feel present, even outside combat—through politics, personal stakes, and the threat of betrayal.
 
 ## Campaign Mechanics
 
@@ -119,7 +158,7 @@ The following mechanics have been added to this campaign that have been borrowed
 
     ---
 
-    The world is moving and reacting to your actions. Special timers may be added during play to represent potential responses to your actions.
+    The world is moving and reacting to your actions. Special timers may be added during play to represent potential responses to your actions, as well as looming threats.
 
 -   :material-dice-d20:{ .lg .middle } __Luck__
 
@@ -139,7 +178,7 @@ The following mechanics have been added to this campaign that have been borrowed
 
     ---
 
-    A Challenge is a narrative framework in which a complicated or dynamic obstacle is presented to the party; each member willbe able to help toward the shared outcome of the team with a single Check.
+    A Challenge is a narrative framework in which a complicated or dynamic obstacle is presented to the party; each member is able to help toward the shared outcome of the team with a single Check.
 
     [:octicons-arrow-right-24: Learn more](/Coinmarch/player-introduction/skill-challenges)
 
@@ -147,3 +186,11 @@ The following mechanics have been added to this campaign that have been borrowed
 </div>
 
 ## Session Zero Questions
+
+When you choose your Basic Career, you’ll receive prompts to help shape your backstory—where you came from, who you were, and what brought you here. Feel free to answer those directly or craft your own spin. In addition, every character should answer these universal questions to anchor them in Kolnmark’s streets, its factions, and its rising tensions.
+
+1. **What first brought you to Kolnmark—and why haven’t you left?**
+2. **Whose trust have you earned in the city, and whose trust have you broken?**
+3. **What do you fear most about the Middens, and why do you still go below?**
+4. **What’s the one thing you can’t afford to lose—and who knows about it?**
+5. **When whispers of the missing began, how did it touch your life—or the life of someone close to you?**

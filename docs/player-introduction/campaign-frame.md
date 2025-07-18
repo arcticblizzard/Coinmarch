@@ -49,7 +49,7 @@ Coinmarch is a sprawling maritime metropolis carved into white-limestone cliffs 
 
 You and your crew are a handpicked band of opportunists, specialists, and misfits—each drawn by the promise of gold, the thrill of discovery, or a debt only Coinmarch can settle. Together you form a loose fellowship: rogues who slip unseen through moonlit rooftops; informants who trade dangerous secrets in hushed tones; and outcasts who know every hidden passage in the city’s underbelly.
 
-Your purpose is simple and flexible: carve out your own fortunes and forge your own legends. Perhaps you’ll liberate locked vaults, broker alliances between rival guilds, or delve into the Middens in search of forgotten relics. The specifics are yours to decide—but rest assured: in a city built on commerce and conspiracy, your ambitions will shape Kolnmark’s future… or see you swallowed by its shadows.
+Your purpose is simple and flexible: carve out your own fortunes and forge your own legends. Perhaps you’ll liberate locked vaults, broker alliances between rival guilds, or delve into the Middens in search of forgotten relics. The specifics are yours to decide—but rest assured: in a city built on commerce and conspiracy, your ambitions will shape Coinmarch’s future… or see you swallowed by its shadows.
 
 ## Communities
 Coinmarch is a thriving port city of roughly 50,000 souls, where every race and station of life converges beneath the same sky. From the sun-washed spires of the Upper City to the bustling markets and shadowed alleys of the Lower City, and down into the winding tunnels of the Midden, each tier tells a different story. Above, marble facades and gilded balconies speak of wealth and influence; below, crowded streets and hidden bazaars hum with ambition and survival; and beneath it all, the ancient stone corridors of the Middens pulse with secret histories and untold dangers.
@@ -68,7 +68,7 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
 
 === "Middens"
 
-    The Middens are the vast, ancient catacombs that thread beneath Kolnmark’s streets—once the foundations of past settlements, now a shifting maze of stone corridors, collapsed vaults, and hidden alcoves. By day they serve smugglers, thieves, and secret societies as clandestine highways; by night they teem with forgotten traps and creatures born in darkness. Every echo in those tunnels carries both the promise of long-buried riches and the peril of never finding your way back.
+    The Middens are the vast, ancient catacombs that thread beneath Coinmarch’s streets—once the foundations of past settlements, now a shifting maze of stone corridors, collapsed vaults, and hidden alcoves. By day they serve smugglers, thieves, and secret societies as clandestine highways; by night they teem with forgotten traps and creatures born in darkness. Every echo in those tunnels carries both the promise of long-buried riches and the peril of never finding your way back.
 
 ## Ancestries and Classes
 
@@ -83,11 +83,13 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
 
 === "Classes"
 
-    Kolnmark welcomes adventurers of every calling—choose whichever class speaks to you, but note that those whose roles normally serve law or station will need a compelling fall from grace to walk these streets.
+    Coinmarch welcomes adventurers of every calling—choose whichever class speaks to you, but note that those whose roles normally serve law or station will need a compelling fall from grace to walk these streets.
 
     Your journey begins with a Basic Career, reflecting the skills and experiences that shaped your early life. As the story unfolds and your reputation grows, you’ll advance into a Second Career, building on your strengths or exploring a new path. Eventually, you’ll unlock the opportunity to pursue a Specialized Career—a prestigious, high-tier role that represents your character’s mastery, unique talents, and place within Coinmarch’s shifting power structure.
 
     [:octicons-arrow-right-24: Learn more](/Coinmarch/player-introduction/character-creation/basic-careers)
+
+    __A Note About Magic:__ Magic in Coinmarch is tightly regulated: all scrolls are to be registered and embossed with the official seal of the City. Any scroll found without the seal is confiscated, and its holder set to face steep consequences. Those with predilictions towards magic are generally distrusted and if caught weilding unlicensed magic are either exiled or conscripted into an eager mercenary company's magical regiment.
 
 ## Principles
 
@@ -119,7 +121,7 @@ Coinmarch is a thriving port city of roughly 50,000 souls, where every race and 
 
         ---
 
-        Kolnmark rewards clever solutions; the bold and inventive often prosper… or perish spectacularly.
+        Coinmarch rewards clever solutions; the bold and inventive often prosper… or perish spectacularly.
 
     </div>
 
@@ -194,9 +196,9 @@ The following mechanics have been added to this campaign that have been borrowed
 
 ## Session Zero Questions
 
-When you choose your Basic Career, you’ll receive prompts to help shape your backstory—where you came from, who you were, and what brought you here. Feel free to answer those directly or craft your own spin. In addition, every character should answer these universal questions to anchor them in Kolnmark’s streets, its factions, and its rising tensions.
+When you choose your Basic Career, you’ll receive prompts to help shape your backstory—where you came from, who you were, and what brought you here. Feel free to answer those directly or craft your own spin. In addition, every character should answer these universal questions to anchor them in Coinmarch’s streets, its factions, and its rising tensions.
 
-1. **What first brought you to Kolnmark—and why haven’t you left?**
+1. **What first brought you to Coinmarch—and why haven’t you left?**
 2. **Whose trust have you earned in the city, and whose trust have you broken?**
 3. **What do you fear most about the Middens, and why do you still go below?**
 4. **What’s the one thing you can’t afford to lose—and who knows about it?**

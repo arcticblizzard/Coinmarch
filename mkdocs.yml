@@ -15,7 +15,6 @@ theme:
     - toc.integrate
 extra_css:
   - styles/overrides.css
-  - styles/campaign-frame.css
 
 plugins:
   - search

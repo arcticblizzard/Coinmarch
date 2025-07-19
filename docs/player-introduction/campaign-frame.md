@@ -42,7 +42,7 @@ Coinmarch’s sun-bleached spires rise over the Blade Sea, gleaming by day with 
 
 </div>
 
-![Image of Coinmarch](/Coinmarch/images/kolnmark_mural.jpg)
+![Image of Coinmarch](/Coinmarch/images/kolnmark_mural.jpg){ .center }
 
 ## Overview
 Coinmarch is a sprawling maritime metropolis carved into white-limestone cliffs beside the Blade Sea. Its sunlit plazas shimmer with merchant caravans and ornate guildhalls, while narrow streets below teem with bright bazaars, clandestine thieves’ dens, and the ever-present gloom of the Middens—the ancient underground labyrinth that underpins every district. Magic is rare, viewed with suspicion, and those who wield it walk a precarious line between reverence and persecution.

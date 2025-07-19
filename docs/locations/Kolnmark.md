@@ -2,7 +2,7 @@
 
 ## Overview & History
 
-Coinmarch occupies a strategic perch at the mouth of the River Koln on the northern edge of the Blade Sea. In its earliest days it bore the name **Kolnmark**, home to a vast causeway and castle that stretched from the white cliffs out into the waters—an engineering marvel unmatched in scale and wonder. That mighty bridge and fortification was shattered in some long-forgotten calamity, its stones cast into the deep. From the ruins of old Kolnmark another city arose: today’s Coinmarch.
+Coinmarch occupies a strategic perch at the mouth of the River Koln on the southern edge of the Blade Sea. In its earliest days it bore the name **Kolnmark**, home to a vast causeway and castle that stretched from the white cliffs out into the waters—an engineering marvel unmatched in scale and wonder. That mighty bridge and fortification was shattered in some long-forgotten calamity, its stones cast into the deep. From the ruins of old Kolnmark another city arose: today’s Coinmarch.
 
 ![Panorama of Coinmarch](/Coinmarch/images/kolnmark_panorama.jpg)
 

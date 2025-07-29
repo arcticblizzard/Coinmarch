@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -595,6 +595,39 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Magic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#casting-spells" class="md-nav__link">
+    <span class="md-ellipsis">
+      Casting Spells
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovering-incantation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recovering Incantation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#all-missing-points-of-the-incantation-skill-are-restored-upon-a-full-rest" class="md-nav__link">
+    <span class="md-ellipsis">
+      All missing points of the Incantation skill are restored upon a full rest.
+    </span>
+  </a>
+  
 </li>
       
     </ul>
@@ -968,26 +1001,17 @@
 <hr />
 <h2 id="magic">Magic</h2>
 <p>Magic in <em>Warlock!</em> comes <strong>exclusively</strong> from entities outside of the mortal realm: gods, demons, abberations, etc. Spells are nothing more than requests upon these beings and are initiated through the act of reciting from a spell scroll.</p>
-<ul>
-<li><strong>Casting Spells</strong>:<ul>
-<li>The spell caster pays the required amount of Stamina</li>
-<li>Roll <code>1d20 + Incantation</code><ul>
-<li>A total of <strong>20+</strong> is required to succeed.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>Magical Mishaps:</strong> Natural 1 = the spell caster has <em>potentially</em> miscast their spell.<ul>
-<li>The spell fails</li>
-<li>They must immediately attempt another Incantation skill test<ul>
-<li><strong>Success</strong> \= nothing happens</li>
-<li><strong>Failure</strong> \= Roll <code>1d20</code> on the miscast table (Page 94).</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<hr />
+<p>We will be using a variation on the <em>Warlock!</em> magic system introduced in one of it's Compendiums.</p>
+<h3 id="casting-spells">Casting Spells</h3>
+<pre><code>1. Roll `1d20 + Incantation`
+2. Determine Outcome
+    - Upon Success (Total&gt;=20), the spell succeeds. Subtract the Spell's stamina cost from your Incantation skill (temporarily)
+    - Upon Failure (Total&lt;20), the spell fails. Subtract the Spell's stamina cost from your Stamina. Additionally, another Incantation Skill check __must__ be performed.
+        - Upon success, no additional penalties are levied
+        - Upon failure, roll `1d20` on the miscast table (Page 94).
+</code></pre>
+<h3 id="recovering-incantation">Recovering Incantation</h3>
+<h2 id="all-missing-points-of-the-incantation-skill-are-restored-upon-a-full-rest">All missing points of the Incantation skill are restored upon a full rest.</h2>
 
 
 
@@ -1039,7 +1063,7 @@
       <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "toc.integrate"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>

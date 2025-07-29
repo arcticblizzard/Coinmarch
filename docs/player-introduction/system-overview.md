@@ -123,14 +123,18 @@ Armor Provides a flat **damage soak** `1d3` for Light Armor, `1d6` for Medium Ar
 
 Magic in _Warlock!_ comes **exclusively** from entities outside of the mortal realm: gods, demons, abberations, etc. Spells are nothing more than requests upon these beings and are initiated through the act of reciting from a spell scroll.
 
-- **Casting Spells**:
-    - The spell caster pays the required amount of Stamina
-    - Roll `1d20 + Incantation`
-        - A total of **20+** is required to succeed.
-- **Magical Mishaps:** Natural 1 = the spell caster has _potentially_ miscast their spell.
-    - The spell fails
-    - They must immediately attempt another Incantation skill test
-        - **Success** \= nothing happens
-        - **Failure** \= Roll `1d20` on the miscast table (Page 94).
+We will be using a variation on the _Warlock!_ magic system introduced in one of it's Compendiums.
 
+### Casting Spells
+
+    1. Roll `1d20 + Incantation`
+    2. Determine Outcome
+        - Upon Success (Total>=20), the spell succeeds. Subtract the Spell's stamina cost from your Incantation skill (temporarily)
+        - Upon Failure (Total<20), the spell fails. Subtract the Spell's stamina cost from your Stamina. Additionally, another Incantation Skill check __must__ be performed.
+            - Upon success, no additional penalties are levied
+            - Upon failure, roll `1d20` on the miscast table (Page 94).
+
+### Recovering Incantation
+
+All missing points of the Incantation skill are restored upon a full rest.
 ---

@@ -127,14 +127,15 @@ We will be using a variation on the _Warlock!_ magic system introduced in one of
 
 ### Casting Spells
 
-    1. Roll `1d20 + Incantation`
-    2. Determine Outcome
-        - Upon Success (Total>=20), the spell succeeds. Subtract the Spell's stamina cost from your Incantation skill (temporarily)
-        - Upon Failure (Total<20), the spell fails. Subtract the Spell's stamina cost from your Stamina. Additionally, another Incantation Skill check __must__ be performed.
-            - Upon success, no additional penalties are levied
-            - Upon failure, roll `1d20` on the miscast table (Page 94).
+1. Roll `1d20 + Incantation`
+2. Determine Outcome
+    - Upon Success (Total>=20), the spell succeeds. Subtract the Spell's stamina cost from your Incantation skill (temporarily), or alternatively from your Stamina.
+    - Upon Failure (Total<20), the spell fails. Subtract the Spell's stamina cost from your Stamina. Additionally, another Incantation Skill check __must__ be performed.
+        - Upon success, no additional penalties are levied
+        - Upon failure, roll `1d20` on the miscast table (Page 94).
 
 ### Recovering Incantation
 
 All missing points of the Incantation skill are restored upon a full rest.
+
 ---

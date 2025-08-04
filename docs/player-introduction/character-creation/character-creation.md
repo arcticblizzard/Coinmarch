@@ -54,6 +54,14 @@ Your initial career also sets your **Career Skill**, equal to your **lowest** of
 
 ---
 
+## Choosing Expertises
+
+Expertises represent the domains your characters know best, things they have passions for that may or may not be directly tied into their chosen career. Please select two domains from the list of available Expertises, which can be found [here](/Coinmarch/player-introduction/character-creation/expertise/).
+
+These expertises will play a part in environment observations and specific spot rolls during investigations. More on the mechanic can be found [here](/Coinmarch/player-introduction/observation/).
+
+---
+
 ## Choosing a Knack
 
 Each character begins with a Knack - a unique ability picked up through hard lessons, close calls, or raw instinct. Knacks grant both a small **passive** benefit that is always in effect, and a limited-use **active** **ability** that can be triggered during play. These knacks represent what sets your character apart from the other cutthroats and misfits scraping by in the city’s underbelly.

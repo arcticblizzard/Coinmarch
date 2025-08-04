@@ -31,6 +31,12 @@ Luck tests exist to avoid unfortunate circumstances from an incoming negative ef
 
 ---
 
+## Observation
+
+An additional mechanic is being added to enhance Player exploration of environments; tying character interests, hobbies, and knowledge to better understand their surrounding and help uncover information and clues. More information on this mechanic can be found [here](/Coinmarch/player-introduction/observation/)
+
+---
+
 ## Combat
 
 _Page 74_

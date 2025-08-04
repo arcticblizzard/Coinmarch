@@ -40,10 +40,12 @@ nav:
     - Campaign Frame: player-introduction/campaign-frame.md
   - System Overview: 
     - Basic Systems: player-introduction/system-overview.md
+    - Observation: player-introduction/observation.md
     - Skill Challenges: player-introduction/skill-challenges.md
   - Character Creation:
     - Guide: player-introduction/character-creation/character-creation.md
     - Basic Careers: player-introduction/character-creation/basic-careers.md
+    - Expertise: player-introduction/character-creation/expertise.md
     - Knacks: player-introduction/character-creation/knacks.md
   - The Setting:
     - The City: locations/Kolnmark.md

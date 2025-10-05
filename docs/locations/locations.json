@@ -807,6 +807,15 @@
     "permalink": ""
   },
   {
+    "title": "Half-step Stage",
+	  "district": "Pilgrim's Way",
+    "type": "Leisure",
+    "coordinates": "5061,4260",
+    "description": "A well worn, but noted venue for daily performances. Found in a small tree-lined plaza.",
+    "image": "",
+    "permalink": ""
+  },
+  {
     "title": "Sanctum Steps",
 	  "district": "Pilgrim's Way",
     "type": "Religious",
